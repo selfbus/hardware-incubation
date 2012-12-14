@@ -1,0 +1,55 @@
+Pin Belegung shift-out:
+
+IO 0:	serial data 	BOT PCB	 	LED/Taster 1
+IO 1:	serial data 	mid PCB		LED/Taster 2
+IO 2:	BYTE Übernahme 	beide		LED/Taster 3
+IO 3:	shift clock	beide		LED/Taster 4
+IO4-7:	NC				LED/Taster 5-8
+PWM: 	output enable	beide
+
+
+Byte BOT PCB:
+
+Bit 0:	set	K2	A4
+Bit 1:	reset	K2
+
+Bit 2:	set	K1	A2
+Bit 3:	reset	K1
+
+Bit 4:	set	K4	A7
+Bit 5:	reset	K4
+
+Bit 6:	set	K3	A5
+Bit 7:	reset	K3
+
+
+
+Byte mid PCB:
+
+Bit 0:	set	K3	A6
+Bit 1:	reset	K3
+
+Bit 2:	set	K4	A8
+Bit 3:	reset	K4
+
+Bit 4:	set	K1	A1
+Bit 5:	reset	K1
+
+Bit 6:	set	K2	A3
+Bit 7:	reset	K2
+
+mid lByte: A2 A2 A0 A0 A7 A7 A5 A5	bot hByte: A4 A4 A6 A6 A1 A1 A3 A3
+
+
+const[outpattern0-7]( 0x1000,0x0004,0x4000,0x0001,0x0040,0x0100,0x0010,0x0400)
+
+ausserhalb {} damit global wird.
+von links nach rechts entspricht bit 0-7 vom ehemaligen P0
+
+bei reset <<1 noch
+
+lg
+oldi
+
+
+
