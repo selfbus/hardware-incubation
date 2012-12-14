@@ -1,0 +1,64 @@
+Partlist
+
+Exported from LPC_4TE_4.01.brd at 30.06.2009 09:28:15
+
+EAGLE Version 5.0.0 Copyright (c) 1988-2008 CadSoft
+
+Menge	Part     Value                 Package       Library                 Position (mm)         Orientation
+
+1	C$       C_EU_HE3,3X13LIEGEND  E3,3-7,5X13   rcl                     (64.135 41.9893)      MR270
+4	C1       100n                  C1206         rcl                     (47.625 59.3725)      MR180
+1	C5       470p                  C1206         rcl                     (49.53 64.135)        MR90
+2	C6       33p                   C1206         rcl                     (45.7199 40.7988)     MR270
+13	D1       1N4148                MINIMELF      diode                   (26.9875 5.3975)      MR270
+2	D9       BAT46                 MINIMELF      diode                   (46.6725 64.135)      MR90
+1	D10      SMD ZF 7,5            MINIMELF      diode                   (40.005 56.1975)      MR0
+1	D14      ZD4V7                 MINIMELF      diode                   (36.2744 39.4494)     MR180
+1	IC1      MC34063AD             SOIC8         mc34063                 (54.9275 60.96)       MR90
+1	JP1                            2X10          pinhead                 (45.72 21.9075)       MR180
+1	JP2      DCin                  1X01          pinhead                 (55.88 14.1288)       R0
+1	JP3      Vers                  1X01          pinhead                 (55.88 16.6689)       R0
+1	JP4      VCC_5V                1X01          pinhead                 (40.1638 39.0525)     R0
+1	JP5      VCC_APPLI             1X01          pinhead                 (40.1639 36.5124)     R0
+1	JP6      VCC_3V                1X01          pinhead                 (42.7038 36.5125)     R0
+1	JP7      VCC_3V                1X01          pinhead                 (42.7037 39.0525)     R0
+1	JP8      P3_0                  1X01          pinhead                 (51.435 36.83)        R0
+1	JP12     P3_1                  1X01          pinhead                 (46.355 36.83)        R270
+1	JP13     GND                   1X01          pinhead                 (48.895 36.83)        R270
+1	JP14     RST                   1X01          pinhead                 (62.5475 30.48)       R270
+1	JP16     gnd                   1X01          pinhead                 (62.5475 22.86)       R90
+1	JP20     VDD                   1X01          pinhead                 (62.5475 33.02)       R0
+1	JP21     P2_7                  1X01          pinhead                 (40.9575 27.305)      R270
+1	JP22     P1_0                  1X01          pinhead                 (62.5475 27.94)       R90
+1	JP23     P1_1                  1X01          pinhead                 (62.5475 25.4)        R270
+1	JP24     P2_6                  1X01          pinhead                 (38.4175 27.305)      R270
+1	JP25     P2_1                  1X01          pinhead                 (38.4175 32.385)      R270
+1	JP26     P2_0                  1X01          pinhead                 (40.9575 32.385)      R270
+1	JP28     VCC3/5V               1X01          pinhead                 (62.5475 35.56)       R270
+1	L1       220µH                 2200-11.43    rcl                     (51.9906 56.515)      MR0
+1	8	 LED1-8                LED3MM        led                     (30.48 6.0325)        R90
+1	Q1       BCP52                 SOT223        transistor-pnp          (29.845 62.5475)      MR0
+1	Q3       2N7002                SOT23         transistor-small-signal (42.8625 64.77)       MR90
+1	Q4       BC856                 SOT23-BEC     transistor-pnp          (28.0987 32.0675)     MR270
+2	R1       47k                   M1206         rcl                     (58.7375 36.0366)     MR270
+1	R2       2k2                   R1206         rcl                     (54.9275 64.6906)     MR180
+1	R3       100k                  M1206         rcl                     (28.575 28.0194)      MR180
+1	R4       12                    R1206         rcl                     (29.21 56.515)        MR0
+1	R5       220k*                 R1206         rcl                     (35.56 65.0081)       MR90
+1	R6       12k                   M1206         rcl                     (38.4175 65.0875)     MR270
+1	R7       82k/150k              R1206         rcl                     (34.6075 36.83)       MR180
+1	R9       15k                   R1206         rcl                     (35.7188 29.9244)     MR0
+8	R10      820                   R1206         rcl                     (34.5281 6.35)        MR90
+1	R18      3k3                   R1206         rcl                     (36.195 43.18)        MR90
+1	R19      5k6                   M1206         rcl                     (35.56 60.0075)       MR270
+1	R20      3k6                   M1206         rcl                     (60.8806 63.8969)     MR270
+1	R21      100                   R1206         rcl                     (34.29 56.4356)       MR0
+1	R22      82k                   R1206         rcl                     (35.6394 15.9546)     MR270
+1	R23      3R3                   M1206         rcl                     (61.9125 59.3725)     MR180
+2	R24      10k                   R1206         rcl                     (32.7025 32.0675)     MR180
+1	R25      opt22k/33k*           R1206         rcl                     (41.275 60.0075)      MR270
+8	S1                             B3F-10XX      switch-omron            (30.48 13.0175)       R90
+1	U$1                            TSSOP28       freebuslpc              (47.625 30.1625)      MR180
+1	U$2      L-11P11PH             11PH          rcl                     (26.035 13.0969)      MR90
+1	U$3      C_EU_HE2,5-5X12MIRROR E2,5-5X12MIRR rcl                     (63.5 63.1825)        MR90
+1	U$6      C_EU_H                E2,5-5X12     rcl                     (28.575 22.0663)      MR180
