@@ -648,7 +648,7 @@
 <text x="40.64" y="27.94" size="1.778" layer="92" align="bottom-right">RES1</text>
 <text x="60.96" y="50.8" size="1.778" layer="92">EIB- (GND)</text>
 <text x="60.96" y="48.26" size="1.778" layer="92">PROG</text>
-<text x="60.96" y="45.72" size="1.778" layer="92">Vext</text>
+<text x="60.96" y="45.72" size="1.778" layer="92">Versorgung</text>
 <text x="60.96" y="43.18" size="1.778" layer="92">IO2</text>
 <text x="60.96" y="40.64" size="1.778" layer="92">IO4</text>
 <text x="60.96" y="38.1" size="1.778" layer="92">SCL</text>
