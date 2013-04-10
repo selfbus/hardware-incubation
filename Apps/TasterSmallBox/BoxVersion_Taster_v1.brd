@@ -1493,104 +1493,110 @@ design rules under a new name.</description>
 <wire x1="1.441253125" y1="20.0802625" x2="3.647421875" y2="20.0802625" width="0.8128" layer="16"/>
 <wire x1="3.647421875" y1="20.0802625" x2="3.647421875" y2="20.10055" width="0.4064" layer="16"/>
 </signal>
-<.dtd"> name="N$18">
-<contactref element="LED1" pad="K"eagldrawing>
-<settings>
-R12ting al2"eaglwire x1="24.1151ncod1="30.2618281ml versi
-</s2586 encoding=5.0885 enco
-<!DOCTYPE eagle SYSTEM "eaglxt="up"/>
-</s5" unitdis"/>
-ic" unit="m"0.0031253xml vst="mic1400093t="mm" stylegle SYSTEM9" extngs>
-16-M "eagle.dtd">
-<eagle version="621">
-<drawing>
-<settings>
-tting al1aysvectorfont="yes"/>
-<seUr number="2" nxt="up"/>
-.4869" encod1="9.9471mm"/>
-<ersi6.047790="mic" al9.93904="Routm" style="lines" multiple="1" display=5" name="Route"/>
-<llor="4" fiersi8.5937" encoding1" ac-8"?>
-<!DOCTYPE eagle SYSTEM "eaglxt="up"/>or="1" fill="1" visible="yersi11.261.0" encodingvisible="yes" active="yes"/>
-<layer number="17" 1.4240mber="16" nam479ance="0.00 active="yes15" coayer numbe
-<!DOCTYP8128gle SYSTEM "eagle.dtd">
-<eagle version="622">
-<drawing>
-<settings>
-ing vert="2" name="Route2" color="1" fill="20e="Vias" color="2" 2="1"s" color="2"71ance="0.0on="1.0" encodingr number="21" name="Unrouted" color="6" fxt="up"/>on="1.0" encodayer number="21" name="tPlace" color="7" -8"?>
-<!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.9">
-<drawing>
-<settings>
-R1r number="2" name="Route2" color="PROGting alAe="Vias" color=1.80085ber="16" 8.9146ill="1" vi8138mm"/>
-<<lay7.58514"/>
-<layers>
- number="18" name="Vias" color=="yes"/>
-<laye1 number="25" n="1" 4.303="1" vis2="5.10586"1" vi>
-<layer number="18" name="Vias" color=r="26" name="1Names" color="7number="26" name="bNa3.4996mm"/>
-<layers>
-1" visible="yes" active="yes"/>
-<layer number=""1" visible="number=83138"25" nill="1"646"4" fill="6" visible="yes" active="ill="1" visible="yes" acti0">
-<drawing>
-<settings>
-1" fill="39aysvectorfont="yes"/>
-<se3 fill="3" visible="yes="2" 9="22" name="5.02 fill="1"me="tPlace" color=/>
-<layer" name="Unrouted" color="6" fill="1" visible="yes" acti3le="yes" active="yes"/>
-<layer num8aysvectorfont="yes"/>
-<se4 fill="3" visible="yes3.4887="22" name="7.56layer number="31" name="tCr" color=">
-<layer number="18" name="Vias" color="2" 8ame="tFinish" cols" activ3.7620" fill="1" vll="6" vi" visible="yes" active="yes"/>
-<layer nu"yes" active" fill="6" visible=3" name="tFie="yes" active="yes"/>
-<layer number="34" ill="1" visible="yes" acti2">
-<drawing>
-<settings>
-1" fill="3 "eagldrawing>
-<settings>
-6="7" fill="6" visible="yes" active="yes22.64layer number="31" name="tC8" name="b" name="Unrouted" color="6" fill="1" visible="yes" acti"15" fill="1" visible="ye1" fill="33 color="7" fill="1" visib8="7" fill="6" visible="yes" active="yesgrid 6" visiblnish" color="6ible"11" ctive="yes"/>
-<layer number="34" name="bFinish" color="6" f"/>
-<layerersion="1.0" encoding"/>
-<layer number="="yes" active="yes"/>
-<layer 2.059lor="1" fill="13398" active=32ible="yes"er number<layer numbere="yes"/>
-<layer number="17" number="22" name=le="yes" active=yer number="43" name="vRestrict" <layer number="1" name="Top" color="4" fill="1" visible=3ble="yes" active="yes"/>
-<layer num4 color="7" fill="1" visib7"yes"/>
-<layer number="3mber="22" name=27.7<layer numbe80620" encoding=ill="1" v>
-<layer number="18" name="Vias" color="2" er number="38ill="1" visible="1.0" encoding=es"/>
-<layer numbenrouted" color="6" fill="1" visible="yes" act3yes" active="yes"/>
-<laye1" fill="" color="7" fill="1" visibQ="yes"/>
-<layedrawing>
-<settings>
-C9="7" fill="6" visible="1.1881 color="3" f5.1" fill="1" visible="yes" actill="1" vies" active="yes"/>
-<layer number="17" na171 color="6" f24.6754ill="1" 0.68309unitdist="mes" a5r="7" fill="1" visible="yes" active="yes"/>s"/>
-<layer nue="yes" a name="1" vixf" color="7"yes"/>
-<layer number="51" name="tDocu" color="7" f visible="yes" " fill="1" visible3.4106me="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>NDA" color="1"" fill="1" visiblevisi930" encoding=3.751yes"" fill="1" visible="yes" active="yes"/>
-< visible="noe="ytive="no"ill="1"99name="tGND_GND3ll="0or="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" nameve="yes"/>
-<layer number=1" fill="7="Reference" color="7" fill="1" viicalte"yes" active="yes"/>
-mber="40" name="bKeepou7.933ame="Nets" co7.641ting="1" vi346 active="yesno" active"7" fill="9" visible="no" active="no"/>
-<
-<layer numbe="no" active="no"5.0076"yes" actno" 24="yeme="Values" color="7" fill="1" visible="no7" name="Infe="no" r="7" fil" active8477tance=D_GND8.r="2no"/>
-<layer number="92" name="Busses" color fill="1" vie="ye="no" ac" active="no"/>
-<layer 8.546r="93" name="Pins" color="2" fill="1" visibive="no"/>
-<layer number="54ill="1" visib"/>
-<layer number="96" name="Values"r="251" name="SMDround" color="12" fill=ill="1" visible="y7.1" fill="1"ill="1" visibld>
-<plain>
-<text x="39.458196875" y="41.73226875" sifill="1" visible="yes" acter="32" name="bCream" colR1r="7" fill="6""yes" active="yes"/>
-"20" name="Dimisible="ye1.5711"/>
-<laye27.8557fill="1"rati548>
-<layer n="ve39me="Routstrict" color="2" fill="10" visible="ye</text>
-<holeont="ve140775" y=ox v1</text>
-<hole x="4.9573ble="yes" active="yes"/>
-<layer number="28"31.3125tdistance="0.3300 fill="1"e x1677 name="bNa"0.05eagl5" y="13.668728125" drill="1.4"/>
-<wire x1 x2="42.76ce="0.0" y2=rill="1.4"/>
-<hole x="14.154378125" y="13<layer number="1" name="Top" color="4" fill="1" visible="4">
-<ill="1" visible="yes" acti5">
-<drawing>
-<settings>
-TX number="2" name="Route2" color="1" fill="3icaltext="up"/>es" active="yes"/>2fillfill="1" .42903="yes" acti.80742187" name="bRestrict" color="1" fill="10"2="18.818475" ="42.807421875" y2="18.818475" width="102unitdi
-<!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="626" color="4" fill="11" visible="yes="2" name="Route2" color="R25" width="0.40625" y1="18.818475" x2="425.3ame="bTest1.4083r="43" .573" y1=" layer="21"/>
-</plain>
-<libraries>
-<libr" x2=""-12.573" y1="-0.635" x2="-12.57362051="30">
-<description>&lt;b&gt;Dual In Line&lte.dtd">s>
-<wboard>
-<wdrawing>
-<weagle>
+<signal name="N$18">
+<contactref element="LED1" pad="K"/>
+<contactref element="R12" pad="2"/>
+<wire x1="24.11515" y1="30.261828125" x2="24.12586875" y2="25.0885875" width="0.4064" layer="16"/>
+<wire x1="24.12586875" y1="25.0885875" x2="24.123625" y2="25.140009375" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$21">
+<contactref element="1" pad="1"/>
+<contactref element="U1" pad="1"/>
+<wire x1="2.48691875" y1="9.947109375" x2="6.047790625" y2="9.939040625" width="0.4064" layer="16"/>
+<wire x1="6.047790625" y1="9.939040625" x2="8.59371875" y2="12.48055" width="0.4064" layer="16"/>
+<wire x1="8.59371875" y1="12.48055" x2="11.267421875" y2="12.48055" width="0.4064" layer="16"/>
+<wire x1="1.42400625" y1="9.9479125" x2="2.48691875" y2="9.947109375" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$22">
+<contactref element="2" pad="1"/>
+<contactref element="U1" pad="20"/>
+<wire x1="1.424259375" y1="12.4871125" x2="3.647421875" y2="12.4871125" width="0.8128" layer="16"/>
+<wire x1="3.647421875" y1="12.4871125" x2="3.647421875" y2="12.48055" width="0.4064" layer="16"/>
+</signal>
+<signal name="N$19">
+<contactref element="R11" pad="1"/>
+<contactref element="PROG" pad="A"/>
+<wire x1="11.80085625" y1="8.91465" x2="11.813809375" y2="7.58514375" width="0.4064" layer="16"/>
+<wire x1="11.813809375" y1="7.58514375" x2="14.30385625" y2="5.105865625" width="0.4064" layer="16"/>
+<wire x1="14.30385625" y1="5.105865625" x2="14.30385625" y2="3.499609375" width="0.4064" layer="16"/>
+<wire x1="14.30385625" y1="3.499609375" x2="14.831384375" y2="3.46460625" width="0.4064" layer="16"/>
+</signal>
+<signal name="N$20">
+<contactref element="U1" pad="19"/>
+<contactref element="3" pad="1"/>
+<wire x1="1.424921875" y1="15.02055" x2="3.647421875" y2="15.02055" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$23">
+<contactref element="U1" pad="18"/>
+<contactref element="4" pad="1"/>
+<wire x1="3.488721875" y1="17.56055" x2="3.647421875" y2="17.56055" width="0.4064" layer="16"/>
+<wire x1="1.424821875" y1="17.56065" x2="3.762071875" y2="17.56065" width="0.8128" layer="16"/>
+<wire x1="3.762071875" y1="17.56065" x2="3.488721875" y2="17.56055" width="0.4064" layer="16"/>
+</signal>
+<signal name="N$28">
+<contactref element="U1" pad="16"/>
+<contactref element="6" pad="1"/>
+<wire x1="1.424921875" y1="22.64055" x2="3.647421875" y2="22.64055" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$29">
+<contactref element="U1" pad="13"/>
+<contactref element="8" pad="1"/>
+<wire x1="1.424921875" y1="30.26065" x2="1.424821875" y2="30.26055" width="0.4064" layer="16"/>
+<wire x1="1.424821875" y1="30.26055" x2="3.647421875" y2="30.26055" width="0.8128" layer="16"/>
+<wire x1="2.059921875" y1="30.33985" x2="3.329921875" y2="30.26065" width="0.4064" layer="16"/>
+<wire x1="3.647421875" y1="30.26055" x2="3.329921875" y2="30.26065" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$30">
+<contactref element="U1" pad="14"/>
+<contactref element="7" pad="1"/>
+<wire x1="3.647421875" y1="27.72055" x2="3.806221875" y2="27.72055" width="0.4064" layer="16"/>
+<wire x1="1.424921875" y1="27.72055" x2="3.647421875" y2="27.72055" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$31">
+<contactref element="U1" pad="6"/>
+<contactref element="Q4" pad="1"/>
+<contactref element="C9" pad="1"/>
+<wire x1="11.188121875" y1="25.18055" x2="11.267421875" y2="25.18055" width="0.4064" layer="16"/>
+<wire x1="8.171821875" y1="24.67545" x2="10.683096875" y2="24.675525" width="0.4064" layer="16"/>
+<wire x1="10.683096875" y1="24.675525" x2="11.188121875" y2="25.18055" width="0.4064" layer="16"/>
+<wire x1="11.267421875" y1="25.18055" x2="13.410621875" y2="25.18055" width="0.4064" layer="16"/>
+<wire x1="13.410621875" y1="25.18055" x2="14.839321875" y2="23.75185" width="0.4064" layer="16"/>
+<wire x1="14.839321875" y1="23.75185" x2="14.998121875" y2="23.72005" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$32">
+<contactref element="U1" pad="7"/>
+<contactref element="Q4" pad="2"/>
+<contactref element="C8" pad="1"/>
+<wire x1="7.933621875" y1="27.64115" x2="11.346821875" y2="27.64115" width="0.4064" layer="16"/>
+<wire x1="11.346821875" y1="27.64115" x2="15.0076375" y2="27.62480625" width="0.4064" layer="16"/>
+<wire x1="15.0076375" y1="27.62480625" x2="14.984778125" y2="28.51435" width="0.4064" layer="16"/>
+<wire x1="14.984778125" y1="28.51435" x2="14.998121875" y2="28.54605" width="0" layer="19" extent="16-16"/>
+<wire x1="11.267421875" y1="27.72055" x2="11.346821875" y2="27.64115" width="0" layer="19" extent="16-16"/>
+<wire x1="8.171821875" y1="27.19375" x2="7.933621875" y2="27.64115" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$33">
+<contactref element="R13" pad="1"/>
+<contactref element="C2" pad="1"/>
+<wire x1="31.5711375" y1="27.855775" x2="31.55489375" y2="27.139790625" width="0.4064" layer="16"/>
+<wire x1="31.55489375" y1="27.139790625" x2="31.55489375" y2="24.9573375" width="0.4064" layer="16"/>
+<wire x1="31.31256875" y1="25.3300375" x2="31.36775625" y2="25.0564" width="0.4064" layer="16"/>
+<wire x1="31.36775625" y1="25.0564" x2="31.55489375" y2="24.9573375" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$24">
+</signal>
+<signal name="N$25">
+<contactref element="TX" pad="1"/>
+<contactref element="U1" pad="12"/>
+<wire x1="3.647421875" y1="32.80055" x2="1.429034375" y2="32.80055" width="0.8128" layer="16"/>
+<wire x1="1.429034375" y1="32.80055" x2="1.429034375" y2="32.81026875" width="0.4064" layer="16"/>
+</signal>
+<signal name="N$26">
+<contactref element="U1" pad="11"/>
+<contactref element="RX" pad="1"/>
+<wire x1="3.647421875" y1="35.34055" x2="1.4083" y2="35.34055" width="0.8128" layer="16"/>
+<wire x1="1.4083" y1="35.34055" x2="1.4083" y2="35.362053125" width="0.4064" layer="16"/>
+</signal>
+</signals>
+</board>
+</drawing>
+</eagle>
