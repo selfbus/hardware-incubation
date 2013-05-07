@@ -1,0 +1,72 @@
+Partlist
+
+Exported from ISP_LPC9xx_USB_RE_v1.1.sch at 23.07.2011 23:50:33
+
+
+Part     Value          Device               Package           Library        
+
+C10      33p            C-EUC0805K           C0805K            rcl            
+C9       33p            C-EUC0805K           C0805K            rcl            
+C5       100nF          C-EUC0805K           C0805K            rcl            
+C7       100nF          C-EUC0805K           C0805K            rcl            
+C8       100nF          C-EUC0805K           C0805K            rcl            
+C3       100nF          C-EUC0805K           C0805K            rcl            
+C1       100nF          C-EUC0805K           C0805K            rcl            
+C4       100nF          C-EUC0805K           C0805K            rcl            
+
+C6       4.7µF          CPOL-EU153CLV-0405   153CLV-0405       rcl            
+C2       10µF           CPOL-EU153CLV-0405   153CLV-0405       rcl            
+    SMD-Elkos oder Tantal
+    
+FERRITE  BLM21PG300/600 SM-1206              SM-1206           inductor-neosid
+    als Ferrrite gehen verschieden, ist nicht so kritisch:
+    - BLM21PG600 - kleinere Bauform als vorgesehen, geht aber noch löten.
+    - BLM31PG500 / BLM31PG121
+    - MI0805K400R10 (auch etwas zu klein aber lötbar)
+    
+
+IC1      FT232RL        FT232RL              SSOP-28           ftdi4          
+IC2      74HC02N        74HC02N              DIL14             74xx-eu        
+IC4      LM317LD        LM317LD              SO08              linear         
+
+ISP      ISP            PINHD-1X6            1X06              pinhead        
+    6-pol Stiftleiste RM 2.54
+
+JP1      PRG            JP1E                 Stiftleiste 2-pol jumper         
+JP2      RUN            JP1E                 Stiftleiste 2-pol jumper         
+JP3      VPP            JP2E                 Stiftleiste 3-pol jumper         
+JP4      PWRSRC         JP2E                 Stiftleiste 3-pol jumper         
+
+LED1     PWREN          LEDCHIP-LED0805      CHIP-LED0805      led            
+LED2     RX-gn          LEDCHIP-LED0805      CHIP-LED0805      led            
+LED3     TX-ge          LEDCHIP-LED0805      CHIP-LED0805      led            
+LED5     Prgr. (rt)     LEDCHIP-LED0805      CHIP-LED0805      led            
+LED6     USB PWR (bl)   LEDCHIP-LED0805      CHIP-LED0805      led            
+    LED-Farben je nach Wunsch
+
+Q2       7,3728MHz      CRYSTALHC49S         HC49/S            crystal        
+Q3       BC857C         BC857C-PNP-SOT23-BEC SOT23-BEC         transistor     
+
+R7       330            R-EU_M1206           M1206             resistor       
+R5       330            R-EU_M1206           M1206             resistor       
+R6       560R           R-EU_M1206           M1206             resistor       
+R4       1k             R-EU_M1206           M1206             resistor       
+R10      1k             R-EU_M1206           M1206             resistor       
+R2       1k             R-EU_M1206           M1206             resistor       
+R3       1k             R-EU_M1206           M1206             resistor       
+R1       1k5            R-EU_M1206           M1206             resistor       
+R8       4,7k           R-EU_M1206           M1206             resistor       
+R9       10k            R-EU_M1206           M1206             resistor       
+    SMD-Wiederstände Bauform 805 oder 1206
+
+
+SV2      10-Pin         PINHD-1X10           1X10              pinhead        
+SV3      10-Pin         PINHD-1X10           1X10              pinhead        
+    2 x 10pol RM 2.54 Buchsenleiste oder Stiftleiste falls gewünscht!
+
+U2       89LPC922       89LPC922             DIL20 IC-Sockel   micro-philips  
+    20-pol IC-Sockel (evtl 2 übereinander, damit liegt der LPC höher  und läßt
+    sich wieder besser entnehmen 
+
+X1       USB-AWF        USB-1X-2S-PLUG-A-THT USB-PLUG-A-THT-2S _con-usb_1     
+    USB-Typ-A Stecker 90°, flach
