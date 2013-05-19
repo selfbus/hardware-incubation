@@ -10723,7 +10723,7 @@ grid 5.6 mm</description>
 <part name="Q4" library="transistor-power" deviceset="IRFPC40" device="" value="IRFP460"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="0204/7" value="100k"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="0204/7" value="100k"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="075-063X106" value="2,2nF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="075-063X106" value="2,2nF X2"/>
 <part name="D3" library="diode" deviceset="1N4148" device="" value="1N4007"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="0204/7" value="100k"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="050-024X044" value="100nF"/>
@@ -10861,7 +10861,7 @@ grid 5.6 mm</description>
 <attribute name="NAME" x="170.68" y="130.2766" size="1.778" layer="95"/>
 <attribute name="VALUE" x="170.172" y="126.238" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="156.464" y="137.16" rot="R180"/>
+<instance part="C2" gate="G$1" x="160.02" y="137.16" rot="R180"/>
 <instance part="D3" gate="G$1" x="131.572" y="142.24" smashed="yes" rot="MR180">
 <attribute name="NAME" x="130.048" y="140.4874" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="127.762" y="145.8214" size="1.778" layer="96" rot="MR180"/>
@@ -11050,8 +11050,8 @@ grid 5.6 mm</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="125.73" y1="134.62" x2="156.464" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="156.464" y1="134.62" x2="181.864" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="125.73" y1="134.62" x2="160.02" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="134.62" x2="181.864" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="181.864" y1="134.62" x2="181.864" y2="129.032" width="0.1524" layer="91"/>
 <wire x1="181.864" y1="129.032" x2="207.01" y2="129.032" width="0.1524" layer="91"/>
 <wire x1="181.864" y1="129.032" x2="181.864" y2="79.248" width="0.1524" layer="91"/>
@@ -11063,7 +11063,7 @@ grid 5.6 mm</description>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="178.046" y1="129.032" x2="181.864" y2="129.032" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<junction x="156.464" y="134.62"/>
+<junction x="160.02" y="134.62"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -11146,9 +11146,9 @@ grid 5.6 mm</description>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="148.336" y1="142.24" x2="156.464" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="156.464" y1="142.24" x2="169.164" y2="142.24" width="0.1524" layer="91"/>
-<junction x="156.464" y="142.24"/>
+<wire x1="148.336" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="142.24" x2="169.164" y2="142.24" width="0.1524" layer="91"/>
+<junction x="160.02" y="142.24"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 </net>
