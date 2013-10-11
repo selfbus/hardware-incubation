@@ -746,7 +746,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.0963" y="16.3514" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="8.0963" y="17.7008" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C8" library="rcl" package="C1206" value="10pf" x="20.5113" y="16.17795" smashed="yes" rot="MR270">
+<element name="C8" library="rcl" package="C1206" value="10nf" x="20.5113" y="16.17795" smashed="yes" rot="MR270">
 <attribute name="NAME" x="20.3526" y="17.36865" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="22.3369" y="18.16235" size="1.27" layer="28" rot="MR270"/>
 </element>

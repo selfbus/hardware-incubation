@@ -16407,7 +16407,7 @@ unfilled</description>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="1K2"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="10pf"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="10nf"/>
 <part name="Q4" library="crystal" deviceset="ASF*" device="" technology="L"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R1206" value="3k3"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
