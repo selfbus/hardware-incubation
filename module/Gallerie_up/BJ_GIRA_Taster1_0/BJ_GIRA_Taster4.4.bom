@@ -1,7 +1,7 @@
-Stückliste exportiert aus C:/Dokumente und Einstellungen/Andreas/Eigene Dateien/freebus/trunk/hardware/Eagle Layouts/Gallerie_up/BJ_GIRA_Taster1_0/BJ_GIRA_Taster4.4.sch am 14.12.2013 12:16:09
+Stückliste exportiert aus BJ_GIRA_Taster4.4.sch am 14.12.2013 12:16:09
 
-Menge Wert       Device         Bauteile                          	bezugsmöglichkeit
-1                10-XX          S5                                
+Menge Wert       Device         Bauteile                          	Bezugsmöglichkeit
+1                10-XX          S5                                	
 4     Krieger    33053305A      S1, S2, S3, S4                    	www.krieger-elektro.de/ishop
 1     SMAJ40     D-SMB          D3                                	www.krieger-elektro.de/ishop
 6                LED3MM         LED1, LED2, LED3, LED4, LED5, LED6
@@ -17,14 +17,13 @@ Menge Wert       Device         Bauteile                          	bezugsmöglich
 1     3k6        R-EU_M1206     R25                               
 1     5R6        R-EU_R1206     R6                                
 2     5k6        R-EU_R1206     R29,R33                               
-1     7.3738     ASFL1          Q2  					www.krieger-elektro.de/ishop                  
+1     7.3738     ASE         	Q2  					www.krieger-elektro.de/ishop                  
 1     7V5        ZPD            D2                                
-3     10k        R-EU_R1206     R9, R31, R32                      
+2     10k        R-EU_R1206     R9, R32                      
 3     10n        C-EUC1206      C3, C6, C10                       
 1     SMD 12V    ZPD  SMD       D4                                
 1     47k        R-EU_M1206     R8                                
 1     82k        R-EU_R1206     R7                                
-0     91k        R-EU_R1206     R30                               
 1     100µ35V    CPOL-EUE3.5-8  C8                                
 1     100/16     CPOL-EUE2.5-5  C9                                
 2     100k       R-EU_R1206     R21, R22                               
@@ -40,3 +39,4 @@ Menge Wert       Device         Bauteile                          	bezugsmöglich
 1     BCP52-16   FZT753SMD      Q1                                
 1     MC34063AD  MC34063AD      IC1                               
 1     SMD ZF 7,5 ZPD            D10                               
+1     P89LPC922FD
