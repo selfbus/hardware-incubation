@@ -5,7 +5,7 @@ Menge Wert       Device         Bauteile                          	Bezugsmöglich
 4     Krieger    33053305A      S1, S2, S3, S4                    	www.krieger-elektro.de/ishop
 1     SMAJ40     D-SMB          D3                                	www.krieger-elektro.de/ishop
 6                LED3MM         LED1, LED2, LED3, LED4, LED5, LED6
-1                LPC936TSSOP28  U$1                               
+1                P89LPC922FD    U$1                               
 1                PINHD-1X6      JP3                               
 2                SMD2           PAD1, PAD2                        
 1                W237-02P       X1                                
@@ -39,4 +39,3 @@ Menge Wert       Device         Bauteile                          	Bezugsmöglich
 1     BCP52-16   FZT753SMD      Q1                                
 1     MC34063AD  MC34063AD      IC1                               
 1     SMD ZF 7,5 ZPD            D10                               
-1     P89LPC922FD
