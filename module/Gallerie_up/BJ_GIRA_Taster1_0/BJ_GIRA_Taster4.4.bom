@@ -1,0 +1,47 @@
+Stückliste exportiert aus C:/Dokumente und Einstellungen/Andreas/Eigene Dateien/freebus/trunk/hardware/Eagle Layouts/Gallerie_up/BJ_GIRA_Taster1_0/BJ_GIRA_Taster4.4.sch am 14.12.2013 12:16:09
+
+Menge Wert       Device         Bauteile                          
+1                10-XX          S5                                
+4                33053305A      S1, S2, S3, S4                    
+1                D-SMB          D3                                
+6                LED3MM         LED1, LED2, LED3, LED4, LED5, LED6
+1                LPC936TSSOP28  U$1                               
+1                PINHD-1X6      JP3                               
+2                SMD2           PAD1, PAD2                        
+1                W237-02P       X1                                
+2     1N4148     DIODE-MINIMELF D11, D12                          
+3     1k         R-EU_R1206     R5, R14, R27                      
+1     2k2        R-EU_M1206     R26                               
+1     2k2        R-EU_R1206     R24                               
+1     3R3        R-EU_M1206     R28                               
+1     3k3        R-EU_M1206     R20                               
+1     3k3        R-EU_R1206     R18                               
+1     3k6        R-EU_M1206     R25                               
+1     5R6        R-EU_R1206     R6                                
+1     5k6        R-EU_M1206     R33                               
+1     5k6        R-EU_R1206     R29                               
+1     7.3738     ASFL1          Q2                                
+1     7V5        ZPD            D2                                
+3     10k        R-EU_R1206     R9, R31, R32                      
+3     10n        C-EUC1206      C3, C6, C10                       
+1     12V        ZPD            D4                                
+1     47k        R-EU_M1206     R8                                
+1     82k        R-EU_R1206     R7                                
+1     91k        R-EU_R1206     R30                               
+1     100µ35V    CPOL-EUE3.5-8  C8                                
+1     100/16     CPOL-EUE2.5-5  C9                                
+1     100k       R-EU_M1206     R22                               
+1     100k       R-EU_R1206     R21                               
+3     100n       C-EUC1206      C1, C2, C4                        
+1     150mH      BS11           L2                                
+1     220µH      L-EU2200-11.43 L1                                
+1     470p       C-EUC1206      C5                                
+1     560k       R-EU_R1206     R10                               
+4     680        R-EU_R1206     R1, R2, R3, R4                    
+1     4148       DIODE-MINIMELF D13                               
+1     BAT46      DIODE-MINIMELF D1                                
+2     BC848C     BC848          T1, T2                            
+1     BC856      BC856ALT1SMD   Q4                                
+1     BCP52-16   FZT753SMD      Q1                                
+1     MC34063AD  MC34063AD      IC1                               
+1     SMD ZF 7,5 ZPD            D10                               
