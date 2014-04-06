@@ -1,0 +1,80 @@
+LPC1115 Pins
+------------
+
+Externer Quarz zwischen Pin 6+7 (XTALIN, XTALOUT) mit je 18pF auf GND
+Reset mit 12k auf 3,3V
+
+Pin 5 VSSIO auf GND
+Pin 8 VDDIO auf 3,3V mit 100nF+10nF auf GND
+Pin 41 VSS auf GND
+Pin 44 VDDCORE auf gleiche 3,3V mit 100nF+10nF auf GND
+
+Bus
+---
+
+Bus IN:          9/PIO1_8/CT16B1_CAP0
+Bus OUT:        17/PIO1_9/CT16B1_MAT0/MOSI1
+LED/Prog-Taste:  2/PIO2_0/DTR/SSEL1
+Busspannung:    42/PIO1_11/AD7/CT32B1_CAP1
+
+
+JTAG Pinhead
+------------
+
+1 - Vcc
+2 - SWDIO:      39/SWDIO/PIO1_3
+3 - RXD:        46/PIO1_6/RXD/CT32B0_MAT0
+4 - SWCLK:      29/SWCLK/PIO0_10
+5 - TXD:        47/PIO1_7/TXD/CT32B0_MAT1
+6 - TDO/SWO:    N.C.
+7 - ISP_Enable: 4/PIO0_1/CLKOUT/CT32B0_MAT2
+8 - TDI:        N.C.
+9 - GND
+10- RESET:      3/RESET/PIO0_0
+
+
+App Pinheads
+------------
+
+ 1      EIB+
+ 2      GND
+ 3      PWM     20/PIO2_5/CT32B0_MAT0     
+ 4      APROG   22/PIO0_6/SCK0
+ 5      VCC_A 
+ 6      EIB_DC
+ 7      IO1     18/PIO3_4/CT16B0_CAP1/RXD
+ 8      IO2     23/PIO0_7/CTS
+ 9      IO3     24/PIO2_9/CT32B0_CAP0
+10      IO4     25/PIO2_10
+11      SDA     16/PIO0_5/SDA
+12      SCL     15/PIO0_4/SCL
+13      IO5     10/PIO0_2/SSEL0/CT16B0_CAP0    
+14      IO6     27/PIO0_8/MISO0/CT16B0_MAT0   
+15      IO7     28/PIO0_9/MOSI0/CT16B0_MAT1
+16      IO8     31/PIO2_11/SCK0/CT32B0_CAP1
+17      TXD     36/PIO3_0/DTR/CT16B0_MAT0/TXD
+18      RXD     37/PIO3_1/DSR
+19      IO9     33/PIO1_0/AD1/CT32B1_CAP0
+20      IO10    34/PIO1_1/AD2/CT32B1_MAT0
+21      IO11    40/PIO1_4/AD5/CT32B1_MAT3/WAKEUP
+22      IO12    35/PIO1_2/AD3/CT32B1_MAT1
+23      IO13    48/PIO3_3/RI/CT16B0_CAP0 
+24      IO14    45/PIO1_5/RTS/CT32B0_CAP0
+25      IO15    47/PIO1_7/TXD/CT32B0_MAT1
+26      IO16    46/PIO1_6/RXD/CT32B0_MAT0
+
+LED/Taster Pinhead
+------------------
+
+ 1      LT1     12/PIO2_1/DSR/SCK1
+ 2      LT2     14/PIO0_3
+ 3      LT3     19/PIO2_4/CT16B1_MAT1/SSEL1
+ 4      LT4     26/PIO2_2/DCD/MISO1
+ 5      LT5     30/PIO1_10/AD6/CT16B1_MAT1/MISO1
+ 6      LT6     32/PIO0_11/AD0/CT32B0_MAT3
+ 7      LT7     21/PIO3_5/CT16B1_CAP1/TXD
+ 8      LT8     38/PIO2_3/RI/MOSI1
+ 9      GND
+10      LT9     43/PIO3_2/DCD/CT16B0_MAT2/SCK1
+11      VCC_3V3
+12      GND
