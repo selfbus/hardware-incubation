@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17580,8 +17580,8 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="264.16" y1="45.72" x2="309.88" y2="45.72" width="0.762" layer="92"/>
 <wire x1="309.88" y1="45.72" x2="309.88" y2="81.28" width="0.762" layer="92"/>
 <wire x1="236.22" y1="45.72" x2="236.22" y2="147.32" width="0.762" layer="92"/>
-<wire x1="236.22" y1="147.32" x2="99.06" y2="149.86" width="0.762" layer="92"/>
-<wire x1="99.06" y1="149.86" x2="99.06" y2="60.96" width="0.762" layer="92"/>
+<wire x1="236.22" y1="147.32" x2="99.06" y2="147.32" width="0.762" layer="92"/>
+<wire x1="99.06" y1="147.32" x2="99.06" y2="60.96" width="0.762" layer="92"/>
 <wire x1="236.22" y1="45.72" x2="236.22" y2="15.24" width="0.762" layer="92"/>
 <wire x1="236.22" y1="147.32" x2="289.56" y2="147.32" width="0.762" layer="92"/>
 <wire x1="289.56" y1="147.32" x2="289.56" y2="124.46" width="0.762" layer="92"/>
@@ -17780,14 +17780,14 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="PWM" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PIO2_5/CT32B0_MAT0"/>
-<wire x1="236.22" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
-<label x="210.82" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV2" gate="1" pin="3"/>
 <wire x1="279.4" y1="81.28" x2="264.16" y2="81.28" width="0.1524" layer="91"/>
 <label x="276.86" y="81.28" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PIO3_2/DCD/CT16B0_MAT2/SCK1"/>
+<wire x1="236.22" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
+<label x="210.82" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -18293,14 +18293,14 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="LT9" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PIO3_2/DCD/CT16B0_MAT2/SCK1"/>
-<wire x1="236.22" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
-<label x="210.82" y="81.28" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="G$1" pin="10"/>
 <wire x1="246.38" y1="15.24" x2="236.22" y2="15.24" width="0.1524" layer="91"/>
 <label x="243.84" y="15.24" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PIO2_5/CT32B0_MAT0"/>
+<wire x1="236.22" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
+<label x="210.82" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -18585,7 +18585,6 @@ Low profile connectors, straight&lt;p&gt;
 </sheets>
 <errors>
 <approved hash="102,1,254,109.22,+3V3,VCC_3V3,,,,"/>
-<approved hash="102,1,66.04,101.6,+5V,VCC_5V,,,,"/>
 <approved hash="102,1,30.48,162.56,+3V3,VCC_3V3,,,,"/>
 <approved hash="102,1,91.44,139.7,+3V3,VCC_3V3,,,,"/>
 <approved hash="102,1,106.68,139.7,+3V3,VCC_3V3,,,,"/>
@@ -18597,7 +18596,6 @@ Low profile connectors, straight&lt;p&gt;
 <approved hash="104,1,208.28,50.8,IC1,VSS(IO),GND,,,"/>
 <approved hash="104,1,208.28,55.88,IC1,VSS,GND,,,"/>
 <approved hash="104,1,208.28,66.04,IC1,VDD,VCC_3V3,,,"/>
-<approved hash="115,1,66.04,66.04,VCC_3V3,,,,,"/>
 </errors>
 </schematic>
 </drawing>

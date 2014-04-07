@@ -38,7 +38,7 @@ App Pinheads
 
  1      EIB+
  2      GND
- 3      PWM     20/PIO2_5/CT32B0_MAT0     
+ 3      PWM     43/PIO3_2/DCD/CT16B0_MAT2/SCK1
  4      APROG   22/PIO0_6/SCK0
  5      VCC_A 
  6      EIB_DC
@@ -75,6 +75,6 @@ LED/Taster Pinhead
  7      LT7     21/PIO3_5/CT16B1_CAP1/TXD
  8      LT8     38/PIO2_3/RI/MOSI1
  9      GND
-10      LT9     43/PIO3_2/DCD/CT16B0_MAT2/SCK1
+10      LT9     20/PIO2_5/CT32B0_MAT0     
 11      VCC_3V3
 12      GND
