@@ -115,7 +115,7 @@
 <wire x1="67" y1="58.4" x2="67" y2="0.5" width="0" layer="20"/>
 <wire x1="14.6844" y1="3.9688" x2="15.5575" y2="3.9688" width="0.6096" layer="30"/>
 <wire x1="33.8137" y1="52.705" x2="33.8931" y2="52.6256" width="0.254" layer="21"/>
-<text x="21.8281" y="2.54" size="1.778" layer="25" rot="R180">LPC1115V0.09</text>
+<text x="21.8281" y="2.54" size="1.778" layer="25" rot="R180">LPC1115V0.10</text>
 <text x="43.1324" y="2.5876" size="0.8128" layer="27">auf Lötseite:</text>
 <text x="15.3194" y="23.9713" size="1.27" layer="21" font="vector" ratio="10" rot="R270">on BOT</text>
 <text x="24.3681" y="0.9525" size="1.778" layer="21">+</text>
