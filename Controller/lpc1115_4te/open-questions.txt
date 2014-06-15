@@ -1,7 +1,0 @@
-Fragen zum ARM-LPC1115-4TE
-==========================
-
-- ADC auf dem Led/Taster pinhead oder alle auf dem App?
-- RX auf dem Led/Taster pinhead?
-- USB Pins auf dem Led/Taser pinhead
-- freie pins als versions ID verwenden?
