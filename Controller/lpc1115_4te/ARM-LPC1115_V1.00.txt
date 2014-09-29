@@ -35,27 +35,26 @@ JTAG Pinhead
 
 App Pinheads
 ------------
+(In Klammer ist der IO Pin vom P89LPC922 vom LPC-Controller Board)
 
-App Pinheads
-------------
  1      EIB+
  2      GND
- 3      PWM     43/PIO3_2/DCD/CT16B0_MAT2/SCK1
- 4      APROG   22/PIO0_6/SCK0
+ 3      PWM     43/PIO3_2/DCD/CT16B0_MAT2/SCK1 (LPC app pin P1.2/T0 == Pin 12)
+ 4      APROG   22/PIO0_6/SCK0                 (LPC app pin P1.7)
  5      VCC_3V3
  6      EIB_DC
- 7      IO1     26/PIO2_2/DCD/MISO1
- 8      IO2     23/PIO0_7/CTS
- 9      IO3     25/PIO2_10
-10      IO4     24/PIO2_9/CT32B0_CAP0
-11      SDA     16/PIO0_5/SDA
-12      SCL     15/PIO0_4/SCL
-13      IO5     10/PIO0_2/SSEL0/CT16B0_CAP0    
-14      IO6     27/PIO0_8/MISO0/CT16B0_MAT0   
-15      IO7     28/PIO0_9/MOSI0/CT16B0_MAT1
-16      IO8     31/PIO2_11/SCK0/CT32B0_CAP1
-17      TXD     36/PIO3_0/DTR/CT16B0_MAT0/TXD
-18      RXD     37/PIO3_1/DSR/CT16N0_MAT1/RXD
+ 7      IO1     26/PIO2_2/DCD/MISO1            (LPC app pin P0.0)
+ 8      IO2     23/PIO0_7/CTS                  (LPC app pin P0.1)
+ 9      IO3     25/PIO2_10                     (LPC app pin P0.2)
+10      IO4     24/PIO2_9/CT32B0_CAP0          (LPC app pin P0.3)
+11      SDA     16/PIO0_5/SDA                  (LPC app pin P1.3/INT0)
+12      SCL     15/PIO0_4/SCL                  (LPC app pin P1.2/T0 == Pin 3)
+13      IO5     10/PIO0_2/SSEL0/CT16B0_CAP0    (LPC app pin P0.4)
+14      IO6     27/PIO0_8/MISO0/CT16B0_MAT0    (LPC app pin P0.5)
+15      IO7     28/PIO0_9/MOSI0/CT16B0_MAT1    (LPC app pin P0.6)
+16      IO8     31/PIO2_11/SCK0/CT32B0_CAP1    (LPC app pin P0.7)
+17      TXD     36/PIO3_0/DTR/CT16B0_MAT0/TXD  (LPC app pin P1.0/TXD)
+18      RXD     37/PIO3_1/DSR/CT16N0_MAT1/RXD  (LPC app pin P1.1/RXD)
 19      IO9     33/PIO1_0/AD1/CT32B1_CAP0
 20      IO10    34/PIO1_1/AD2/CT32B1_MAT0
 21      GND
