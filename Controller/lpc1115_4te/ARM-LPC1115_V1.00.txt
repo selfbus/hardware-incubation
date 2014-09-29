@@ -21,16 +21,16 @@ Busspannung:    42/PIO1_11/AD7/CT32B1_CAP1
 JTAG Pinhead
 ------------
 
-1 - Vcc
-2 - SWDIO:      39/SWDIO/PIO1_3
+1 - Vcc                                      (LPC-Link: 1)
+2 - SWDIO:      39/SWDIO/PIO1_3              (LPC-Link: 2)
 3 - RXD:        46/PIO1_6/RXD/CT32B0_MAT0
-4 - SWCLK:      29/SWCLK/PIO0_10
+4 - SWCLK:      29/SWCLK/PIO0_10             (LPC-Link: 3)
 5 - TXD:        47/PIO1_7/TXD/CT32B0_MAT1
 6 - TDO/SWO:    N.C.
 7 - ISP_Enable: 4/PIO0_1/CLKOUT/CT32B0_MAT2
 8 - TDI:        N.C.
-9 - GND
-10- RESET:      3/RESET/PIO0_0
+9 - GND                                      (LPC-Link: 8)
+10- RESET:      3/RESET/PIO0_0               (LPC-Link: 6)
 
 
 App Pinheads
