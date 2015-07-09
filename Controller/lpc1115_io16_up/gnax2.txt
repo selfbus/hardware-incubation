@@ -1,0 +1,22 @@
+I/O-Belegung auf den Steckerleisten A-D:
+
+PIO2_5  A0
+PIO3_5  A1
+PIO0_7  A2
+PIO2_9  A3
+
+PIO1_11 B0
+PIO1_4  B1
+PIO1_2  B2
+PIO1_1  B3
+
+PIO1_7  C0
+PIO1_6  C1
+PIO1_5  C2
+PIO3_2  C3
+
+PIO2_8  D0
+PIO2_7  D1
+PIO2_6  D2
+PIO3_3  D3 
+
