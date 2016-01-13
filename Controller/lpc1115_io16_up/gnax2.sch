@@ -14765,7 +14765,7 @@ Types:&lt;p&gt;
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603K" value="150p"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603K" value="330p"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0603K" value="10u/6V3"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="47k"/>
@@ -14874,6 +14874,7 @@ Types:&lt;p&gt;
 <part name="J2-1" library="con-wago" deviceset="236" device="-5,08" technology="-740" value=""/>
 <part name="J2-2" library="con-wago" deviceset="236" device="-5,08" technology="-740" value=""/>
 <part name="+3V1" library="supply1" deviceset="VCC" device="" value="+3V3"/>
+<part name="D5" library="diode" deviceset="DIODE-" device="SOD323-R" value="1N4148WX-TP"/>
 </parts>
 <sheets>
 <sheet>
@@ -14899,24 +14900,26 @@ Types:&lt;p&gt;
 <wire x1="177.8" y1="162.56" x2="177.8" y2="168.91" width="0.3048" layer="94" style="dashdot"/>
 <wire x1="177.8" y1="168.91" x2="144.78" y2="168.91" width="0.3048" layer="94" style="dashdot"/>
 <wire x1="96.52" y1="134.62" x2="96.52" y2="119.38" width="0.3048" layer="94" style="dashdot"/>
-<wire x1="96.52" y1="119.38" x2="48.26" y2="119.38" width="0.3048" layer="94" style="dashdot"/>
-<wire x1="48.26" y1="119.38" x2="48.26" y2="58.42" width="0.3048" layer="94" style="dashdot"/>
-<wire x1="48.26" y1="58.42" x2="137.16" y2="58.42" width="0.3048" layer="94" style="dashdot"/>
+<wire x1="96.52" y1="119.38" x2="45.72" y2="119.38" width="0.3048" layer="94" style="dashdot"/>
+<wire x1="45.72" y1="119.38" x2="45.72" y2="58.42" width="0.3048" layer="94" style="dashdot"/>
+<wire x1="45.72" y1="58.42" x2="137.16" y2="58.42" width="0.3048" layer="94" style="dashdot"/>
 <wire x1="137.16" y1="58.42" x2="137.16" y2="104.14" width="0.3048" layer="94" style="dashdot"/>
 <wire x1="137.16" y1="104.14" x2="114.3" y2="104.14" width="0.3048" layer="94" style="dashdot"/>
 <wire x1="114.3" y1="104.14" x2="114.3" y2="134.62" width="0.3048" layer="94" style="dashdot"/>
 <wire x1="114.3" y1="134.62" x2="96.52" y2="134.62" width="0.3048" layer="94" style="dashdot"/>
 <text x="119.38" y="60.96" size="1.9304" layer="94">GNAX-TX</text>
-<wire x1="48.26" y1="55.88" x2="137.16" y2="55.88" width="0.3048" layer="94" style="dashdot"/>
+<wire x1="45.72" y1="55.88" x2="137.16" y2="55.88" width="0.3048" layer="94" style="dashdot"/>
 <wire x1="137.16" y1="55.88" x2="137.16" y2="22.86" width="0.3048" layer="94" style="dashdot"/>
 <wire x1="137.16" y1="22.86" x2="137.16" y2="15.24" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="137.16" y1="15.24" x2="137.16" y2="7.62" width="0.3048" layer="94" style="dashdot"/>
-<wire x1="137.16" y1="7.62" x2="48.26" y2="7.62" width="0.3048" layer="94" style="dashdot"/>
-<wire x1="48.26" y1="7.62" x2="48.26" y2="55.88" width="0.3048" layer="94" style="dashdot"/>
+<wire x1="137.16" y1="7.62" x2="45.72" y2="7.62" width="0.3048" layer="94" style="dashdot"/>
+<wire x1="45.72" y1="7.62" x2="45.72" y2="45.72" width="0.3048" layer="94" style="dashdot"/>
 <text x="121.92" y="10.16" size="1.9304" layer="94">GNAX-RX</text>
 <text x="80.01" y="36.83" size="1.4224" layer="94">ca. 1.2V</text>
 <text x="5.08" y="10.16" size="1.778" layer="94">5.0mm, 1 pin</text>
 <text x="5.08" y="71.12" size="1.778" layer="94" rot="MR180">GNAX-TP 5.75mm</text>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="50.8" width="0.3048" layer="94" style="dashdot"/>
+<wire x1="45.72" y1="50.8" x2="45.72" y2="55.88" width="0.3048" layer="94" style="dashdot"/>
 <wire x1="5.08" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="17.78" y1="25.4" x2="17.78" y2="12.7" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="17.78" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="94" style="dashdot"/>
@@ -14934,14 +14937,14 @@ Types:&lt;p&gt;
 <wire x1="83.82" y1="33.02" x2="82.55" y2="34.29" width="0.1524" layer="94"/>
 <wire x1="83.82" y1="33.02" x2="85.09" y2="34.29" width="0.1524" layer="94"/>
 <text x="45.72" y="130.81" size="1.9304" layer="94">Use Gyrator @ I(3.3V)&lt;25mA</text>
-<text x="226.06" y="52.07" size="1.9304" layer="94">C11: 15n -&gt; 22n</text>
-<text x="226.06" y="49.53" size="1.9304" layer="94">R7: 6k8 -&gt; 2k4</text>
-<text x="226.06" y="46.99" size="1.9304" layer="94">Added R18,R19</text>
-<text x="226.06" y="44.45" size="1.9304" layer="94">R1: 1k8 -&gt; 1k</text>
-<text x="226.06" y="41.91" size="1.9304" layer="94">C2: 4u7 -&gt; 100n</text>
-<text x="226.06" y="39.37" size="1.9304" layer="94">R2: 330 -&gt; 100</text>
-<text x="226.06" y="36.83" size="1.9304" layer="94">R4: 82k -&gt; 120k</text>
-<text x="226.06" y="57.15" size="1.9304" layer="94">Changes V1-&gt;V2</text>
+<text x="228.6" y="69.85" size="1.9304" layer="94">C11: 15n -&gt; 22n</text>
+<text x="228.6" y="67.31" size="1.9304" layer="94">R7: 6k8 -&gt; 2k4</text>
+<text x="228.6" y="64.77" size="1.9304" layer="94">Added R18,R19</text>
+<text x="228.6" y="62.23" size="1.9304" layer="94">R1: 1k8 -&gt; 1k</text>
+<text x="228.6" y="59.69" size="1.9304" layer="94">C2: 4u7 -&gt; 100n</text>
+<text x="228.6" y="57.15" size="1.9304" layer="94">R2: 330 -&gt; 100</text>
+<text x="228.6" y="54.61" size="1.9304" layer="94">R4: 82k -&gt; 120k</text>
+<text x="228.6" y="74.93" size="1.9304" layer="94">Changes V1-&gt;V2</text>
 <text x="107.95" y="16.51" size="1.4224" layer="94">VT+: 0.75V-1.16V
 VT-: 0.5V-0.85V
 Hysteresis: 0.25V-0.56V</text>
@@ -14973,13 +14976,31 @@ Hysteresis: 0.25V-0.56V</text>
 <text x="5.08" y="30.48" size="1.778" layer="94">5.0mm, 2 pins</text>
 <text x="45.72" y="128.27" size="1.9304" layer="94">(e.g. just key IF)</text>
 <text x="76.2" y="167.64" size="1.9304" layer="94">(e.g. LEDs, opto-coupler, etc.)</text>
-<text x="226.06" y="34.29" size="1.9304" layer="94">D3: 8V2 -&gt; 6V8</text>
-<text x="226.06" y="31.75" size="1.9304" layer="94">C3: 330p -&gt; 150p</text>
+<text x="228.6" y="52.07" size="1.9304" layer="94">D3: 8V2 -&gt; 6V8</text>
+<text x="228.6" y="49.53" size="1.9304" layer="94">C3: 330p -&gt; 150p</text>
+<text x="228.6" y="41.91" size="1.9304" layer="94">Added D5</text>
+<text x="228.6" y="44.45" size="1.9304" layer="94">Changes V2-&gt;V2.1</text>
+<text x="46.99" y="46.99" size="1.4224" layer="94">U2 has no internal 
+clamping to VCC!</text>
+<wire x1="63.5" y1="45.72" x2="66.04" y2="43.18" width="0.1524" layer="94"/>
+<wire x1="63.5" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="94"/>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="50.8" width="0.1524" layer="94"/>
+<wire x1="45.72" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="94"/>
+<wire x1="66.04" y1="50.8" x2="66.04" y2="45.72" width="0.1524" layer="94"/>
+<wire x1="66.04" y1="45.72" x2="63.5" y2="45.72" width="0.1524" layer="94"/>
+<text x="228.6" y="39.37" size="1.9304" layer="94">C3: 150p -&gt; 330p</text>
+<wire x1="180.34" y1="124.46" x2="180.34" y2="114.3" width="0.1524" layer="94"/>
+<text x="182.88" y="109.22" size="1.778" layer="94">C10 only required for very low input
+voltages -&gt; can be omitted</text>
+<wire x1="180.34" y1="114.3" x2="180.34" y2="106.68" width="0.1524" layer="94"/>
+<wire x1="180.34" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="94"/>
+<wire x1="223.52" y1="106.68" x2="223.52" y2="114.3" width="0.1524" layer="94"/>
+<wire x1="223.52" y1="114.3" x2="180.34" y2="114.3" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="R4" gate="G$1" x="73.66" y="22.86" rot="R90"/>
 <instance part="R3" gate="G$1" x="73.66" y="40.64" rot="R90"/>
-<instance part="C1" gate="G$1" x="53.34" y="33.02" rot="R90"/>
+<instance part="C1" gate="G$1" x="50.8" y="33.02" rot="R90"/>
 <instance part="GND2" gate="1" x="73.66" y="12.7"/>
 <instance part="GND6" gate="1" x="172.72" y="116.84"/>
 <instance part="+3V32" gate="G$1" x="246.38" y="160.02"/>
@@ -14999,17 +15020,17 @@ Hysteresis: 0.25V-0.56V</text>
 <attribute name="VALUE" x="181.864" y="150.241" size="1.778" layer="96"/>
 </instance>
 <instance part="R11" gate="G$1" x="185.42" y="132.08" smashed="yes">
-<attribute name="NAME" x="179.07" y="128.4986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="186.69" y="128.778" size="1.778" layer="96"/>
+<attribute name="NAME" x="179.07" y="133.5786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.69" y="133.858" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="160.02" y="127" rot="R90"/>
-<instance part="C10" gate="G$1" x="182.88" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="186.944" y="137.541" size="1.778" layer="95"/>
-<attribute name="VALUE" x="181.356" y="139.319" size="1.778" layer="96" rot="R180"/>
+<instance part="C10" gate="G$1" x="182.88" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="176.784" y="124.841" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.944" y="124.841" size="1.778" layer="96"/>
 </instance>
-<instance part="D4" gate="G$1" x="195.58" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="195.0974" y="139.7" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="200.4314" y="134.62" size="1.778" layer="96" rot="R90"/>
+<instance part="D4" gate="G$1" x="195.58" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="195.0974" y="142.24" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="200.4314" y="137.16" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V31" gate="G$1" x="86.36" y="53.34"/>
 <instance part="T1" gate="G$1" x="55.88" y="149.86" smashed="yes" rot="R90">
@@ -15080,7 +15101,7 @@ Hysteresis: 0.25V-0.56V</text>
 <attribute name="VALUE" x="62.865" y="143.256" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="RN1" gate="C" x="109.22" y="73.66" rot="R270"/>
-<instance part="RN1" gate="D" x="66.04" y="33.02"/>
+<instance part="RN1" gate="D" x="60.96" y="33.02"/>
 <instance part="L1" gate="G$1" x="203.2" y="152.4" smashed="yes">
 <attribute name="NAME" x="200.66" y="154.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="205.74" y="154.94" size="1.778" layer="96"/>
@@ -15108,6 +15129,10 @@ Hysteresis: 0.25V-0.56V</text>
 <instance part="R19" gate="G$1" x="88.9" y="66.04"/>
 <instance part="J2-1" gate="G$1" x="12.7" y="43.18" rot="R180"/>
 <instance part="J2-2" gate="G$1" x="12.7" y="35.56" rot="R180"/>
+<instance part="D5" gate="G$1" x="68.58" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="63.5" y="38.5826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.8" y="40.8686" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15140,7 +15165,7 @@ Hysteresis: 0.25V-0.56V</text>
 <wire x1="149.86" y1="127" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="195.58" y1="134.62" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="137.16" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
 <junction x="195.58" y="121.92"/>
 <junction x="172.72" y="121.92"/>
 <junction x="149.86" y="121.92"/>
@@ -15222,7 +15247,6 @@ Hysteresis: 0.25V-0.56V</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="60.96" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="RN1" gate="D" pin="P$1"/>
 </segment>
@@ -15234,9 +15258,9 @@ Hysteresis: 0.25V-0.56V</text>
 <label x="33.02" y="68.58" size="1.9304" layer="95"/>
 <wire x1="30.48" y1="137.16" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="66.04" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="66.04" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="33.02" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="30.48" y1="60.96" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 <junction x="30.48" y="66.04"/>
@@ -15317,10 +15341,11 @@ Hysteresis: 0.25V-0.56V</text>
 <segment>
 <wire x1="73.66" y1="35.56" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="33.02" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="33.02" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
 <junction x="73.66" y="33.02"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="33.02" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="A"/>
 <wire x1="83.82" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
@@ -15332,6 +15357,9 @@ Hysteresis: 0.25V-0.56V</text>
 <wire x1="83.82" y1="25.4" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
 <junction x="83.82" y="33.02"/>
 <pinref part="RN1" gate="D" pin="P$2"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="68.58" y1="38.1" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
+<junction x="68.58" y="33.02"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -15339,9 +15367,9 @@ Hysteresis: 0.25V-0.56V</text>
 <wire x1="246.38" y1="157.48" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="+3V32" gate="G$1" pin="+3V3"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="137.16" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="127" x2="190.5" y2="127" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="132.08" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="132.08" x2="190.5" y2="127" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="139.7" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="152.4" x2="215.9" y2="152.4" width="0.1524" layer="91"/>
@@ -15379,6 +15407,10 @@ Hysteresis: 0.25V-0.56V</text>
 <pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="86.36" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="48.26" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<wire x1="68.58" y1="43.18" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
+<junction x="73.66" y="48.26"/>
 </segment>
 </net>
 <net name="LX" class="0">
@@ -15388,7 +15420,7 @@ Hysteresis: 0.25V-0.56V</text>
 <wire x1="187.96" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="147.32" x2="187.96" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="195.58" y1="139.7" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="142.24" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
 <junction x="187.96" y="152.4"/>
 <pinref part="L1" gate="G$1" pin="P$1"/>
 <wire x1="195.58" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
@@ -15413,7 +15445,7 @@ Hysteresis: 0.25V-0.56V</text>
 <net name="N$24" class="0">
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="137.16" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="127" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
@@ -15578,6 +15610,10 @@ Hysteresis: 0.25V-0.56V</text>
 <text x="99.06" y="12.7" size="1.9304" layer="94">25P10 = 1MBit = 128KB FLASH</text>
 <text x="96.52" y="10.16" size="1.9304" layer="94">25P05 = 512KBit = 64KByte FLASH</text>
 <text x="104.14" y="7.62" size="1.9304" layer="94">AT25020B = 256x8 EEPROM</text>
+<text x="7.62" y="10.16" size="1.778" layer="94">Pull to GND to stay in safe
+bootloader if ISP fails</text>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="30.48" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="30.48" x2="10.16" y2="30.48" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -16071,6 +16107,18 @@ Hysteresis: 0.25V-0.56V</text>
 <text x="71.12" y="22.86" size="1.778" layer="94">J8/J9 combined in 2*5</text>
 <text x="185.42" y="73.66" size="2.1844" layer="94">PROG-SWITCH</text>
 <text x="213.36" y="27.94" size="1.9304" layer="94">Moved LED3 to VCC</text>
+<text x="22.86" y="111.76" size="1.778" layer="94">Values of RN2/3/4/5/6
+depend on application</text>
+<text x="53.34" y="162.56" size="1.778" layer="94">Application connector
+!!! some pins shared with J8/J9 !!!</text>
+<wire x1="43.18" y1="124.46" x2="43.18" y2="119.38" width="0.1524" layer="94"/>
+<wire x1="43.18" y1="119.38" x2="43.18" y2="116.84" width="0.1524" layer="94"/>
+<wire x1="43.18" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="94"/>
+<wire x1="78.74" y1="119.38" x2="81.28" y2="121.92" width="0.1524" layer="94"/>
+<text x="7.62" y="121.92" size="1.778" layer="94">XIO23 also PROG key!</text>
+<wire x1="10.16" y1="124.46" x2="10.16" y2="127" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="127" x2="12.7" y2="129.54" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="129.54" x2="22.86" y2="129.54" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
