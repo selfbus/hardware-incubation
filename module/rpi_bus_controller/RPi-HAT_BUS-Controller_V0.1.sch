@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -3072,12 +3072,6 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 </net>
 <net name="TXD" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="TXD/IO14"/>
-<wire x1="165.1" y1="144.78" x2="170.18" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="144.78" x2="171.45" y2="146.05" width="0.1524" layer="91"/>
-<label x="171.45" y="146.05" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="314.96" y1="106.68" x2="303.53" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="303.53" y1="106.68" x2="302.26" y2="105.41" width="0.1524" layer="91"/>
@@ -3088,15 +3082,16 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="267.97" y1="63.5" x2="266.7" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="63.5" x2="265.43" y2="64.77" width="0.1524" layer="91"/>
 <label x="265.43" y="64.77" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="175.26" y="139.7" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="RXD/IO15"/>
+<wire x1="165.1" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="142.24" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RXD" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="RXD/IO15"/>
-<wire x1="165.1" y1="142.24" x2="170.18" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="142.24" x2="171.45" y2="140.97" width="0.1524" layer="91"/>
-<label x="171.45" y="140.97" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="5"/>
 <wire x1="314.96" y1="104.14" x2="304.8" y2="104.14" width="0.1524" layer="91"/>
@@ -3107,6 +3102,13 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="IC3" gate="A" pin="P1.1/RXD"/>
 <wire x1="267.97" y1="60.96" x2="265.43" y2="60.96" width="0.1524" layer="91"/>
 <label x="265.43" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="175.26" y="147.32" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="TXD/IO14"/>
+<wire x1="165.1" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="144.78" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ID_SC" class="0">
