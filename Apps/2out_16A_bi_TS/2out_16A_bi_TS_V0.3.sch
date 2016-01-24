@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -11416,8 +11416,8 @@ Source: http://www.schrack.com/.. 5821.pdf</description>
 <text x="165.1" y="25.4" size="2.54" layer="100">www.selfbus.org</text>
 <text x="165.1" y="7.62" size="2.1844" layer="100">bistabiles Relais 2 x 230V 16A</text>
 <text x="251.46" y="7.62" size="2.54" layer="100">0.3</text>
-<text x="55.88" y="86.36" size="1.778" layer="91">Vers.</text>
-<text x="55.88" y="83.82" size="1.778" layer="91">GND</text>
+<text x="55.88" y="83.82" size="1.778" layer="91">Vers.</text>
+<text x="55.88" y="86.36" size="1.778" layer="91">GND</text>
 <text x="215.9" y="127" size="1.778" layer="91">Relais: HFE20-1-024-1HD
 </text>
 <text x="55.88" y="93.98" size="1.778" layer="91">I/O 2</text>
