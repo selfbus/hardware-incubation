@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -8270,6 +8270,12 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="D10" library="Diode_for_Selfbus-Projects" deviceset="LED" device="1206" value="red"/>
 <part name="R25" library="RCL_for_Selfbus-Projects" deviceset="RESISTOR" device="R1206" value="1k"/>
 <part name="GNDI6" library="Supply_for_Selfbus-Projects" deviceset="GND/2" device=""/>
+<part name="C18" library="RCL_for_Selfbus-Projects" deviceset="CAPACITOR" device="C1206" value="100nF"/>
+<part name="GND6" library="Supply_for_Selfbus-Projects" deviceset="GND" device=""/>
+<part name="C19" library="RCL_for_Selfbus-Projects" deviceset="CAPACITOR" device="C1206" value="100nF"/>
+<part name="+3V4" library="Supply_for_Selfbus-Projects" deviceset="+3V3" device=""/>
+<part name="R26" library="RCL_for_Selfbus-Projects" deviceset="RESISTOR" device="R1206" value="330"/>
+<part name="R27" library="RCL_for_Selfbus-Projects" deviceset="RESISTOR" device="R1206" value="330"/>
 </parts>
 <sheets>
 <sheet>
@@ -8351,8 +8357,8 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <instance part="R20" gate="G$1" x="262.89" y="119.38" rot="R90"/>
 <instance part="C10" gate="G$1" x="254" y="119.38" rot="R90"/>
 <instance part="JP3" gate="G$1" x="199.39" y="105.41" rot="MR0"/>
-<instance part="P+11" gate="1" x="187.96" y="71.12"/>
-<instance part="GNDI10" gate="G$1" x="203.2" y="76.2"/>
+<instance part="P+11" gate="1" x="233.68" y="76.2"/>
+<instance part="GNDI10" gate="G$1" x="233.68" y="60.96"/>
 <instance part="P+12" gate="1" x="246.38" y="57.15"/>
 <instance part="P+13" gate="1" x="331.47" y="68.58"/>
 <instance part="P+14" gate="1" x="304.8" y="123.19"/>
@@ -8412,6 +8418,12 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <instance part="D10" gate="G$1" x="340.36" y="83.82" rot="MR180"/>
 <instance part="R25" gate="G$1" x="312.42" y="29.21" rot="R90"/>
 <instance part="GNDI6" gate="G$1" x="312.42" y="17.78"/>
+<instance part="C18" gate="G$1" x="233.68" y="71.12" rot="R90"/>
+<instance part="GND6" gate="1" x="220.98" y="60.96"/>
+<instance part="C19" gate="G$1" x="220.98" y="71.12" rot="R90"/>
+<instance part="+3V4" gate="G$1" x="220.98" y="77.47"/>
+<instance part="R26" gate="G$1" x="182.88" y="147.32"/>
+<instance part="R27" gate="G$1" x="182.88" y="139.7"/>
 </instances>
 <busses>
 <bus name="IO[1..18],RESET,SWCLK,SWDIO,ISP_EN,PROG,ID,ISP_TXD,ISP_RXD">
@@ -8701,6 +8713,11 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="213.36" y1="50.8" x2="210.82" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="50.8" x2="210.82" y2="57.15" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="73.66" x2="220.98" y2="77.47" width="0.1524" layer="91"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -8724,7 +8741,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="267.97" y1="63.5" x2="266.7" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="63.5" x2="265.43" y2="64.77" width="0.1524" layer="91"/>
 <label x="265.43" y="64.77" size="1.778" layer="95" rot="R180" xref="yes"/>
-<label x="177.8" y="139.7" size="1.778" layer="95" xref="yes"/>
+<label x="190.5" y="139.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
@@ -8737,19 +8754,13 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="562.61" y1="88.9" x2="558.8" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 </segment>
-<segment>
-<pinref part="JP2" gate="G$1" pin="RXD/IO15"/>
-<wire x1="165.1" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="142.24" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="RXD" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="P1.1/RXD"/>
 <wire x1="267.97" y1="60.96" x2="265.43" y2="60.96" width="0.1524" layer="91"/>
 <label x="265.43" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
-<label x="177.8" y="147.32" size="1.778" layer="95" xref="yes"/>
+<label x="190.5" y="147.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="5"/>
@@ -8761,12 +8772,6 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PIO3_1/DSR/CT16B0_MAT1/RXD"/>
 <wire x1="533.4" y1="86.36" x2="525.78" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="G$1" pin="TXD/IO14"/>
-<wire x1="165.1" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="144.78" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ID_SC" class="0">
@@ -8964,6 +8969,11 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="210.82" y1="43.18" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="220.98" y1="63.5" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3/2" class="0">
 <segment>
@@ -9065,6 +9075,11 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <junction x="561.34" y="68.58"/>
 <junction x="528.32" y="68.58"/>
 <pinref part="P+7" gate="1" pin="+3V3/2"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="P+11" gate="1" pin="+3V3/2"/>
+<wire x1="233.68" y1="73.66" x2="233.68" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND/2" class="0">
@@ -9214,6 +9229,11 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="GNDI6" gate="G$1" pin="GND/2"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="20.32" x2="312.42" y2="24.13" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GNDI10" gate="G$1" pin="GND/2"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="63.5" x2="233.68" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EIB_IN" class="0">
@@ -9543,6 +9563,36 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="307.34" y1="43.18" x2="312.42" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="43.18" x2="312.42" y2="34.29" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="147.32" x2="190.5" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="JP2" gate="G$1" pin="TXD/IO14"/>
+<wire x1="165.1" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="144.78" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="JP2" gate="G$1" pin="RXD/IO15"/>
+<wire x1="165.1" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="142.24" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
