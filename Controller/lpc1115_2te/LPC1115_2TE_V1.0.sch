@@ -16267,6 +16267,11 @@ Source: Epson Toyocom</description>
 <part name="P+9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R1206" value="91k"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="D1" library="diode" deviceset="DIODE-" device="MINIMELF" value="3V6"/>
+<part name="C20" library="rcl" deviceset="C-EU" device="C1206"/>
 </parts>
 <sheets>
 <sheet>
@@ -16412,6 +16417,14 @@ ist optional</text>
 <instance part="P+9" gate="G$1" x="172.72" y="203.2"/>
 <instance part="GND25" gate="1" x="172.72" y="170.18"/>
 <instance part="C6" gate="G$1" x="142.24" y="180.34" rot="MR180"/>
+<instance part="GND17" gate="1" x="106.68" y="119.38"/>
+<instance part="R13" gate="G$1" x="106.68" y="144.78" rot="R270"/>
+<instance part="R16" gate="G$1" x="106.68" y="129.54" rot="R270"/>
+<instance part="D1" gate="G$1" x="114.3" y="129.54" rot="R90"/>
+<instance part="C20" gate="G$1" x="121.92" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="117.221" y="133.096" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="119.761" y="128.016" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 <bus name="IO[1..15],LT[1..9],SCL,SDA,PWM,APROG,RXD,TXD,RESET,SWCLK,SWDIO,ISP_EN,ID1,ID2">
@@ -16565,6 +16578,18 @@ ist optional</text>
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="GND25" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="106.68" y1="121.92" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="106.68" y1="124.46" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="124.46" x2="114.3" y2="127" width="0.1524" layer="91"/>
+<junction x="106.68" y="124.46"/>
+<wire x1="114.3" y1="124.46" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="124.46" x2="121.92" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -16806,6 +16831,13 @@ ist optional</text>
 </net>
 <net name="EIB_DC" class="0">
 <segment>
+<wire x1="391.16" y1="139.7" x2="416.56" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="139.7" x2="416.56" y2="213.36" width="0.1524" layer="91"/>
+<label x="393.7" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="106.68" y1="149.86" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="116.84" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="119.38" x2="96.52" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
@@ -16833,11 +16865,8 @@ ist optional</text>
 <junction x="33.02" y="195.58"/>
 <wire x1="96.52" y1="157.48" x2="17.78" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="157.48" x2="17.78" y2="195.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="391.16" y1="139.7" x2="416.56" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="139.7" x2="416.56" y2="213.36" width="0.1524" layer="91"/>
-<label x="393.7" y="139.7" size="1.778" layer="95"/>
+<wire x1="106.68" y1="157.48" x2="96.52" y2="157.48" width="0.1524" layer="91"/>
+<junction x="96.52" y="157.48"/>
 </segment>
 </net>
 <net name="I_SENSE" class="0">
@@ -16928,13 +16957,6 @@ ist optional</text>
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="91.44" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
 <junction x="198.12" y="91.44"/>
-</segment>
-</net>
-<net name="BUS_V" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PIO1_11/AD7/CT32B1_CAP1"/>
-<wire x1="170.18" y1="119.38" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
-<label x="203.2" y="119.38" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="TXD" class="0">
@@ -17482,6 +17504,26 @@ ist optional</text>
 <wire x1="66.04" y1="185.42" x2="66.04" y2="172.72" width="0.1524" layer="91"/>
 <junction x="60.96" y="172.72"/>
 <junction x="66.04" y="172.72"/>
+</segment>
+</net>
+<net name="BUS_V" class="0">
+<segment>
+<wire x1="106.68" y1="139.7" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="139.7" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="139.7" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<junction x="106.68" y="139.7"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="114.3" y1="132.08" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
+<junction x="114.3" y="139.7"/>
+<wire x1="106.68" y1="139.7" x2="106.68" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="134.62" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="PIO1_11/AD7/CT32B1_CAP1"/>
+<wire x1="170.18" y1="119.38" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
+<label x="203.2" y="119.38" size="1.778" layer="95" rot="MR0"/>
+<wire x1="170.18" y1="139.7" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
