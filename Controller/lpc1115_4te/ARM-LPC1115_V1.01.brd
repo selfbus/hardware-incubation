@@ -560,6 +560,8 @@
 <circle x="59.25" y="36" radius="0.15" width="0" layer="30"/>
 <circle x="48" y="36.2" radius="0.15" width="0" layer="30"/>
 <circle x="20.7" y="53.05" radius="0.15" width="0" layer="30"/>
+<circle x="51" y="23.15" radius="0.15" width="0" layer="30"/>
+<circle x="51" y="23.15" radius="0.15" width="0" layer="30"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2384,9 +2386,6 @@ Covered vias can be set in Masks (Limit).
 <contactref element="SV1" pad="12"/>
 <wire x1="41.9662" y1="1.5794" x2="35.4638" y2="1.5794" width="1.27" layer="1"/>
 <contactref element="C11" pad="1"/>
-<wire x1="53.0778" y1="21.817275" x2="52.064775" y2="20.80425" width="0.254" layer="1"/>
-<wire x1="52.064775" y1="20.80425" x2="49.6965" y2="20.80425" width="0.254" layer="1"/>
-<wire x1="49.6965" y1="20.80425" x2="48.454125" y2="22.046625" width="0.254" layer="1"/>
 <wire x1="48.454125" y1="22.046625" x2="48.5782" y2="22.046625" width="0.254" layer="1"/>
 <wire x1="48.05" y1="22.4" x2="48.078075" y2="22.34025" width="0.254" layer="1"/>
 <wire x1="48.078075" y1="22.34025" x2="48.5782" y2="22.046625" width="0.254" layer="1" curve="90"/>
@@ -2676,6 +2675,10 @@ Covered vias can be set in Masks (Limit).
 <via x="51.7" y="17.95" extent="1-16" drill="0.3"/>
 <contactref element="C21" pad="2"/>
 <via x="47.25" y="23.35" extent="1-16" drill="0.3"/>
+<wire x1="48.454125" y1="22.046625" x2="48.55" y2="22.046625" width="1.016" layer="1"/>
+<wire x1="48.55" y1="22.046625" x2="48.55" y2="19.2" width="1.016" layer="1"/>
+<wire x1="48.55" y1="19.2" x2="48.95" y2="19.2" width="1.016" layer="1"/>
+<wire x1="48.95" y1="19.2" x2="48.95" y2="18.85" width="1.016" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C3" pad="1"/>
