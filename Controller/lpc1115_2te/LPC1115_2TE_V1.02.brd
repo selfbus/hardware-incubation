@@ -125,7 +125,7 @@
 <wire x1="-0.0002" y1="24.1301" x2="-0.0002" y2="0.0001" width="0" layer="20"/>
 <text x="10.16" y="0.1587" size="1.778" layer="21">+</text>
 <text x="29.21" y="19.685" size="1.27" layer="25" rot="R90">LPC 2te 3.8smd</text>
-<text x="1.190575" y="0.7938" size="1.27" layer="21" font="vector" ratio="20">TOP v1.0</text>
+<text x="1.190575" y="0.7938" size="1.27" layer="21" font="vector" ratio="20">TOP v1.02</text>
 <text x="26.8286" y="11.4301" size="1.27" layer="16" font="vector" ratio="20" rot="MR0">BOT</text>
 <text x="7.62" y="50.3237" size="1.27" layer="25" rot="R90">ISP</text>
 <text x="0.4763" y="51.2763" size="0.8128" layer="25">GND</text>
