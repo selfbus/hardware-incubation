@@ -18513,8 +18513,8 @@ W = angled&lt;p&gt;
 <part name="LED4" library="led" deviceset="LED" device="SMT1206"/>
 <part name="D8" library="semicon-smd-ipc" deviceset="D-" device="SMB"/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C1206"/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C1206" value="10p"/>
-<part name="C22" library="rcl" deviceset="C-EU" device="C1206" value="22p"/>
+<part name="C21" library="rcl" deviceset="C-EU" device="C1206" value="220p"/>
+<part name="C22" library="rcl" deviceset="C-EU" device="C1206" value="100p"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
