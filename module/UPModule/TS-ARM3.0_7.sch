@@ -16444,10 +16444,10 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <attribute name="REICHELT" value="SMD-LED 0805 RT"/>
 </part>
 <part name="Q2" library="crystal" deviceset="ASF*" device="" technology="L"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="10p"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="220p"/>
 <part name="P+11" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP10" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="22p"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="100p"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
 </parts>
 <sheets>
