@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="dots" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
@@ -26,18 +26,18 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="14" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -225,7 +225,6 @@
 <circle x="6.7" y="6.7" radius="0.15" width="0" layer="29"/>
 <circle x="9.5" y="4.3" radius="0.15" width="0" layer="29"/>
 <circle x="11.9" y="6.75" radius="0.15" width="0" layer="29"/>
-<circle x="1.95" y="1.6" radius="0.15" width="0" layer="29"/>
 <circle x="7" y="1.6" radius="0.15" width="0" layer="29"/>
 <circle x="12" y="1.6" radius="0.15" width="0" layer="29"/>
 <circle x="17" y="1.6" radius="0.15" width="0" layer="29"/>
@@ -293,7 +292,6 @@
 <circle x="36.9" y="25.8" radius="0.15" width="0" layer="29"/>
 <circle x="48.95" y="18.85" radius="0.15" width="0" layer="29"/>
 <circle x="52.05" y="19.95" radius="0.15" width="0" layer="29"/>
-<circle x="53.05" y="23.2" radius="0.15" width="0" layer="29"/>
 <circle x="56.1" y="21.45" radius="0.15" width="0" layer="29"/>
 <circle x="59.75" y="19.9" radius="0.15" width="0" layer="29"/>
 <circle x="59.75" y="25.2" radius="0.15" width="0" layer="29"/>
@@ -338,7 +336,6 @@
 <circle x="46.4" y="57.5" radius="0.15" width="0" layer="29"/>
 <circle x="56.2" y="57.5" radius="0.15" width="0" layer="29"/>
 <circle x="61.25" y="57.5" radius="0.15" width="0" layer="29"/>
-<circle x="66.1" y="57.5" radius="0.15" width="0" layer="29"/>
 <circle x="61.1" y="54.55" radius="0.15" width="0" layer="29"/>
 <circle x="66.1" y="51.5" radius="0.15" width="0" layer="29"/>
 <circle x="63.25" y="50.45" radius="0.15" width="0" layer="29"/>
@@ -398,7 +395,6 @@
 <circle x="10.95" y="10.25" radius="0.15" width="0" layer="30"/>
 <circle x="1.95" y="6.5" radius="0.15" width="0" layer="30"/>
 <circle x="6.7" y="6.7" radius="0.15" width="0" layer="30"/>
-<circle x="1.95" y="1.6" radius="0.15" width="0" layer="30"/>
 <circle x="7" y="1.6" radius="0.15" width="0" layer="30"/>
 <circle x="11.9" y="6.75" radius="0.15" width="0" layer="30"/>
 <circle x="9.5" y="4.3" radius="0.15" width="0" layer="30"/>
@@ -436,7 +432,6 @@
 <circle x="66.1" y="41.45" radius="0.15" width="0" layer="30"/>
 <circle x="66.1" y="46.5" radius="0.15" width="0" layer="30"/>
 <circle x="66.1" y="51.5" radius="0.15" width="0" layer="30"/>
-<circle x="66.1" y="57.5" radius="0.15" width="0" layer="30"/>
 <circle x="61.25" y="57.5" radius="0.15" width="0" layer="30"/>
 <circle x="56.2" y="57.5" radius="0.15" width="0" layer="30"/>
 <circle x="61.1" y="54.55" radius="0.15" width="0" layer="30"/>
@@ -550,7 +545,6 @@
 <circle x="59.75" y="19.9" radius="0.15" width="0" layer="30"/>
 <circle x="59.75" y="25.2" radius="0.15" width="0" layer="30"/>
 <circle x="56.1" y="26.6" radius="0.15" width="0" layer="30"/>
-<circle x="53.05" y="23.2" radius="0.15" width="0" layer="30"/>
 <circle x="50.65" y="27.05" radius="0.15" width="0" layer="30"/>
 <circle x="47.1" y="27.2" radius="0.15" width="0" layer="30"/>
 <circle x="47.75" y="30.55" radius="0.15" width="0" layer="30"/>
@@ -562,6 +556,10 @@
 <circle x="20.7" y="53.05" radius="0.15" width="0" layer="30"/>
 <circle x="51" y="23.15" radius="0.15" width="0" layer="30"/>
 <circle x="51" y="23.15" radius="0.15" width="0" layer="30"/>
+<circle x="54.7" y="21.95" radius="0.15" width="0" layer="30"/>
+<circle x="54.7" y="21.95" radius="0.15" width="0" layer="29"/>
+<text x="63.15" y="56.55" size="1.016" layer="21">Ref</text>
+<text x="2.8" y="1.55" size="1.016" layer="21">Ref</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2525,7 +2523,6 @@ Covered vias can be set in Masks (Limit).
 <via x="66.1" y="36.5" extent="1-16" drill="0.3"/>
 <wire x1="66.1" y1="36.5" x2="66.1" y2="41.45" width="0.254" layer="1"/>
 <via x="66.1" y="41.45" extent="1-16" drill="0.3"/>
-<via x="66.1" y="57.5" extent="1-16" drill="0.3"/>
 <wire x1="66.1" y1="57.5" x2="61.25" y2="57.5" width="0.254" layer="1"/>
 <via x="61.25" y="57.5" extent="1-16" drill="0.3"/>
 <wire x1="61.25" y1="57.5" x2="56.2" y2="57.5" width="0.254" layer="1"/>
@@ -2548,7 +2545,6 @@ Covered vias can be set in Masks (Limit).
 <wire x1="1.95" y1="11.5" x2="1.95" y2="6.5" width="0.254" layer="1"/>
 <via x="1.95" y="6.5" extent="1-16" drill="0.3"/>
 <wire x1="1.95" y1="6.5" x2="1.95" y2="1.6" width="0.254" layer="1"/>
-<via x="1.95" y="1.6" extent="1-16" drill="0.3"/>
 <wire x1="1.95" y1="1.6" x2="7" y2="1.6" width="0.254" layer="1"/>
 <via x="7" y="1.6" extent="1-16" drill="0.3"/>
 <via x="22" y="1.6" extent="1-16" drill="0.3"/>
@@ -2679,6 +2675,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="48.55" y1="22.046625" x2="48.55" y2="19.2" width="1.016" layer="1"/>
 <wire x1="48.55" y1="19.2" x2="48.95" y2="19.2" width="1.016" layer="1"/>
 <wire x1="48.95" y1="19.2" x2="48.95" y2="18.85" width="1.016" layer="1"/>
+<via x="66" y="57" extent="1-16" drill="0.6"/>
+<via x="2" y="2" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="N$1">
 <contactref element="C3" pad="1"/>
