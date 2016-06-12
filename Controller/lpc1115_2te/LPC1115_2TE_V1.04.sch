@@ -16262,8 +16262,8 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="P+11" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+12" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="47k"/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="47k"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R1206" value="47k"/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R1206" value="47k"/>
 </parts>
 <sheets>
 <sheet>
