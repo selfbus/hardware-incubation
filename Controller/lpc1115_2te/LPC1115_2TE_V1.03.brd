@@ -141,8 +141,6 @@
 <circle x="18.2725" y="26.3225" radius="0.15875" width="0.4064" layer="27"/>
 <circle x="1.5875" y="56.67375" radius="0.4" width="0" layer="31"/>
 <circle x="1.5875" y="56.67375" radius="0.4" width="0" layer="32"/>
-<circle x="28.575" y="1.5875" radius="0.4" width="0" layer="32"/>
-<circle x="28.575" y="1.5875" radius="0.4" width="0" layer="31"/>
 <text x="9.2583" y="56.6242" size="1.016" layer="21">Ref</text>
 <text x="1.5702" y="3.3323" size="1.016" layer="21">Ref</text>
 <circle x="3.6576" y="54.9021" radius="0.142240625" width="0" layer="29"/>
