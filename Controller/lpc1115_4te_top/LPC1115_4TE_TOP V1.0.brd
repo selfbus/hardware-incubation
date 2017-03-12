@@ -1788,7 +1788,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="34.29045" y="3.28795" size="1.016" layer="26" font="vector" ratio="16" rot="MR0"/>
 <attribute name="VALUE" x="33.61205" y="0.68305" size="0.8128" layer="28" font="vector" ratio="14" rot="MR90"/>
 </element>
-<element name="Q3" library="transistor" package="SOT23" value="BC547C" x="25.2" y="27.5" smashed="yes" rot="MR90">
+<element name="Q3" library="transistor" package="SOT23" value="BC847C" x="25.2" y="27.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="25.84355" y="25.94405" size="1.016" layer="26" ratio="16" rot="MR270"/>
 <attribute name="VALUE" x="25.32035" y="26.80995" size="0.8128" layer="28" ratio="10" rot="MR180"/>
 </element>
@@ -1959,7 +1959,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="48.318" y="39.886" size="1.016" layer="26" ratio="16" rot="MR270"/>
 <attribute name="VALUE" x="49.664" y="40.9314" size="1.27" layer="28" ratio="10" rot="MR180"/>
 </element>
-<element name="C11" library="rcl" package="R0805M" value="(*)" x="43.6" y="8.9" smashed="yes" rot="MR180">
+<element name="C11" library="rcl" package="R0805M" value="10n(*)" x="43.6" y="8.9" smashed="yes" rot="MR180">
 <attribute name="NAME" x="48.27" y="8.72" size="1.016" layer="26" ratio="16" rot="MR0"/>
 <attribute name="VALUE" x="42.33" y="11.44" size="1.27" layer="28" rot="MR180"/>
 </element>

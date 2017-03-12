@@ -19506,7 +19506,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0805M" value="1k5"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0805M" value="10k"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805M" value="10n"/>
-<part name="Q3" library="transistor" deviceset="BC847" device="" value="BC547C"/>
+<part name="Q3" library="transistor" deviceset="BC847" device="" value="BC847C"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805M" value="10n"/>
@@ -19566,7 +19566,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805M" value="1k5"/>
 <part name="LED1" library="led" deviceset="LED" device="SMT1206"/>
 <part name="D13" library="semicon-smd-ipc" deviceset="D-" device="SMB"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0805M" value="(*)"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805M" value="10n(*)"/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0805M" value="220p"/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0805M" value="100p"/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
@@ -19655,12 +19655,13 @@ DIN A3, landscape with location and doc. field</description>
 <plain>
 <text x="314.96" y="134.62" size="1.778" layer="104">D13 mit SMAJ40C nur dann
 notwendig, wenn nicht näher
-am Stecker eine vorhanden ist.</text>
+EIB Steckverbinder eine
+vorhanden ist.</text>
 <text x="231.14" y="200.66" size="1.778" layer="104" rot="R180">Power LED (LED4+R20)
 ist optional</text>
 <text x="139.7" y="20.32" size="1.778" layer="104">Quarz versus Oszillator:
-Entweder Oszillator Q4 bestücken
-oder Quarz XTAL1 mit C5+C18
+Entweder Oszillator U3 mit C18, C22
+bestücken oder Quarz X1 mit C20+C21
 Nicht beide!
 (Quarz mit 10pF Lastkap)</text>
 <text x="45.72" y="25.4" size="1.778" layer="104">Vorsicht bei R6 und R15:
@@ -19670,7 +19671,8 @@ Nicht beide!
 <wire x1="45.72" y1="35.56" x2="48.26" y2="33.02" width="0.1524" layer="104" style="dashdot"/>
 <wire x1="88.9" y1="53.34" x2="66.04" y2="33.02" width="0.1524" layer="104" style="shortdash"/>
 <text x="7.62" y="251.46" size="1.778" layer="104">(*): Bestückung applikationsabhängig</text>
-<text x="114.3" y="187.96" size="1.778" layer="104">mögliche Dioden:
+<text x="106.68" y="187.96" size="1.778" layer="104">mögliche Dioden:
+(sinnvolle Auslegung: Überlebt einen Ausgangskurzschluss)
 RB060M SOD123 schwer zu beschaffen - 2A Iav
 MBR0540 SOD123 nicht dauerkurzschlussfest - 0,5A Iav
 PMEG6010CEH SOD123 - 1A Iav
