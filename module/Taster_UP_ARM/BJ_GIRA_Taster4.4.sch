@@ -17395,6 +17395,10 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="162.56" y1="205.74" x2="165.1" y2="208.28" width="0.1524" layer="91"/>
 <label x="149.86" y="205.74" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="218.44" y1="160.02" x2="208.28" y2="160.02" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -17511,6 +17515,10 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="223.52" y1="231.14" x2="226.06" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="P+2" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="226.06" y1="160.02" x2="236.22" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IO16" class="0">
@@ -17695,12 +17703,20 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="147.32" y1="187.96" x2="157.48" y2="187.96" width="0.1524" layer="91"/>
 <label x="149.86" y="187.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="226.06" y1="154.94" x2="236.22" y2="154.94" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="EXT5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PIO3_5/CT16B1_CAP1/TXD"/>
 <wire x1="147.32" y1="185.42" x2="157.48" y2="185.42" width="0.1524" layer="91"/>
 <label x="149.86" y="185.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="218.44" y1="154.94" x2="208.28" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXT3" class="0">
@@ -17765,30 +17781,6 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="-83.82" y1="185.42" x2="-93.98" y2="185.42" width="0.1524" layer="91"/>
 <junction x="-93.98" y="185.42"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="218.44" y1="160.02" x2="208.28" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="226.06" y1="160.02" x2="236.22" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="8"/>
-<wire x1="226.06" y1="154.94" x2="236.22" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="7"/>
-<wire x1="218.44" y1="154.94" x2="208.28" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
