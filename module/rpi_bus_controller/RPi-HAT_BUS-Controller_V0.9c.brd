@@ -9,7 +9,7 @@
 <grid distance="1.5" unitdist="mil" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
@@ -21,8 +21,8 @@
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -1260,102 +1260,136 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="D1" library="Diode" package="DO-214AC" value="SMAJ40AC" x="60.96" y="25.0825" smashed="yes">
-<attribute name="NAME" x="60.0964" y="26.9113" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="58.42" y="26.9875" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="56.0197" y="22.0599" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="D2" library="Diode" package="MINIMELF" value="1N4148" x="61.9125" y="31.4325" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.2394" y="36.6776" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="63.0555" y="33.0835" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="60.1345" y="33.0835" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="D3" library="Diode" package="MINIMELF" value="1N4148" x="58.7375" y="31.4325" smashed="yes" rot="R270">
-<attribute name="NAME" x="58.0898" y="36.5379" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="59.8805" y="33.0835" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="56.9595" y="33.0835" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="U$1" library="Connector_for_Selfbus-Projects" package="WAGO-243-211" value="WAGO-243-211" x="59.69" y="15.24" smashed="yes"/>
-<element name="JP2" library="Connector_for_Selfbus-Projects" package="RPI-B+HAT" value="RPI_B+" x="0" y="0"/>
+<element name="U$1" library="Connector_for_Selfbus-Projects" package="WAGO-243-211" value="WAGO-243-211" x="59.69" y="15.24" smashed="yes">
+<attribute name="NAME" x="56.19" y="22.29" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="56.19" y="8.052" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="JP2" library="Connector_for_Selfbus-Projects" package="RPI-B+HAT" value="RPI_B+" x="0" y="0" smashed="yes"/>
 <element name="D4" library="Diode_for_Selfbus-Projects" package="MINIMELF" value="BAT46" x="39.624" y="38.0238" smashed="yes">
-<attribute name="NAME" x="42.545" y="36.8808" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="37.973" y="39.1668" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="38.0492" y="39.1795" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="L1" library="RCL_for_Selfbus-Projects" package="11P-L1" value="150mH" x="52.3875" y="49.8475" smashed="yes" rot="MR180">
 <attribute name="NAME" x="53.3908" y="48.0187" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="L2" library="RCL_for_Selfbus-Projects" package="2200-11.43" value="220µH" x="34.2646" y="37.0078" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.7439" y="37.8333" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="33.6296" y="39.5478" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="33.7185" y="41.7576" size="1.016" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R1" library="RCL_for_Selfbus-Projects" package="R1206" value="3R3" x="46.2407" y="26.9875" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.9425" y="27.136725" size="1.27" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="47.8282" y="26.9875" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="VALUE" x="44.6532" y="26.9875" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="R2" library="RCL_for_Selfbus-Projects" package="R1206" value="3k6" x="39.1922" y="34.9377" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.910125" y="34.96945" size="1.27" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="39.1922" y="36.5252" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="VALUE" x="38.9255" y="33.3883" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="R3" library="RCL_for_Selfbus-Projects" package="R1206" value="2k2" x="41.5925" y="31.6865" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.1635" y="31.7119" size="1.27" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="41.5925" y="33.274" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="VALUE" x="41.5925" y="30.099" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="C1" library="RCL_for_Selfbus-Projects" package="PANASONIC_D" value="100µF" x="40.386" y="49.8475" smashed="yes">
-<attribute name="NAME" x="45.113" y="49.2092" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="38.636" y="50.8475" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="38.636" y="47.8725" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C2" library="RCL_for_Selfbus-Projects" package="PANASONIC_C" value="100µF" x="39.7637" y="42.814875" smashed="yes" rot="R180">
-<attribute name="NAME" x="45.8816" y="43.3891" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="41.4112" y="41.969875" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="41.7787" y="44.367375" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C3" library="RCL_for_Selfbus-Projects" package="R1206" value="470p" x="39.6875" y="22.1742" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.261675" y="22.15515" size="1.27" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="39.6875" y="20.5867" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="VALUE" x="43.5356" y="22.5044" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 <element name="IC1" library="IC_for_Selfbus-Projects" package="SOIC127P600X175-8N" value="MC34063AD" x="40.9575" y="26.9875" smashed="yes">
-<attribute name="NAME" x="39.6875" y="25.7175" size="1.27" layer="25" font="vector" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="38.4175" y="29.5275" size="1.27" layer="25" font="vector" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="31.4833" y="25.0317" size="1.27" layer="27" font="vector" ratio="10" rot="SR0"/>
 </element>
 <element name="R4" library="RCL_for_Selfbus-Projects" package="R1206" value="100k" x="58.674" y="39.243" smashed="yes">
-<attribute name="NAME" x="56.892825" y="39.201725" size="1.27" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="57.0865" y="39.243" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="56.1467" y="39.243" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="R5" library="RCL_for_Selfbus-Projects" package="R1206" value="10k" x="62.23" y="44.45" smashed="yes">
-<attribute name="NAME" x="62.2808" y="48.1076" size="1.27" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="60.6425" y="44.45" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="63.8175" y="44.45" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="R6" library="RCL_for_Selfbus-Projects" package="R1206" value="47k" x="62.23" y="39.0525" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.5282" y="38.9382" size="1.27" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="63.8175" y="39.0525" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="VALUE" x="64.5287" y="39.1668" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="R7" library="RCL_for_Selfbus-Projects" package="R1206" value="82k" x="41.0083" y="19.7358" smashed="yes" rot="R90">
-<attribute name="NAME" x="44.275375" y="19.688175" size="1.016" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="41.0083" y="18.1483" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="VALUE" x="39.6748" y="18.2753" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 <element name="R8" library="RCL_for_Selfbus-Projects" package="R1206" value="10k" x="39.3446" y="12.8651" smashed="yes">
-<attribute name="NAME" x="39.335075" y="9.30275" size="1.27" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="37.7571" y="12.8651" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="39.5605" y="9.3599" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="C4" library="RCL_for_Selfbus-Projects" package="R1206" value="100n" x="59.055" y="44.45" smashed="yes" rot="R180">
-<attribute name="NAME" x="59.001025" y="48.12665" size="1.27" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="60.6425" y="44.45" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="VALUE" x="57.4675" y="44.45" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="T1" library="Transistor_for_Selfbus-Projects" package="SOT23" value="BC856" x="34.798" y="19.431" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.80435" y="21.739225" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="32.893" y="17.526" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="34.9885" y="20.4089" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="T2" library="Transistor_for_Selfbus-Projects" package="SOT223" value="BCP52" x="52.07" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="53.2003" y="15.875" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="54.61" y="15.1892" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="54.61" y="16.5608" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="T3" library="Transistor_for_Selfbus-Projects" package="SOT23" value="BC847" x="46.6471" y="21.3614" smashed="yes">
-<attribute name="NAME" x="45.697775" y="21.491575" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="44.7421" y="23.2664" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="45.1485" y="20.9042" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R9" library="RCL_for_Selfbus-Projects" package="R1206" value="5R6" x="47.3837" y="16.2687" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.348775" y="12.982575" size="1.27" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="48.9712" y="16.2687" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="VALUE" x="48.6537" y="19.2024" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="R10" library="RCL_for_Selfbus-Projects" package="R1206" value="2k2" x="53.34" y="22.5425" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.654325" y="20.418425" size="1.27" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="53.34" y="20.955" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="VALUE" x="53.34" y="24.13" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 <element name="R11" library="RCL_for_Selfbus-Projects" package="R1206" value="1k" x="53.6575" y="29.5275" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.165375" y="27.9781" size="1.016" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="53.6575" y="31.115" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="VALUE" x="54.0385" y="31.4071" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="R12" library="RCL_for_Selfbus-Projects" package="R1206" value="2k2" x="49.6443" y="28.2575" smashed="yes" rot="R180">
-<attribute name="NAME" x="49.603025" y="24.368125" size="1.27" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="51.2318" y="28.2575" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="VALUE" x="48.0568" y="28.2575" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="R13" library="RCL_for_Selfbus-Projects" package="R1206" value="100k" x="42.7863" y="15.7607" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.10355" y="15.782925" size="1.27" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="44.3738" y="15.7607" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="VALUE" x="41.1988" y="15.7607" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="R14" library="RCL_for_Selfbus-Projects" package="R1206" value="5k6" x="45.1612" y="16.3449" smashed="yes">
-<attribute name="NAME" x="45.253275" y="13.427075" size="1.016" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="43.5737" y="16.3449" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="44.3865" y="19.3548" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="C5" library="RCL_for_Selfbus-Projects" package="R1206" value="10n" x="54.61" y="26.035" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.6608" y="24.3332" size="1.27" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="54.61" y="24.4475" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="VALUE" x="53.467" y="27.6606" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 <element name="C6" library="RCL_for_Selfbus-Projects" package="R1206" value="10n" x="44.2087" y="11.5951" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.249975" y="9.8044" size="1.27" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="44.2087" y="13.1826" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="VALUE" x="44.2087" y="10.0076" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="D5" library="Diode_for_Selfbus-Projects" package="MINIMELF" value="7V5" x="50.165" y="32.385" smashed="yes">
-<attribute name="NAME" x="52.9844" y="31.7627" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="48.514" y="33.528" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="49.4284" y="33.7693" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="D6" library="Diode_for_Selfbus-Projects" package="MINIMELF" value="1N4148" x="46.0375" y="33.9725" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.586775" y="36.680775" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="44.8945" y="32.3215" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="47.8155" y="32.3215" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="IC2" library="IC_for_Selfbus-Projects" package="SOIC127P600X175-8N" value="ADUM1201ARZ" x="30.1625" y="13.0175" smashed="yes" rot="R180">
 <attribute name="PACKAGE" value="SOIC-8" x="30.1625" y="13.0175" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1363,10 +1397,12 @@ design rules under a new name.</description>
 <attribute name="MPN" value="ADUM1201ARZ" x="30.1625" y="13.0175" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="Analog Devices" x="30.1625" y="13.0175" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1078200" x="30.1625" y="13.0175" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="28.829" y="13.0683" size="1.27" layer="25" font="vector" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="32.7025" y="10.4775" size="1.27" layer="25" font="vector" ratio="10" rot="SR180"/>
+<attribute name="VALUE" x="29.6418" y="29.464" size="1.27" layer="27" font="vector" ratio="10" rot="SR270"/>
 </element>
 <element name="ISP" library="Connector_for_Selfbus-Projects" package="1X06" value="PINHD-1X6-ISP" x="13.208" y="11.1125" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.9225" y="9.2075" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="20.9042" y="9.2837" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="20.5232" y="13.5001" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="IC3" library="IC_for_Selfbus-Projects" package="SOP65P640X110-20N" value="P89LPC922FDH,512FDH" x="17.7038" y="20.9423" smashed="yes">
 <attribute name="PACKAGE" value="TSSOP-20" x="17.7038" y="20.9423" size="1.778" layer="27" display="off"/>
@@ -1374,148 +1410,185 @@ design rules under a new name.</description>
 <attribute name="MPN" value="P89LPC922FDH,512" x="17.7038" y="20.9423" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="NXP" x="17.7038" y="20.9423" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1895067" x="17.7038" y="20.9423" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17.68475" y="19.885025" size="1.016" layer="25" font="vector" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="15.1638" y="24.7523" size="1.27" layer="25" font="vector" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="12.3825" y="-2.1209" size="1.27" layer="27" font="vector" ratio="10" rot="SR0"/>
 </element>
 <element name="C7" library="RCL_for_Selfbus-Projects" package="R1206" value="100n" x="17.1577" y="15.4305" smashed="yes" rot="R90">
-<attribute name="NAME" x="20.51685" y="15.43685" size="1.016" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="17.1577" y="13.843" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="VALUE" x="17.4244" y="16.7513" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 <element name="C8" library="RCL_for_Selfbus-Projects" package="R1206" value="100n" x="11.90625" y="14.57325" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.94435" y="16.26235" size="1.016" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="11.90625" y="12.98575" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="VALUE" x="12.21105" y="16.16075" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 <element name="C9" library="RCL_for_Selfbus-Projects" package="R1206" value="10n" x="11.553825" y="25.39365" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.37285" y="26.952575" size="1.016" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="11.553825" y="23.80615" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="VALUE" x="11.096625" y="27.01925" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 <element name="R15" library="RCL_for_Selfbus-Projects" package="R1206" value="1k" x="12.573" y="28.571825" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.89" y="27.701875" size="1.016" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="12.573" y="30.159325" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="VALUE" x="13.8303" y="27.098625" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="R16" library="RCL_for_Selfbus-Projects" package="R1206" value="1k" x="14.7955" y="30.826075" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.6055" y="30.838775" size="1.016" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="14.7955" y="32.413575" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="VALUE" x="15.1003" y="29.505275" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="D7" library="Diode_for_Selfbus-Projects" package="CHIPLED_1206" value="green" x="16.932275" y="27.104975" smashed="yes" rot="R270">
-<attribute name="NAME" x="17.865725" y="28.355925" size="1.016" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="14.8844" y="28.88615" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="NAME" x="18.202275" y="28.374975" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="15.027275" y="29.009975" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="D8" library="Diode_for_Selfbus-Projects" package="CHIPLED_1206" value="red" x="19.7104" y="27.111325" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.564475" y="28.222575" size="1.016" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="20.66925" y="26.23185" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="NAME" x="20.9804" y="28.381325" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="17.8054" y="29.016325" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="Q1" library="IC_for_Selfbus-Projects" package="ASF" value="ASF1" x="11.287125" y="21.54555" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="11.287125" y="21.54555" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="11.287125" y="21.54555" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="11.287125" y="21.54555" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="11.287125" y="21.54555" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="12.328525" y="18.73885" size="1.016" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.827125" y="24.08555" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="13.268325" y="23.93315" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R17" library="RCL_for_Selfbus-Projects" package="R1206" value="4k7" x="18.1483" y="14.652625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="14.436725" y="14.608175" size="0.8128" layer="26" font="vector" ratio="10" rot="MR180" align="center"/>
+<attribute name="NAME" x="13.0048" y="14.830425" size="1.016" layer="26" font="vector" ratio="10" rot="MR180" align="center"/>
+<attribute name="VALUE" x="17.9578" y="17.484725" size="1.016" layer="28" font="vector" ratio="10" rot="MR180" align="center"/>
 </element>
 <element name="IC4" library="IC_for_Selfbus-Projects" package="SOT23-5" value="24LC-I/OT" x="3.7846" y="21.6154" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="24LC32AT-I/OTDKR-ND" x="3.7846" y="21.6154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="1.660525" y="21.90115" size="1.016" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="3.7846" y="19.0754" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="VALUE" x="-1.2446" y="21.6789" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 <element name="R18" library="RCL_for_Selfbus-Projects" package="R1206" value="3k9" x="2.4384" y="16.5735" smashed="yes">
-<attribute name="NAME" x="0.790575" y="16.66875" size="1.016" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="0.8509" y="16.5735" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="0.5969" y="16.8402" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="R19" library="RCL_for_Selfbus-Projects" package="R1206" value="1k" x="5.461" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="1.77165" y="25.396825" size="1.016" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="5.461" y="23.8125" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="VALUE" x="5.461" y="26.9875" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 <element name="R20" library="RCL_for_Selfbus-Projects" package="R1206" value="3k9" x="5.0292" y="16.6116" smashed="yes">
-<attribute name="NAME" x="6.78815" y="16.094075" size="1.016" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="3.4417" y="16.6116" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="6.6167" y="16.6116" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="C10" library="RCL_for_Selfbus-Projects" package="R1206" value="100nF" x="6.8707" y="21.8186" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.5598" y="21.971" size="1.016" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="8.4582" y="21.8186" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="VALUE" x="8.2931" y="21.8186" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="JP3" library="Connector_for_Selfbus-Projects" package="1X02" value="" x="2.8448" y="29.8577" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.28295" y="32.8803" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="1.016" y="27.2415" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="5.3848" y="27.3177" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="IC5" library="microbuilder" package="LQFP48" value="LPC1115" x="15.875" y="40.3225" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.6155" y="41.33" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="21.1751" y="43.2965" size="0.8128" layer="25" ratio="18" rot="R270"/>
+<attribute name="VALUE" x="10.0895" y="44.6202" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C51" library="rcl" package="C1206" value="10n" x="15.992475" y="45.10405" smashed="yes" rot="MR0">
 <attribute name="REICHELT" value="X7R-G0805 10N" x="26.311225" y="64.074675" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="13.649325" y="44.472225" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="22.177375" y="45.61205" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="18.443575" y="48.96485" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C52" library="rcl" package="C1206" value="10n" x="23.89505" y="35.525075" smashed="yes" rot="R90">
 <attribute name="REICHELT" value="X7R-G0805 10N" x="10.956925" y="20.2057" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.736175" y="34.2519" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="22.62505" y="34.255075" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="22.62505" y="34.255075" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C53" library="rcl" package="C1206" value="100p" x="6.2611" y="46.28515" smashed="yes">
 <attribute name="REICHELT" value="NPO-G0805 100P" x="-9.77265" y="47.158275" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="1.165225" y="45.773975" size="1.016" layer="25"/>
+<attribute name="NAME" x="4.9911" y="47.55515" size="1.27" layer="25"/>
+<attribute name="VALUE" x="0.1905" y="45.91685" size="1.27" layer="27"/>
 </element>
 <element name="R51" library="rcl" package="R1206" value="100k" x="26.42235" y="35.51555" smashed="yes" rot="R90">
 <attribute name="REICHELT" value="SMD-0805 100K" x="31.581725" y="13.846175" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="28.58135" y="34.24555" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="25.15235" y="34.24555" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="28.96235" y="34.24555" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R52" library="rcl" package="R1206" value="100k" x="24.72055" y="53.91785" smashed="yes" rot="R180">
 <attribute name="REICHELT" value="SMD-0805 100K" x="51.946175" y="65.109725" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="29.82595" y="54.43855" size="1.016" layer="25" rot="R180"/>
+<attribute name="NAME" x="25.99055" y="52.64785" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="25.99055" y="56.45785" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C54" library="rcl" package="C1206" value="100n" x="16.297275" y="33.391475" smashed="yes" rot="R180">
 <attribute name="REICHELT" value="X7R-G0805 100N" x="42.5704" y="63.553975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="21.377275" y="33.912175" size="1.016" layer="25" rot="R180"/>
+<attribute name="NAME" x="17.567275" y="32.121475" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="18.367375" y="35.436175" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C55" library="rcl" package="C1206" value="100n" x="16.735425" y="39.52875" smashed="yes" rot="MR180">
 <attribute name="REICHELT" value="X7R-G0805 100N" x="6.416675" y="62.785625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="19.103975" y="40.160575" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="19.732625" y="38.56355" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="14.741525" y="36.84905" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="JP7" library="pinhead-2" package="2X05M" value="J" x="25.87625" y="45.56125" rot="R90">
+<element name="JP7" library="pinhead-2" package="2X05M" value="J" x="25.87625" y="45.56125" smashed="yes" rot="R90">
 <attribute name="REICHELT" value="MPE 150-3-010" x="43.894375" y="35.2425" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="27.87625" y="39.56125" size="1.016" layer="25" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="27.87625" y="52.56125" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R53" library="RCL_for_Selfbus-Projects" package="R1206" value="330" x="25.473025" y="26.924" smashed="yes">
-<attribute name="NAME" x="25.447625" y="30.8864" size="1.016" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="23.885525" y="26.924" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="27.060525" y="26.924" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="R54" library="RCL_for_Selfbus-Projects" package="R1206" value="330" x="6.2103" y="41.0718" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.667" y="41.0464" size="1.016" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="6.2103" y="39.4843" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="VALUE" x="2.4384" y="41.1734" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 <element name="D51" library="Diode_for_Selfbus-Projects" package="CHIPLED_1206" value="red" x="8.9154" y="35.2425" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.033" y="37.3507" size="1.016" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="8.3058" y="40.0431" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="NAME" x="7.6454" y="33.9725" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="10.8204" y="33.3375" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R25" library="RCL_for_Selfbus-Projects" package="R1206" value="1k" x="22.7457" y="26.8605" smashed="yes">
-<attribute name="NAME" x="22.7584" y="30.8991" size="1.016" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="21.1582" y="26.8605" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="24.3332" y="26.8605" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="C18" library="RCL_for_Selfbus-Projects" package="R1206" value="100nF" x="24.8412" y="13.6017" smashed="yes">
-<attribute name="NAME" x="24.7777" y="18.7833" size="1.016" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="23.2537" y="13.6017" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="23.114" y="13.9827" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="C19" library="RCL_for_Selfbus-Projects" package="R1206" value="100nF" x="36.0045" y="12.9159" smashed="yes">
-<attribute name="NAME" x="35.941" y="8.763" size="1.27" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="34.417" y="12.9159" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
+<attribute name="VALUE" x="36.1823" y="8.6868" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="R26" library="RCL_for_Selfbus-Projects" package="R1206" value="330" x="24.1554" y="8.8011" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.0797" y="8.7503" size="1.016" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="24.1554" y="10.3886" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="VALUE" x="25.2222" y="7.1755" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="R27" library="RCL_for_Selfbus-Projects" package="R1206" value="330" x="24.1173" y="8.7249" smashed="yes" rot="MR90">
-<attribute name="NAME" x="20.3835" y="8.6614" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0" align="center"/>
+<attribute name="NAME" x="20.0787" y="8.5852" size="1.016" layer="26" font="vector" ratio="10" rot="MR0" align="center"/>
+<attribute name="VALUE" x="22.6695" y="11.9507" size="1.016" layer="28" font="vector" ratio="10" rot="MR0" align="center"/>
 </element>
 <element name="D50" library="Diode_for_Selfbus-Projects" package="CHIPLED_1206" value="red" x="6.3627" y="35.2425" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.3975" y="34.0868" size="1.016" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="6.4389" y="37.9476" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="NAME" x="5.0927" y="33.9725" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="8.2677" y="33.3375" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R58" library="RCL_for_Selfbus-Projects" package="R1206" value="1k" x="7.7343" y="30.7086" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.9817" y="29.0195" size="1.016" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="7.7343" y="32.2961" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="VALUE" x="7.7343" y="29.1211" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="R59" library="RCL_for_Selfbus-Projects" package="R1206" value="1k" x="11.2014" y="32.0802" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.6746" y="33.3375" size="1.016" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="12.7889" y="32.0802" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="VALUE" x="9.6139" y="32.0802" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="C50" library="rcl" package="C1206" value="220p" x="20.8026" y="50.292" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.32" y="55.4482" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="22.0726" y="51.562" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="19.7485" y="56.5531" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C56" library="rcl" package="C1206" value="100p" x="18.4785" y="50.292" smashed="yes" rot="R270">
-<attribute name="NAME" x="17.9197" y="55.4101" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="19.7485" y="51.562" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="17.7673" y="56.4769" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C57" library="rcl" package="C1206" value="10n" x="9.3345" y="50.4825" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.8171" y="53.0225" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="8.0645" y="49.2125" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="7.9883" y="49.6697" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="Q4" library="crystal" package="ASF" value="ASFL" x="13.6779" y="50.6349" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="99M0411" x="4.191" y="58.4835" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ASFLM1-50.000MHZ-C-T" x="4.191" y="58.4835" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="4.191" y="58.4835" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1838931" x="4.191" y="58.4835" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="14.3129" y="55.3466" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="16.2179" y="53.1749" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="14.0208" y="57.5183" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R50" library="RCL_for_Selfbus-Projects" package="R1206" value="100" x="6.2865" y="43.815" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.5908" y="43.8277" size="1.016" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="6.2865" y="42.2275" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="VALUE" x="2.5146" y="44.2214" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 </elements>
 <signals>
