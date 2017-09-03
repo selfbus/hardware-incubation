@@ -1,24 +1,24 @@
-"Qty","Value","Package","Parts","Anmerkung","Lieferant","Bestellartikel","Artikelpreis","VPE","Postenpreis"
-1,,"Platine out6-cs-base",,,,,,,
-1,,"Gehäuse",,,"Reichelt","HUT 6-C","5,9",1,"5,9"
-1,,,"EIB-Steckeraufnahme","3D-Druck (wenn Einlötstifte P1 verwendet)",,,,,
-2,,"Elko radial D12,5mm H20mm","C1, C2","Evtl passt auch RAD 1.000/35, mir wurden kürzere als in den technischen Daten geliefert","Reichelt","RAD FR 1.000/35","0,65",1,"1,3"
-6,,"64mm PVC-Aderleitung 1,5mm² H07V-U","J1, J2, J3, J4, J5, J6","beidseitig je 6mm abisolieren","Reichelt","H07VU 1,5-25 SW","6,35",390,"0,0976923077"
-6,,"52mm Isolierschlauch Innen-D 3mm","J1, J2, J3, J4, J5, J6","Alternativartikel: 541594, 549957","Conrad",540836,"0,6",19,"0,1894736842"
-3,,"42mm Draht 1,0 bis 1,3mm Durchmesser",,"zur Fixierung der Ctrl-Platine auf der Base-Platine",,,,,
-1,,"KLEMME2POL5_08","X7","Oder P1 bestücken (Einlötstifte)","Oldis Shop","Anschlußklemme 2 polig","0,32",1,"0,32"
-6,,"KLEMME3POL5_08","X1, X2, X3, X4, X5, X6",,"Oldis Shop","Anschlußklemme 3polig","0,48",1,"2,88"
-1,,"Wannenstecker 2x5pol 2,54mm","P2",,"Reichelt","WSL 10G","0,09",1,"0,09"
-1,,"Pfostenbuchse 2x5pol 2,54mm",,,"Reichelt","PFL 10","0,09",1,"0,09"
-3,"22p","C0805","C7, C8, C10","CAPACITOR, European symbol","Reichelt","NPO-G0805 22P","0,04",1,"0,12"
-3,0,"R0805","R5, R6, R7","RESISTOR, European symbol","Reichelt","SMD-0805 0,00","0,03",1,"0,09"
-3,"100R","R0805","R1, R2, R4","RESISTOR, European symbol","Reichelt","SMD-0805 100","0,03",1,"0,09"
-5,"100n","C0805","C3, C4, C5, C6, C9","CAPACITOR, European symbol","Reichelt","X7R-G0805 100N","0,04",1,"0,2"
-1,"10k","R0805","R3","RESISTOR, European symbol","Reichelt","SMD-0805 10,0K","0,03",1,"0,03"
-2,"74HC595D",,"IC1, IC2","8-bit SHIFT REGISTER, output latch","Reichelt","SMD HC 595","0,2",1,"0,4"
-2,"EIB","Einlötstifte für die EIB-Busklemme","P1","17,5mm lange, 1mm dicke Einlötstifte (oder X7 bestücken)","Conrad",1226206,"3,1",100,"0,062"
-3,"SE1.5","42mm PVC-Aderleitung 1,5mm² H07V-U","P3, P4, P5",,"Reichelt","H07VU 1,5-25 SW","6,35",595,"0,0320168067"
-1,"SMAJ40CA","SMB","D1","DIODE","Oldis Shop","SMAJ 40 AC Überspannungsdiode","0,2",1,"0,2"
-2,"ULN2803ADW","SO18W","IC3, IC4","DRIVER ARRAY","Reichelt","ULN 2803 D","0,4",1,"0,8"
-6,"HFE10","Hong-Fa HFE10-2-12-HT-L2","K1, K2, K3, K4, K5, K6","oder das HFE20 (weniger Ansteuerleistung)","Aliexpress","HFE10-2-12-HT-L2",4,1,24
-6,"HFE20","Hong-Fa HFE20-1-012-1HD","K7, K8, K9, K10, K11, K12","oder das HFE10 (mehr Schaltvermögen)","Reichelt","HFE20-1-012-1HD","6,65",1,"39,9"
+"Qty";"Value";"Package";"Parts";"Anmerkung";"Lieferant";"Bestellartikel";"Artikelpreis";"VPE";"Postenpreis"
+1;;"Platine out6-cs-base";;;;;;;
+1;;"Gehäuse";;;"Reichelt";"HUT 6-C";5,9;1;5,9
+1;;;"EIB-Steckeraufnahme";"3D-Druck (wenn Einlötstifte P1 verwendet)";;;;;
+2;;"Elko radial D12,5mm H20mm";"C1, C2";"Evtl passt auch RAD 1.000/35, mir wurden kürzere als in den technischen Daten angegeben geliefert";"Reichelt";"RAD FR 1.000/35";0,65;1;1,3
+6;;"64mm PVC-Aderleitung 1,5mm² H07V-U";"J1, J2, J3, J4, J5, J6";"beidseitig je 6mm abisolieren";"Reichelt";"H07VU 1,5-25 SW";6,35;390;0,0976923077
+6;;"52mm Isolierschlauch Innen-D 3mm";"J1, J2, J3, J4, J5, J6";"Alternativartikel: 541594, 549957";"Conrad";540836;0,6;19;0,1894736842
+3;;"42mm Draht 1,0 bis 1,3mm Durchmesser";;"zur Fixierung der Ctrl-Platine auf der Base-Platine";;;;;
+1;;"KLEMME2POL5_08";"X7";"Oder P1 bestücken (Einlötstifte)";"Oldis Shop";"Anschlußklemme 2 polig";0,32;1;0,32
+6;;"KLEMME3POL5_08";"X1, X2, X3, X4, X5, X6";;"Oldis Shop";"Anschlußklemme 3polig";0,48;1;2,88
+1;;"Wannenstecker 2x5pol 2,54mm";"P2";;"Reichelt";"WSL 10G";0,09;1;0,09
+1;;"Pfostenbuchse 2x5pol 2,54mm";;;"Reichelt";"PFL 10";0,09;1;0,09
+3;"22p";"C0805";"C7, C8, C10";"CAPACITOR, European symbol";"Reichelt";"NPO-G0805 22P";0,04;1;0,12
+3;0;"R0805";"R5, R6, R7";"RESISTOR, European symbol";"Reichelt";"SMD-0805 0,00";0,03;1;0,09
+3;"100R";"R0805";"R1, R2, R4";"RESISTOR, European symbol";"Reichelt";"SMD-0805 100";0,03;1;0,09
+5;"100n";"C0805";"C3, C4, C5, C6, C9";"CAPACITOR, European symbol";"Reichelt";"X7R-G0805 100N";0,04;1;0,2
+1;"10k";"R0805";"R3";"RESISTOR, European symbol";"Reichelt";"SMD-0805 10,0K";0,03;1;0,03
+2;"74HC595D";;"IC1, IC2";"8-bit SHIFT REGISTER, output latch";"Reichelt";"SMD HC 595";0,2;1;0,4
+2;"EIB";"Einlötstifte für die EIB-Busklemme";"P1";"17,5mm lange, 1mm dicke Einlötstifte (oder X7 bestücken)";"Conrad";1226206;3,1;100;0,062
+3;"SE1.5";"42mm PVC-Aderleitung 1,5mm² H07V-U";"P3, P4, P5";;"Reichelt";"H07VU 1,5-25 SW";6,35;595;0,0320168067
+1;"SMAJ40CA";"SMB";"D1";"DIODE";"Oldis Shop";"SMAJ 40 AC Überspannungsdiode";0,2;1;0,2
+2;"ULN2803ADW";"SO18W";"IC3, IC4";"DRIVER ARRAY";"Reichelt";"ULN 2803 D";0,4;1;0,8
+6;"HFE10";"Hong-Fa HFE10-2-12-HT-L2";"K1, K2, K3, K4, K5, K6";"oder das HFE20 (weniger Ansteuerleistung)";"Aliexpress";"HFE10-2-12-HT-L2";4;1;24
+6;"HFE20";"Hong-Fa HFE20-1-012-1HD";"K7, K8, K9, K10, K11, K12";"oder das HFE10 (mehr Schaltvermögen)";"Reichelt";"HFE20-1-012-1HD";6,65;1;39,9
