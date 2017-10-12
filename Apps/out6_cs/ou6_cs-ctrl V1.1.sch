@@ -16703,7 +16703,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
-<part name="R29" library="rcl" deviceset="R-EU_" device="R0805M" value="100k"/>
+<part name="R29" library="rcl" deviceset="R-EU_" device="R0805M" value="-"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
