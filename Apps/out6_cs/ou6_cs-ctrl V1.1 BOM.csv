@@ -17,7 +17,7 @@ Qty,Value,Package,Parts,Anmerkung,Lieferant,Bestellartikel,Artikelpreis,VPE,Post
 1,74LV4051D,SOIC-16-N,U1,"alternativ: Conrad 1114074 ,1187364",Conrad,1048019,"0,68",1,"0,68",Erstaunlich schlecht zu beziehen
 1,BCP52,SOT223,Q1,PNP Transistor,Reichelt,BCP 52-16 SMD,"0,14",1,"0,14",
 1,TS4148,D0805,D20,DIODE,Reichelt,TS 4148-0805,"0,04",1,"0,04",
-2,100k,R0805,"R26, R29",,Reichelt,SMD-0805 100K,"0,03",1,"0,06",
+1,100k,R0805,R26,,Reichelt,SMD-0805 100K,"0,03",1,"0,03",
 3,3k 1%,R0805,"R23, R24, R28",,Reichelt,"SMD-0805 3,30K","0,03",1,"0,09",
 3,1500µF 35V,E5-13-30,"C14, C15, C16",,Reichelt,RAD FR 1.500/35,"0,54",1,"1,62",
 3,OPA365AIDBV,SOT23-5,"U2, U3, U4",,Conrad,1071682,"2,12",1,"6,36",
@@ -28,4 +28,4 @@ Qty,Value,Package,Parts,Anmerkung,Lieferant,Bestellartikel,Artikelpreis,VPE,Post
 12,100n,C0805,"C1, C2, C3, C4, C5, C6, C7, C10, C11, C12, C17, C18",,Reichelt,X7R-G0805 100N,"0,04",1,"0,48",
 18,BAV99,SOT23,"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18",2 Diodes - Cathode-Anode|Cathode-Anode,Reichelt,BAV 99 SMD,"0,04",1,"0,72",
 ,,,,,,,,,,
-,,,,,,,,,"27,82 je Baugruppe zzgl Abstandshalter",
+,,,,,,,,,"26,57 je Baugruppe zzgl Platine und Abstandshalter",
