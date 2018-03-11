@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -18276,8 +18277,8 @@ MAX3223-MAX3243.pdf</description>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="1K2"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C1206"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="10nf"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
 <part name="Q4" library="crystal" deviceset="ASF*" device="" technology="L"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R1206" value="3k3"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
@@ -18323,7 +18324,7 @@ MAX3223-MAX3243.pdf</description>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="diode" deviceset="DIODE-" device="MINIMELF" value="BAT46"/>
 <part name="R28" library="rcl" deviceset="R-EU_" device="M1206" value="3R3"/>
-<part name="C9" library="rcl" deviceset="CPOL-EU" device="E2.5-5"/>
+<part name="C9" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="100µ / 6.3V"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="MINIMELF" value="1N4148"/>
 <part name="D3" library="semicon-smd-ipc" deviceset="D-" device="SMB" value="SMAJ40AC"/>
 <part name="PAD1" library="wirepad" deviceset="SMD2" device=""/>
