@@ -8,7 +8,7 @@
 </settings>
 <grid distance="3.125" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -26,18 +26,18 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -76,34 +76,34 @@
 <layer number="102" name="bot_pads" color="7" fill="5" visible="no" active="yes"/>
 <layer number="103" name="Mechanik" color="7" fill="1" visible="no" active="yes"/>
 <layer number="104" name="S_DOKU" color="7" fill="1" visible="no" active="yes"/>
-<layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tBridges" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="tBPL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="bBPL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="MPL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tBridges" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="tBPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="bBPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="MPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="121" name="sName" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="sName" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
-<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="yes"/>
@@ -275,13 +275,12 @@
 <circle x="23.55" y="30" radius="2.82" width="0" layer="39"/>
 <text x="10.19" y="67.99" size="1.778" layer="103">Einheit ist mm Aussenmasse (70.8x70.8)</text>
 <text x="16.05" y="71.4" size="1.778" layer="103">Material Edelstahl 0,8mm</text>
-<text x="5.55625" y="-6.905575" size="1.4224" layer="21" font="vector">BJ_Taster5.0</text>
+<text x="1.349375" y="0.7938" size="1.4224" layer="21" font="vector">BJ_Taster5.0</text>
 <text x="27.781225" y="45.08505" size="1.4224" layer="21" font="vector" rot="R90">+EIB-</text>
 <rectangle x1="6.79" y1="42.4" x2="14.68" y2="46.4" layer="39"/>
 <rectangle x1="45.45" y1="42.4" x2="53.04" y2="46.4" layer="39"/>
 <rectangle x1="7.66" y1="14.48" x2="15.15" y2="18.38" layer="39"/>
 <rectangle x1="45.45" y1="13.6" x2="53.04" y2="17.6" layer="39"/>
-<rectangle x1="46.2756" y1="41.1163" x2="47.3869" y2="42.3863" layer="30"/>
 <rectangle x1="15.7956" y1="36.9888" x2="17.6213" y2="37.7825" layer="30"/>
 <rectangle x1="12.591" y1="31.2441" x2="14.2578" y2="31.8591" layer="42" rot="R90"/>
 <rectangle x1="44.45" y1="20.1613" x2="45.8788" y2="22.3838" layer="29"/>
@@ -1091,169 +1090,287 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="28.3366" y="19.09615" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R14" library="rcl" package="R1206" value="1k" x="35.7631" y="26.0236" smashed="yes" rot="MR0">
-<attribute name="NAME" x="35.1597" y="26.2777" size="1.27" layer="26" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="38.1824" y="23.325" size="1.27" layer="28" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="37.937825" y="23.499575" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="37.150525" y="23.325" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="C4" library="rcl" package="C1206" value="100n" x="16.88135" y="21.421175" rot="R90"/>
-<element name="D11" library="diode" package="MINIMELF" value="1N4148" x="17.003125" y="42.08495" rot="MR180"/>
-<element name="R1" library="rcl" package="R1206" value="680" x="24.413025" y="29.778075" rot="MR180"/>
+<element name="C4" library="rcl" package="C1206" value="100n" x="16.88135" y="21.421175" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.531975" y="21.421175" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="19.42135" y="20.151175" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="D11" library="diode" package="MINIMELF" value="1N4148" x="17.003125" y="42.08495" smashed="yes" rot="MR180">
+<attribute name="NAME" x="14.32025" y="44.672575" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="11.939" y="44.736075" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="R1" library="rcl" package="R1206" value="680" x="24.413025" y="29.778075" smashed="yes" rot="MR180">
+<attribute name="NAME" x="23.619275" y="28.190575" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="23.143025" y="32.318075" size="1.27" layer="28" rot="MR180"/>
+</element>
 <element name="X1" library="con-wago-508" package="W237-132" value="" x="21.09" y="47.75" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.408" y="43.94" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="28.075" y="43.94" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C8" library="rcl" package="E3,5-8" value="100µ35V" x="50.265" y="37.2975" smashed="yes">
-<attribute name="NAME" x="49.9401" y="41.8534" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="46.5133" y="31.8389" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="51.289475" y="41.139025" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="47.4658" y="39.379525" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="L2" library="inductor-neosid" package="BS11" value="150mH" x="10.33" y="38.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="7.2585" y="33.4061" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="13" y="41.46" size="1.27" layer="27" rot="R180"/>
+<attribute name="NAME" x="16.862875" y="41.740475" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="13.396875" y="42.491875" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="D3" library="semicon-smd-ipc" package="SMB" value="" x="14.0625" y="46.46" rot="R90"/>
-<element name="IC1" library="microbuilder" package="LQFP48" value="LPC1115" x="13.49375" y="27.860625" rot="MR90"/>
-<element name="C104" library="rcl" package="C1206" value="100n" x="43.815" y="47.228125" rot="MR180">
+<element name="D3" library="semicon-smd-ipc" package="SMB" value="" x="14.0625" y="46.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.0305" y="44.174" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="17.6439" y="44.174" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="IC1" library="microbuilder" package="LQFP48" value="LPC1115" x="13.49375" y="27.860625" smashed="yes" rot="MR90">
+<attribute name="NAME" x="18.79385" y="24.886625" size="0.8128" layer="26" ratio="18" rot="MR90"/>
+<attribute name="VALUE" x="7.55585" y="24.934525" size="0.4064" layer="28" ratio="10" rot="MR90"/>
+</element>
+<element name="C104" library="rcl" package="C1206" value="100n" x="43.815" y="47.228125" smashed="yes" rot="MR180">
 <attribute name="REICHELT" value="X7R-G0805 100N" x="16.113125" y="20.6375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="41.830625" y="46.116875" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="46.275625" y="46.593125" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="IC100" library="Stefan_selfbus" package="SOT23-6" value="BD9G101" x="46.116875" y="32.385" rot="R90"/>
-<element name="L100" library="Stefan_selfbus" package="PIS2812" value="6.8µH" x="46.434375" y="27.066875">
+<element name="IC100" library="Stefan_selfbus" package="SOT23-6" value="BD9G101" x="46.116875" y="32.385" smashed="yes" rot="R90">
+<attribute name="VALUE" x="43.708875" y="30.353" size="1.016" layer="27" ratio="10" rot="R90"/>
+<attribute name="NAME" x="43.54175" y="30.82925" size="1.016" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="L100" library="Stefan_selfbus" package="PIS2812" value="6.8µH" x="46.434375" y="27.066875" smashed="yes">
 <attribute name="REICHELT" value="L-1616FPS 6,8µ" x="6.985" y="33.3375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="44.0775" y="24.46375" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="43.520625" y="23.114375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C100" library="rcl" package="C1206" value="4.7µF/50V" x="45.4025" y="40.401875">
+<element name="C100" library="rcl" package="C1206" value="4.7µF/50V" x="45.4025" y="40.401875" smashed="yes">
 <attribute name="REICHELT" value="X7R-G1206 4,7/50" x="-2.69875" y="53.6575" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.0525" y="41.11625" size="1.27" layer="25"/>
+<attribute name="VALUE" x="35.2425" y="40.64" size="1.27" layer="27"/>
 </element>
-<element name="C103" library="rcl" package="C1206" value="22µ/6V" x="48.656875" y="17.62125">
-<attribute name="REICHELT" value="X5R-G0805 22/6" x="-9.445625" y="24.844375" size="1.778" layer="27" display="off"/>
+<element name="C103" library="rcl" package="C1206" value="22µ/6V" x="49.8475" y="19.923125" smashed="yes">
+<attribute name="REICHELT" value="X5R-G0805 22/6" x="-8.255" y="27.14625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="47.9425" y="17.065625" size="1.27" layer="25"/>
+<attribute name="VALUE" x="46.593125" y="16.906875" size="1.27" layer="27"/>
 </element>
-<element name="C102" library="rcl" package="C1206" value="15nF" x="52.308125" y="32.385" rot="R180">
-<attribute name="REICHELT" value="X7R-G0805 15N" x="87.3125" y="23.891875" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C102" library="rcl" package="C1206" value="15nF" x="51.27625" y="31.90875" smashed="yes" rot="R180">
+<attribute name="REICHELT" value="X7R-G0805 15N" x="86.280625" y="23.415625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="55.72125" y="34.44875" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="52.625625" y="34.29" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R101" library="rcl" package="R1206" value="2k4" x="45.24375" y="43.4975" rot="MR0">
+<element name="R101" library="rcl" package="R1206" value="2k4" x="45.24375" y="43.4975" smashed="yes" rot="MR0">
 <attribute name="REICHELT" value="SMD 1/4W 2,4K" x="110.8075" y="38.655625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="51.59375" y="42.8625" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="50.64125" y="42.941875" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R102" library="rcl" package="R1206" value="680R" x="44.92625" y="37.30625">
+<element name="R102" library="rcl" package="R1206" value="680R" x="44.92625" y="37.30625" smashed="yes">
 <attribute name="REICHELT" value="SMD-0805 680" x="21.510625" y="33.734375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="42.306875" y="34.76625" size="1.27" layer="25"/>
+<attribute name="VALUE" x="43.65625" y="34.76625" size="1.27" layer="27"/>
 </element>
-<element name="C101" library="rcl" package="C1206" value="220n" x="45.24375" y="40.64" rot="MR0">
+<element name="C101" library="rcl" package="C1206" value="220n" x="45.24375" y="40.64" smashed="yes" rot="MR0">
 <attribute name="REICHELT" value="Y5R-G0603 220N" x="74.45375" y="31.035625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="46.910625" y="38.25875" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="46.910625" y="37.7825" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="D100" library="diode" package="SMA" value="MBRS1100" x="52.07" y="27.066875" rot="R270">
-<attribute name="REICHELT" value="MBRS 1100 SMD" x="17.62125" y="95.72625" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="D100" library="diode" package="SMA" value="MBRS1100" x="51.1175" y="27.066875" smashed="yes" rot="R270">
+<attribute name="REICHELT" value="MBRS 1100 SMD" x="16.66875" y="95.72625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="53.355625" y="28.864375" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="53.888125" y="31.48375" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R9" library="rcl" package="R1206" value="47k" x="10.31875" y="38.814375" rot="R270">
+<element name="R9" library="rcl" package="R1206" value="47k" x="10.31875" y="38.814375" smashed="yes" rot="R270">
 <attribute name="REICHELT" value="SMD-0805 47,0K" x="12.779375" y="84.851875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="9.68375" y="43.18" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="5.55625" y="40.3225" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R8" library="rcl" package="R1206" value="82k" x="11.668125" y="34.925">
+<element name="R8" library="rcl" package="R1206" value="82k" x="11.668125" y="34.925" smashed="yes">
 <attribute name="REICHELT" value="SMD-0805 82,0K" x="-29.36875" y="31.353125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="14.049375" y="32.940625" size="1.27" layer="25"/>
+<attribute name="VALUE" x="14.12875" y="33.3375" size="1.27" layer="27"/>
 </element>
-<element name="C2" library="rcl" package="C1206" value="100n" x="39.52875" y="30.48" rot="MR90">
+<element name="C2" library="rcl" package="C1206" value="100n" x="39.52875" y="30.48" smashed="yes" rot="MR90">
 <attribute name="REICHELT" value="X7R-G0805 100N" x="11.826875" y="-23.733125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="37.1475" y="30.63875" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="39.52875" y="24.050625" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C1" library="rcl" package="C1206" value="10n" x="36.03625" y="29.289375" rot="MR0">
+<element name="C1" library="rcl" package="C1206" value="10n" x="36.03625" y="29.289375" smashed="yes" rot="MR0">
 <attribute name="REICHELT" value="X7R-G0805 10N" x="67.071875" y="7.62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="33.655" y="29.289375" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="35.2425" y="31.988125" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R6" library="rcl" package="R1206" value="5k6" x="41.275" y="29.36875" rot="R180">
+<element name="R6" library="rcl" package="R1206" value="5k6" x="41.275" y="29.36875" smashed="yes" rot="R180">
 <attribute name="REICHELT" value="SMD-0805 5,60K" x="72.310625" y="51.038125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="42.545" y="28.09875" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="42.545" y="31.90875" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C11" library="rcl" package="C1206" value="10n" x="30.7975" y="48.73625">
+<element name="C11" library="rcl" package="C1206" value="10n" x="30.7975" y="48.73625" smashed="yes">
 <attribute name="REICHELT" value="X7R-G0805 10N" x="-20.240625" y="15.001875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="29.924375" y="46.275625" size="1.27" layer="25"/>
+<attribute name="VALUE" x="29.5275" y="46.19625" size="1.27" layer="27"/>
 </element>
-<element name="R5" library="rcl" package="R1206" value="100k" x="49.291875" y="21.351875" rot="MR180">
+<element name="R5" library="rcl" package="R1206" value="100k" x="49.291875" y="21.351875" smashed="yes" rot="MR180">
 <attribute name="REICHELT" value="SMD-0805 100K" x="1.349375" y="67.15125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="51.990625" y="21.986875" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="49.68875" y="19.923125" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R4" library="rcl" package="R1206" value="2k2" x="49.2125" y="23.891875" rot="MR180">
+<element name="R4" library="rcl" package="R1206" value="2k2" x="49.2125" y="23.891875" smashed="yes" rot="MR180">
 <attribute name="REICHELT" value="SMD-0805 2,20K" x="-21.828125" y="69.69125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="51.831875" y="25.161875" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="51.831875" y="25.638125" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R3" library="rcl" package="R1206" value="1k" x="50.64125" y="28.336875" rot="MR90">
+<element name="R3" library="rcl" package="R1206" value="1k" x="50.64125" y="28.336875" smashed="yes" rot="MR90">
 <attribute name="REICHELT" value="SMD-0805 1,00K" x="-1.190625" y="-37.703125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="51.91125" y="27.066875" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="52.308125" y="28.178125" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R10" library="rcl" package="R1206" value="10k" x="37.068125" y="33.9725" rot="MR0">
+<element name="R10" library="rcl" package="R1206" value="10k" x="37.068125" y="33.9725" smashed="yes" rot="MR0">
 <attribute name="REICHELT" value="SMD-0805 10,0K" x="88.10625" y="-17.859375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="34.76625" y="34.210625" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="37.94125" y="35.480625" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C9" library="rcl" package="C1206" value="10n" x="16.98625" y="37.226875" rot="R270">
 <attribute name="REICHELT" value="X7R-G0805 10N" x="-46.910625" y="83.264375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="T3" library="transistor" package="SOT23" value="BC847" x="44.529375" y="22.463125" rot="MR0">
+<element name="T3" library="transistor" package="SOT23" value="BC847" x="44.529375" y="22.463125" smashed="yes" rot="MR0">
 <attribute name="REICHELT" value="BC 847C SMD" x="81.676875" y="-66.83375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="43.100625" y="22.621875" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="46.116875" y="18.970625" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C3" library="rcl" package="C1206" value="10n" x="43.02125" y="43.65625">
+<element name="C3" library="rcl" package="C1206" value="10n" x="43.02125" y="43.65625" smashed="yes">
 <attribute name="REICHELT" value="X7R-G0805 10N" x="6.985" y="-33.575625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.496875" y="42.70375" size="1.27" layer="25"/>
+<attribute name="VALUE" x="37.465" y="43.259375" size="1.27" layer="27"/>
 </element>
-<element name="R2" library="rcl" package="R1206" value="1k" x="44.211875" y="26.431875" rot="MR180">
+<element name="R2" library="rcl" package="R1206" value="1k" x="44.211875" y="26.431875" smashed="yes" rot="MR180">
 <attribute name="REICHELT" value="SMD-0805 1,00K" x="-16.8275" y="109.69625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="39.6875" y="26.67" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="41.75125" y="25.0825" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R7" library="rcl" package="R1206" value="5R6" x="46.19625" y="17.700625" rot="MR0">
+<element name="R7" library="rcl" package="R1206" value="5R6" x="46.19625" y="17.700625" smashed="yes" rot="MR0">
 <attribute name="REICHELT" value="SMD-0805 5,60" x="82.2325" y="-65.56375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="43.4975" y="17.145" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="47.46625" y="15.160625" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R11" library="rcl" package="R1206" value="100k" x="45.799375" y="46.83125" rot="R180">
+<element name="R11" library="rcl" package="R1206" value="100k" x="45.799375" y="46.83125" smashed="yes" rot="R180">
 <attribute name="REICHELT" value="SMD-0805 100K" x="99.298125" y="148.193125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="45.958125" y="49.53" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="47.069375" y="49.37125" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R12" library="rcl" package="R1206" value="10k" x="37.226875" y="50.64125" rot="R180">
+<element name="R12" library="rcl" package="R1206" value="10k" x="37.226875" y="50.64125" smashed="yes" rot="R180">
 <attribute name="REICHELT" value="SMD-0805 10,0K" x="93.265625" y="145.970625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="38.496875" y="49.37125" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="38.496875" y="53.18125" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="D6" library="diode" package="MINIMELF" value="7V5" x="35.2425" y="44.92625" rot="MR270">
+<element name="D6" library="diode" package="MINIMELF" value="7V5" x="35.2425" y="44.92625" smashed="yes" rot="MR270">
 <attribute name="REICHELT" value="SMD ZF 7,5" x="136.36625" y="114.379375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="34.020125" y="46.656625" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="33.68675" y="47.926625" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R13" library="rcl" package="R1206" value="91k" x="30.00375" y="49.291875" rot="MR180">
+<element name="R13" library="rcl" package="R1206" value="91k" x="30.00375" y="49.291875" smashed="yes" rot="MR180">
 <attribute name="REICHELT" value="SMD 1/4W 91K" x="-31.035625" y="162.321875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="27.305" y="48.021875" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="24.765" y="50.561875" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C5" library="rcl" package="C1206" value="100p" x="41.195625" y="50.00625" rot="MR0">
+<element name="C5" library="rcl" package="C1206" value="100p" x="41.195625" y="50.00625" smashed="yes" rot="MR0">
 <attribute name="REICHELT" value="NPO-G0805 100P" x="72.23125" y="-81.12125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="42.70375" y="51.435" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="41.671875" y="51.27625" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R15" library="rcl" package="R1206" value="100k" x="44.370625" y="20.16125" rot="R90">
+<element name="R15" library="rcl" package="R1206" value="100k" x="44.370625" y="20.16125" smashed="yes" rot="R90">
 <attribute name="REICHELT" value="SMD-0805 100K" x="181.530625" y="-38.89375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="43.100625" y="18.89125" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="43.02125" y="18.653125" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R16" library="rcl" package="R1206" value="100k" x="39.21125" y="9.8425">
+<element name="R16" library="rcl" package="R1206" value="100k" x="39.21125" y="9.8425" smashed="yes">
 <attribute name="REICHELT" value="SMD-0805 100K" x="-25.4" y="-133.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="37.94125" y="11.1125" size="1.27" layer="25"/>
+<attribute name="VALUE" x="37.62375" y="11.350625" size="1.27" layer="27"/>
 </element>
-<element name="D2" library="diode" package="MINIMELF" value="1N4148" x="39.925625" y="46.83125" rot="R180">
+<element name="D2" library="diode" package="MINIMELF" value="1N4148" x="39.925625" y="46.83125" smashed="yes" rot="R180">
 <attribute name="REICHELT" value="1N 4148 SMD" x="94.45625" y="177.95875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="41.417875" y="49.418875" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="42.76725" y="49.323625" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R17" library="rcl" package="R1206" value="10k" x="30.00375" y="52.54625" rot="MR0">
+<element name="R17" library="rcl" package="R1206" value="10k" x="30.00375" y="52.54625" smashed="yes" rot="MR0">
 <attribute name="REICHELT" value="SMD-0805 10,0K" x="96.04375" y="-90.4875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="35.639375" y="51.831875" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="27.78125" y="52.784375" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="D5" library="diode" package="MINIMELF" value="1N4148" x="37.544375" y="44.92625" rot="MR270">
+<element name="D5" library="diode" package="MINIMELF" value="1N4148" x="37.544375" y="44.92625" smashed="yes" rot="MR270">
 <attribute name="REICHELT" value="1N 4148 SMD" x="180.578125" y="106.918125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="40.211375" y="46.180375" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="40.03675" y="46.815375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C12" library="rcl" package="C1206" value="100n" x="50.720625" y="21.669375" rot="R180">
-<attribute name="REICHELT" value="X7R-G0805 100N" x="116.36375" y="194.706875" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C12" library="rcl" package="C1206" value="100n" x="49.926875" y="22.38375" smashed="yes" rot="R180">
+<attribute name="REICHELT" value="X7R-G0805 100N" x="115.57" y="195.42125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="47.545625" y="23.574375" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="52.625625" y="24.368125" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="T2" library="transistor-pnp" package="SOT223" value="BCP52" x="44.211875" y="32.464375" rot="MR0">
+<element name="T2" library="transistor-pnp" package="SOT223" value="BCP52" x="44.211875" y="32.464375" smashed="yes" rot="MR0">
 <attribute name="REICHELT" value="BCP 52-16 SMD" x="104.93375" y="-164.544375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="48.41875" y="34.6583" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="46.593125" y="31.22295" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="T1" library="transistor-pnp" package="SOT23-BEC" value="BC856" x="10.31875" y="32.305625" rot="R270">
+<element name="T1" library="transistor-pnp" package="SOT23-BEC" value="BC856" x="10.31875" y="32.305625" smashed="yes" rot="R270">
 <attribute name="REICHELT" value="BC 856B SMD" x="-176.05375" y="71.27875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="11.7475" y="31.59125" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="12.779375" y="30.876875" size="1.27" layer="27"/>
 </element>
-<element name="C13" library="rcl" package="C1206" value="100n" x="20.399375" y="10.874375" rot="R90">
+<element name="C13" library="rcl" package="C1206" value="100n" x="20.399375" y="10.874375" smashed="yes" rot="R90">
 <attribute name="REICHELT" value="X7R-G0805 100N" x="206.771875" y="-68.42125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="19.129375" y="9.604375" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="22.939375" y="9.604375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C6" library="rcl" package="C1206" value="10n" x="30.7975" y="43.259375" rot="MR180">
+<element name="C6" library="rcl" package="C1206" value="10n" x="30.7975" y="43.259375" smashed="yes" rot="MR180">
 <attribute name="REICHELT" value="X7R-G0805 10N" x="-18.176875" y="223.599375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="29.21" y="41.989375" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="29.5275" y="45.799375" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="D7" library="diode" package="MINIMELF" value="3V6" x="6.746875" y="33.099375" rot="R90">
+<element name="D7" library="diode" package="MINIMELF" value="3V6" x="6.746875" y="33.099375" smashed="yes" rot="R90">
 <attribute name="REICHELT" value="SMD ZF 3,6" x="181.054375" y="-49.37125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="5.36575" y="31.52775" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="5.508625" y="29.543375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C10" library="rcl" package="C1206" value="100n" x="49.2125" y="43.4975" rot="R180">
+<element name="C10" library="rcl" package="C1206" value="100n" x="49.2125" y="43.4975" smashed="yes" rot="R180">
 <attribute name="REICHELT" value="X7R-G0805 100N" x="117.078125" y="247.80875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="50.95875" y="45.87875" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="50.64125" y="45.87875" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP7" library="pinhead-2" package="2X05M" value="J" x="30.1625" y="9.445625">
 <attribute name="REICHELT" value="MPE 150-3-010" x="-20.875625" y="-171.529375" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R20" library="rcl" package="R1206" value="10k" x="30.718125" y="43.259375">
+<element name="R20" library="rcl" package="R1206" value="10k" x="30.718125" y="43.259375" smashed="yes">
 <attribute name="REICHELT" value="SMD-0805 1,00K" x="-19.764375" y="-166.21125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="29.448125" y="44.529375" size="1.27" layer="25"/>
+<attribute name="VALUE" x="29.448125" y="40.719375" size="1.27" layer="27"/>
 </element>
-<element name="R21" library="rcl" package="R1206" value="10k" x="23.574375" y="41.513125">
+<element name="R21" library="rcl" package="R1206" value="10k" x="23.574375" y="41.513125" smashed="yes">
 <attribute name="REICHELT" value="SMD-0805 1,00K" x="-31.90875" y="-173.99" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.145625" y="39.131875" size="1.27" layer="25"/>
+<attribute name="VALUE" x="22.304375" y="38.973125" size="1.27" layer="27"/>
 </element>
-<element name="R22" library="rcl" package="R1206" value="3,3k" x="8.016875" y="26.19375">
+<element name="R22" library="rcl" package="R1206" value="3,3k" x="8.016875" y="26.19375" smashed="yes">
 <attribute name="REICHELT" value="SMD-0805 3,30K" x="-81.5975" y="-217.090625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.746875" y="27.46375" size="1.27" layer="25"/>
+<attribute name="VALUE" x="6.50875" y="27.543125" size="1.27" layer="27"/>
 </element>
-<element name="R23" library="rcl" package="R1206" value="3,3k" x="8.016875" y="23.65375">
+<element name="R23" library="rcl" package="R1206" value="3,3k" x="8.016875" y="23.65375" smashed="yes">
 <attribute name="REICHELT" value="SMD-0805 3,30K" x="-86.756875" y="-225.663125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.50875" y="20.47875" size="1.27" layer="25"/>
+<attribute name="VALUE" x="7.064375" y="21.034375" size="1.27" layer="27"/>
 </element>
-<element name="Q2" library="crystal" package="ASF" value="" x="19.288125" y="15.795625" rot="R180"/>
-<element name="C7" library="rcl" package="C1206" value="220p" x="11.90625" y="19.923125"/>
-<element name="C14" library="rcl" package="C1206" value="100p" x="15.5575" y="16.03375" rot="R270"/>
-<element name="C15" library="rcl" package="C1206" value="10n" x="30.718125" y="51.1175"/>
+<element name="Q2" library="crystal" package="ASF" value="" x="19.288125" y="15.795625" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.70125" y="19.288125" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="21.828125" y="19.605625" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="C7" library="rcl" package="C1206" value="220p" x="11.90625" y="19.923125" smashed="yes">
+<attribute name="NAME" x="10.556875" y="17.224375" size="1.27" layer="25"/>
+<attribute name="VALUE" x="8.73125" y="17.4625" size="1.27" layer="27"/>
+</element>
+<element name="C14" library="rcl" package="C1206" value="100p" x="15.5575" y="16.03375" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.938125" y="17.62125" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="12.7" y="18.018125" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C15" library="rcl" package="C1206" value="10n" x="30.718125" y="51.1175" smashed="yes">
+<attribute name="NAME" x="29.448125" y="52.3875" size="1.27" layer="25"/>
+<attribute name="VALUE" x="29.36875" y="52.466875" size="1.27" layer="27"/>
+</element>
 <element name="JP1" library="pinhead-2" package="2X05M" value="J" x="30.00375" y="30.00375" rot="R90">
 <attribute name="REICHELT" value="MPE 150-3-010" x="30.00375" y="30.00375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -1298,12 +1415,7 @@ design rules under a new name.</description>
 <contactref element="C13" pad="1"/>
 <contactref element="R21" pad="1"/>
 <contactref element="JP1" pad="5"/>
-<wire x1="52.120625" y1="21.669375" x2="52.120625" y2="25.01625" width="0.8128" layer="1"/>
-<wire x1="52.120625" y1="25.01625" x2="52.07" y2="25.066875" width="0.8128" layer="1"/>
-<wire x1="50.056875" y1="17.62125" x2="50.056875" y2="18.38625" width="0.8128" layer="1"/>
-<wire x1="50.056875" y1="18.38625" x2="52.07" y2="20.399375" width="0.8128" layer="1"/>
-<wire x1="52.07" y1="20.399375" x2="52.07" y2="21.61875" width="0.8128" layer="1"/>
-<wire x1="52.07" y1="21.61875" x2="52.120625" y2="21.669375" width="0.8128" layer="1"/>
+<wire x1="52.120625" y1="25.01625" x2="51.1175" y2="25.066875" width="0.8128" layer="1"/>
 <wire x1="30.00375" y1="47.78375" x2="30.00375" y2="51.12425" width="0.4064" layer="16"/>
 <wire x1="30.00375" y1="51.12425" x2="28.58175" y2="52.54625" width="0.4064" layer="16"/>
 <wire x1="45.215" y1="47.228125" x2="45.215" y2="48.526875" width="0.4064" layer="16"/>
@@ -1323,8 +1435,6 @@ design rules under a new name.</description>
 <wire x1="50.713875" y1="21.351875" x2="51.27625" y2="21.351875" width="0.6096" layer="16"/>
 <wire x1="51.27625" y1="21.351875" x2="53.18125" y2="23.256875" width="0.6096" layer="16"/>
 <via x="53.18125" y="23.256875" extent="1-16" drill="0.3"/>
-<wire x1="53.18125" y1="23.256875" x2="53.18125" y2="22.73" width="0.6096" layer="1"/>
-<wire x1="53.18125" y1="22.73" x2="52.120625" y2="21.669375" width="0.6096" layer="1"/>
 <polygon width="0.254" layer="1">
 <vertex x="2.2225" y="56.99125"/>
 <vertex x="59.3725" y="56.99125"/>
@@ -1365,6 +1475,14 @@ design rules under a new name.</description>
 <via x="25.0825" y="44.29125" extent="1-16" drill="0.3"/>
 <via x="25.638125" y="48.26" extent="1-16" drill="0.3"/>
 <via x="26.51125" y="48.26" extent="1-16" drill="0.3"/>
+<wire x1="53.18125" y1="23.256875" x2="53.18125" y2="23.955625" width="1.016" layer="1"/>
+<wire x1="53.18125" y1="23.955625" x2="51.1175" y2="25.066875" width="1.016" layer="1"/>
+<wire x1="51.326875" y1="22.38375" x2="51.326875" y2="20.0025" width="1.016" layer="1"/>
+<wire x1="51.326875" y1="20.0025" x2="51.2475" y2="19.923125" width="1.016" layer="1"/>
+<wire x1="51.326875" y1="22.38375" x2="51.326875" y2="24.32375" width="1.6764" layer="1"/>
+<wire x1="51.326875" y1="24.32375" x2="51.1175" y2="25.066875" width="1.6764" layer="1"/>
+<via x="46.19625" y="32.385" extent="1-16" drill="0.3"/>
+<via x="48.339375" y="32.385" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$9">
 <contactref element="LED6" pad="A"/>
@@ -1413,22 +1531,24 @@ design rules under a new name.</description>
 <contactref element="C102" pad="1"/>
 <contactref element="L100" pad="P$1"/>
 <contactref element="D100" pad="C"/>
-<wire x1="52.07" y1="29.066875" x2="52.403125" y2="29.066875" width="0.8128" layer="1"/>
-<wire x1="52.403125" y1="29.066875" x2="53.6575" y2="30.32125" width="0.8128" layer="1"/>
-<wire x1="53.6575" y1="30.32125" x2="53.6575" y2="32.334375" width="0.8128" layer="1"/>
-<wire x1="53.6575" y1="32.334375" x2="53.708125" y2="32.385" width="0.8128" layer="1"/>
-<wire x1="52.07" y1="29.066875" x2="46.459375" y2="29.066875" width="0.6096" layer="1"/>
+<wire x1="51.1175" y1="29.066875" x2="52.403125" y2="29.066875" width="0.8128" layer="1"/>
+<wire x1="52.403125" y1="29.066875" x2="52.54625" y2="29.924375" width="0.8128" layer="1"/>
+<wire x1="52.54625" y1="29.924375" x2="52.54625" y2="31.064375" width="0.8128" layer="1"/>
+<wire x1="52.54625" y1="31.064375" x2="52.54625" y2="31.9375" width="0.8128" layer="1"/>
+<wire x1="52.54625" y1="31.9375" x2="52.67625" y2="31.90875" width="0.8128" layer="1"/>
+<wire x1="51.1175" y1="29.066875" x2="46.459375" y2="29.066875" width="1.27" layer="1"/>
 <wire x1="46.459375" y1="29.066875" x2="46.434375" y2="29.091875" width="0.6096" layer="1"/>
 <wire x1="44.966875" y1="31.435" x2="44.966875" y2="30.559375" width="0.6096" layer="1"/>
 <wire x1="44.966875" y1="30.559375" x2="46.434375" y2="29.091875" width="0.6096" layer="1"/>
+<wire x1="52.54625" y1="29.05125" x2="52.54625" y2="31.064375" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$19">
 <contactref element="C102" pad="2"/>
 <contactref element="IC100" pad="1"/>
 <wire x1="47.266875" y1="31.435" x2="48.2625" y2="31.435" width="0.4064" layer="1"/>
-<wire x1="48.2625" y1="31.435" x2="49.291875" y2="32.464375" width="0.4064" layer="1"/>
-<wire x1="49.291875" y1="32.464375" x2="50.82875" y2="32.464375" width="0.4064" layer="1"/>
-<wire x1="50.82875" y1="32.464375" x2="50.908125" y2="32.385" width="0.4064" layer="1"/>
+<wire x1="48.2625" y1="31.435" x2="49.450625" y2="31.4325" width="0.4064" layer="1"/>
+<wire x1="49.450625" y1="31.4325" x2="49.955625" y2="32.22625" width="0.4064" layer="1"/>
+<wire x1="49.955625" y1="32.22625" x2="49.87625" y2="31.90875" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC100" pad="3"/>
@@ -2009,23 +2129,15 @@ design rules under a new name.</description>
 <contactref element="C15" pad="2"/>
 <contactref element="R14" pad="1"/>
 <contactref element="JP1" pad="4"/>
-<wire x1="46.434375" y1="25.041875" x2="46.434375" y2="23.647" width="0.8128" layer="1"/>
-<wire x1="46.434375" y1="23.647" x2="44.370625" y2="21.58325" width="0.8128" layer="1"/>
 <wire x1="43.84375" y1="40.64" x2="43.84375" y2="43.4755" width="0.4064" layer="16"/>
 <wire x1="43.84375" y1="43.4755" x2="43.82175" y2="43.4975" width="0.4064" layer="16"/>
 <wire x1="43.82175" y1="43.4975" x2="43.82175" y2="43.887625" width="0.4064" layer="16"/>
 <wire x1="43.82175" y1="43.887625" x2="42.624375" y2="45.085" width="0.4064" layer="16"/>
 <wire x1="42.624375" y1="45.085" x2="42.624375" y2="47.01875" width="0.4064" layer="16"/>
 <wire x1="42.624375" y1="47.01875" x2="42.415" y2="47.228125" width="0.4064" layer="16"/>
-<wire x1="47.256875" y1="17.62125" x2="47.256875" y2="15.348125" width="0.4064" layer="1"/>
+<wire x1="48.4475" y1="19.923125" x2="47.256875" y2="15.348125" width="0.4064" layer="1"/>
 <wire x1="47.256875" y1="15.348125" x2="41.75125" y2="9.8425" width="0.4064" layer="1"/>
 <wire x1="41.75125" y1="9.8425" x2="40.63325" y2="9.8425" width="0.4064" layer="1"/>
-<wire x1="49.320625" y1="21.669375" x2="48.412" y2="21.669375" width="0.4064" layer="1"/>
-<wire x1="48.412" y1="21.669375" x2="46.434375" y2="23.647" width="0.4064" layer="1"/>
-<wire x1="49.320625" y1="21.669375" x2="49.320625" y2="20.825" width="0.4064" layer="1"/>
-<wire x1="49.320625" y1="20.825" x2="47.228125" y2="18.7325" width="0.4064" layer="1"/>
-<wire x1="47.228125" y1="18.7325" x2="47.228125" y2="17.65" width="0.4064" layer="1"/>
-<wire x1="47.228125" y1="17.65" x2="47.256875" y2="17.62125" width="0.4064" layer="1"/>
 <wire x1="44.370625" y1="21.58325" x2="44.370625" y2="22.06625" width="0.4064" layer="1"/>
 <via x="38.655625" y="26.035" extent="1-16" drill="0.3"/>
 <wire x1="38.655625" y1="26.035" x2="37.1965" y2="26.035" width="0.4064" layer="16"/>
@@ -2129,6 +2241,12 @@ design rules under a new name.</description>
 <wire x1="20.29125" y1="14.39875" x2="20.538125" y2="14.645625" width="0.6096" layer="1"/>
 <wire x1="23.70125" y1="8.445625" x2="23.70125" y2="8.9725" width="0.4064" layer="1"/>
 <wire x1="23.70125" y1="8.9725" x2="20.399375" y2="12.274375" width="0.4064" layer="1"/>
+<wire x1="44.370625" y1="22.06625" x2="44.370625" y2="22.978125" width="1.016" layer="1"/>
+<wire x1="44.370625" y1="22.978125" x2="46.434375" y2="25.041875" width="1.016" layer="1"/>
+<wire x1="46.434375" y1="25.041875" x2="46.434375" y2="24.47625" width="1.016" layer="1"/>
+<wire x1="46.434375" y1="24.47625" x2="48.526875" y2="22.38375" width="1.016" layer="1"/>
+<wire x1="48.526875" y1="22.38375" x2="48.526875" y2="20.0025" width="1.016" layer="1"/>
+<wire x1="48.526875" y1="20.0025" x2="48.4475" y2="19.923125" width="1.016" layer="1"/>
 </signal>
 <signal name="IO16">
 <contactref element="IC1" pad="45"/>
