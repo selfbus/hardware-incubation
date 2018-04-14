@@ -15387,8 +15387,8 @@ Source: www.kingbright.com</description>
 </class>
 </classes>
 <parts>
-<part name="D1" library="diode" deviceset="ES2D" device="" value="BYG21M - SMA"/>
-<part name="TPUART1" library="tpuart-actiface" deviceset="TP-UART" device=""/>
+<part name="D1" library="diode" deviceset="ES2D" device="" value="BYG21M - SMA (BYG21M-E3/TR)"/>
+<part name="EIB-TP-UART-IC" library="tpuart-actiface" deviceset="TP-UART" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C1206" value="47n"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C1206" value="47n"/>
@@ -15398,20 +15398,19 @@ Source: www.kingbright.com</description>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49UP" value="4,915MHz"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="M1206" value="330"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="GND4" library="supply1" deviceset="GNDINT" device=""/>
 <part name="VCC1" library="supply1" deviceset="VCCINT" device=""/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="M1206" value="1k"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="M1206" value="1k"/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
 <part name="SUPPLY3" library="supply2" deviceset="VCC" device=""/>
-<part name="D4" library="diode" deviceset="BZW04XXB" device="" value="SMAJ43CA"/>
+<part name="D4" library="diode" deviceset="BZW04XXB" device="" value="SMAJ43CA+"/>
 <part name="C5" library="resistor" deviceset="CPOL-EU" device="CT7343" value="100µ"/>
 <part name="C3" library="resistor" deviceset="CPOL-EU" device="CT7343" value="6.8µ"/>
 <part name="R6" library="resistor" deviceset="R-EU_" device="R2512" value="68/1W"/>
-<part name="UART" library="con-lstb" deviceset="MA13-2" device="" value="RasPI UART"/>
-<part name="OK3" library="optocoupler" deviceset="6N137" device=""/>
-<part name="OK4" library="optocoupler" deviceset="6N137" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="KA-3528ASYC" value="RED"/>
+<part name="RASPI-GPIO" library="con-lstb" deviceset="MA13-2" device="" value="RasPI UART"/>
+<part name="OPTOCOUPLER-2" library="optocoupler" deviceset="6N137" device=""/>
+<part name="OPTOCOUPLER-1" library="optocoupler" deviceset="6N137" device=""/>
+<part name="KNX-POWER-LED" library="led" deviceset="LED" device="KA-3528ASYC" value="RED"/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="M1206" value="4,7k"/>
 <part name="KNX_WAGO_243" library="wago-243" deviceset="243-211" device="">
 <attribute name="KNX" value=""/>
@@ -15424,6 +15423,9 @@ Source: www.kingbright.com</description>
 <part name="RESN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="SAVE" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="U$1" library="wago-243" deviceset="243-211" device=""/>
+<part name="RX-LED" library="led" deviceset="LED" device="KA-3528ASYC" value="RXD"/>
+<part name="TX-LED" library="led" deviceset="LED" device="KA-3528ASYC" value="-"/>
+<part name="GND5" library="supply1" deviceset="GNDINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15432,22 +15434,21 @@ Source: www.kingbright.com</description>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="-15.24" y="25.4"/>
-<instance part="TPUART1" gate="G$1" x="30.48" y="2.54" rot="R270"/>
-<instance part="GND1" gate="1" x="-17.78" y="-33.02"/>
+<instance part="EIB-TP-UART-IC" gate="G$1" x="30.48" y="2.54" rot="R270"/>
+<instance part="GND1" gate="1" x="-18.034" y="-72.136"/>
 <instance part="C1" gate="G$1" x="0" y="17.78"/>
 <instance part="C2" gate="G$1" x="22.86" y="27.94"/>
-<instance part="SUPPLY1" gate="G$1" x="27.94" y="50.8"/>
-<instance part="GND2" gate="1" x="48.26" y="38.1"/>
-<instance part="SUPPLY2" gate="G$1" x="25.4" y="-38.1" rot="R180"/>
+<instance part="SUPPLY1" gate="G$1" x="27.94" y="71.12"/>
+<instance part="GND2" gate="1" x="63.5" y="38.1"/>
+<instance part="SUPPLY2" gate="G$1" x="25.4" y="-71.12" rot="R180"/>
 <instance part="Q1" gate="G$1" x="35.56" y="-40.64" rot="R90"/>
-<instance part="R2" gate="G$1" x="48.26" y="22.86" rot="R180"/>
-<instance part="GND3" gate="1" x="55.88" y="7.62"/>
-<instance part="GND4" gate="G$1" x="86.36" y="5.08"/>
-<instance part="VCC1" gate="G$1" x="86.36" y="50.8"/>
-<instance part="R3" gate="G$1" x="93.98" y="33.02" rot="R270"/>
-<instance part="R4" gate="G$1" x="53.34" y="-10.16" rot="R270"/>
-<instance part="R5" gate="G$1" x="101.6" y="-15.24" rot="R180"/>
-<instance part="SUPPLY3" gate="G$1" x="60.96" y="35.56"/>
+<instance part="R2" gate="G$1" x="68.58" y="25.4" rot="R90"/>
+<instance part="GND3" gate="1" x="73.66" y="-73.66"/>
+<instance part="VCC1" gate="G$1" x="129.54" y="73.66"/>
+<instance part="R3" gate="G$1" x="147.32" y="25.4" rot="R270"/>
+<instance part="R4" gate="G$1" x="73.66" y="7.62"/>
+<instance part="R5" gate="G$1" x="114.3" y="-15.24" rot="R180"/>
+<instance part="SUPPLY3" gate="G$1" x="76.2" y="35.56"/>
 <instance part="D4" gate="1" x="-25.4" y="-2.54" rot="R90"/>
 <instance part="C5" gate="G$1" x="20.32" y="35.56" rot="R180"/>
 <instance part="C3" gate="G$1" x="40.64" y="45.72"/>
@@ -15455,23 +15456,26 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="-9.1186" y="-8.89" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-4.318" y="-8.89" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="UART" gate="G$1" x="134.62" y="5.08" rot="R180"/>
-<instance part="OK3" gate="A" x="71.12" y="-17.78" rot="R180"/>
-<instance part="OK4" gate="A" x="73.66" y="17.78"/>
-<instance part="LED1" gate="G$1" x="76.2" y="43.18" rot="R180"/>
-<instance part="R1" gate="G$1" x="71.12" y="33.02" rot="R180"/>
-<instance part="KNX_WAGO_243" gate="G$1" x="-45.72" y="-5.08">
-<attribute name="KNX" x="-45.72" y="-5.08" size="1.778" layer="96" display="name"/>
+<instance part="RASPI-GPIO" gate="G$1" x="187.96" y="5.08" rot="R180"/>
+<instance part="OPTOCOUPLER-2" gate="A" x="91.44" y="-17.78" rot="R180"/>
+<instance part="OPTOCOUPLER-1" gate="A" x="88.9" y="17.78"/>
+<instance part="KNX-POWER-LED" gate="G$1" x="91.44" y="43.18" rot="R180"/>
+<instance part="R1" gate="G$1" x="86.36" y="33.02" rot="R180"/>
+<instance part="KNX_WAGO_243" gate="G$1" x="-50.8" y="-7.62">
+<attribute name="KNX" x="-42.037" y="-3.429" size="1.778" layer="96" display="name"/>
 </instance>
-<instance part="KNX" gate="-1" x="-55.88" y="2.54"/>
-<instance part="KNX" gate="-2" x="-55.88" y="0"/>
-<instance part="TXD" gate="G$1" x="106.68" y="-45.72" rot="R270"/>
-<instance part="GND" gate="G$1" x="114.3" y="-45.72" rot="R270"/>
-<instance part="3.3V" gate="G$1" x="129.54" y="-38.1"/>
-<instance part="RXD" gate="G$1" x="129.54" y="-45.72"/>
-<instance part="RESN" gate="G$1" x="50.8" y="-55.88"/>
-<instance part="SAVE" gate="G$1" x="55.88" y="60.96" rot="R270"/>
-<instance part="U$1" gate="G$1" x="-40.64" y="5.08" rot="R180"/>
+<instance part="KNX" gate="-1" x="-76.2" y="0" rot="R180"/>
+<instance part="KNX" gate="-2" x="-76.2" y="-5.08" rot="R180"/>
+<instance part="TXD" gate="G$1" x="142.24" y="-73.66" rot="R90"/>
+<instance part="GND" gate="G$1" x="152.4" y="-73.66" rot="R90"/>
+<instance part="3.3V" gate="G$1" x="172.72" y="-73.66" rot="R90"/>
+<instance part="RXD" gate="G$1" x="162.56" y="-73.66" rot="R90"/>
+<instance part="RESN" gate="G$1" x="58.42" y="-73.66" rot="R90"/>
+<instance part="SAVE" gate="G$1" x="48.26" y="-73.66" rot="R90"/>
+<instance part="U$1" gate="G$1" x="-55.88" y="2.54" rot="R180"/>
+<instance part="RX-LED" gate="G$1" x="147.32" y="38.1" rot="R180"/>
+<instance part="TX-LED" gate="G$1" x="68.58" y="0"/>
+<instance part="GND5" gate="G$1" x="127" y="-73.66"/>
 </instances>
 <busses>
 </busses>
@@ -15479,7 +15483,7 @@ Source: www.kingbright.com</description>
 <net name="VB+" class="1">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="TPUART1" gate="G$1" pin="VB+"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="VB+"/>
 <wire x1="-12.7" y1="25.4" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="0" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
@@ -15496,18 +15500,21 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="-17.78" y1="25.4" x2="-25.4" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="25.4" x2="-35.56" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="25.4" x2="-40.64" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-25.4" y="25.4"/>
 <wire x1="-25.4" y1="25.4" x2="-25.4" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="D4" gate="1" pin="2"/>
-<wire x1="-25.4" y1="25.4" x2="-38.1" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="KNX_WAGO_243" gate="G$1" pin="L2"/>
 <wire x1="-25.4" y1="25.4" x2="-43.18" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="25.4" x2="-43.18" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="KNX_WAGO_243" gate="G$1" pin="L2"/>
+<wire x1="-25.4" y1="25.4" x2="-48.26" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="25.4" x2="-48.26" y2="0" width="0.1524" layer="91"/>
 <pinref part="KNX" gate="-1" pin="S"/>
-<wire x1="-58.42" y1="2.54" x2="-43.18" y2="2.54" width="0.1524" layer="91"/>
-<junction x="-43.18" y="2.54"/>
+<wire x1="-73.66" y1="0" x2="-73.66" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="5.08" x2="-58.42" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="5.08" x2="-58.42" y2="0" width="0.1524" layer="91"/>
+<junction x="-58.42" y="0"/>
 <pinref part="U$1" gate="G$1" pin="L1"/>
+<wire x1="-58.42" y1="0" x2="-48.26" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="1">
@@ -15516,49 +15523,52 @@ Source: www.kingbright.com</description>
 <wire x1="-25.4" y1="-30.48" x2="-17.78" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="-5.08" x2="-25.4" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="-25.4" y="-30.48"/>
-<pinref part="TPUART1" gate="G$1" pin="VB-"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="VB-"/>
+<wire x1="-18.034" y1="-69.596" x2="-17.78" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-30.48" x2="17.78" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-30.48" x2="17.78" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-17.78" y="-30.48"/>
+<junction x="-18.034" y="-69.596"/>
 <junction x="17.78" y="-30.48"/>
-<pinref part="TPUART1" gate="G$1" pin="TESTMODE"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="TESTMODE"/>
 <wire x1="17.78" y1="-30.48" x2="30.48" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-30.48" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="D4" gate="1" pin="1"/>
 <pinref part="KNX_WAGO_243" gate="G$1" pin="L1"/>
-<wire x1="-25.4" y1="-30.48" x2="-43.18" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="-30.48" x2="-43.18" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-43.18" y="-2.54"/>
+<wire x1="-25.4" y1="-30.48" x2="-48.26" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="-30.48" x2="-48.26" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-58.42" y="-5.08"/>
 <pinref part="KNX" gate="-2" pin="S"/>
-<wire x1="-58.42" y1="0" x2="-43.18" y2="0" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="0" x2="-43.18" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-5.08" x2="-73.66" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-7.62" x2="-58.42" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-7.62" x2="-58.42" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="L2"/>
+<wire x1="-58.42" y1="-5.08" x2="-48.26" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="20.32" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="TPUART1" gate="G$1" pin="TSTIN"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="TSTIN"/>
 <wire x1="33.02" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="17.78" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
 <junction x="33.02" y="40.64"/>
 <pinref part="C5" gate="G$1" pin="-"/>
 <pinref part="C3" gate="G$1" pin="-"/>
 <junction x="40.64" y="40.64"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="76.2" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="48.26" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="KNX-POWER-LED" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="48.26" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="OK3" gate="A" pin="GND"/>
-<wire x1="60.96" y1="-15.24" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="OPTOCOUPLER-2" gate="A" pin="GND"/>
+<wire x1="81.28" y1="-15.24" x2="73.66" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="60.96" y1="10.16" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-15.24" x2="73.66" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXO" class="0">
 <segment>
-<pinref part="TPUART1" gate="G$1" pin="TXO"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="TXO"/>
 <wire x1="-7.62" y1="-10.16" x2="-7.62" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="-22.86" x2="20.32" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-22.86" x2="20.32" y2="-12.7" width="0.1524" layer="91"/>
@@ -15568,7 +15578,7 @@ Source: www.kingbright.com</description>
 <net name="RXIN" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="TPUART1" gate="G$1" pin="RXIN"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="RXIN"/>
 <wire x1="0" y1="12.7" x2="0" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="0" y1="-17.78" x2="22.86" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-17.78" x2="22.86" y2="-12.7" width="0.1524" layer="91"/>
@@ -15577,60 +15587,60 @@ Source: www.kingbright.com</description>
 <net name="CSA" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="TPUART1" gate="G$1" pin="CSA"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="CSA"/>
 <wire x1="22.86" y1="22.86" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="1">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<pinref part="TPUART1" gate="G$1" pin="DIV"/>
-<wire x1="27.94" y1="48.26" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="DIV"/>
+<wire x1="27.94" y1="68.58" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
 <junction x="27.94" y="22.86"/>
 <wire x1="27.94" y1="22.86" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="TPUART1" gate="G$1" pin="VCC"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="VCC"/>
 <wire x1="27.94" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="22.86" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="TPUART1" gate="G$1" pin="VIF"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="VIF"/>
 <wire x1="27.94" y1="22.86" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="22.86" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="68.58" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
-<junction x="27.94" y="48.26"/>
+<junction x="27.94" y="68.58"/>
 <pinref part="C3" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<pinref part="TPUART1" gate="G$1" pin="MODE0"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="MODE0"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 <wire x1="25.4" y1="-12.7" x2="25.4" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="25.4" y="-20.32"/>
-<wire x1="25.4" y1="-20.32" x2="25.4" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="TPUART1" gate="G$1" pin="MODE1"/>
+<wire x1="25.4" y1="-20.32" x2="25.4" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="MODE1"/>
 <wire x1="27.94" y1="-20.32" x2="27.94" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-20.32" x2="27.94" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="27.94" y="-20.32"/>
-<wire x1="27.94" y1="-20.32" x2="58.42" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="58.42" y="-20.32"/>
-<wire x1="58.42" y1="-22.86" x2="58.42" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="-20.32" x2="58.42" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-20.32" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-5.08" x2="53.34" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="OK3" gate="A" pin="VCC"/>
-<wire x1="60.96" y1="-22.86" x2="58.42" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="OK3" gate="A" pin="VE"/>
-<wire x1="60.96" y1="-20.32" x2="58.42" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-20.32" x2="68.58" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="68.58" y="-20.32"/>
+<wire x1="68.58" y1="-22.86" x2="68.58" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-20.32" x2="68.58" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="OPTOCOUPLER-2" gate="A" pin="VCC"/>
+<wire x1="81.28" y1="-22.86" x2="68.58" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="OPTOCOUPLER-2" gate="A" pin="VE"/>
+<wire x1="81.28" y1="-20.32" x2="68.58" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="TX-LED" gate="G$1" pin="C"/>
+<wire x1="68.58" y1="-20.32" x2="68.58" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
-<pinref part="OK4" gate="A" pin="A"/>
-<wire x1="60.96" y1="33.02" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="OPTOCOUPLER-1" gate="A" pin="A"/>
+<wire x1="76.2" y1="33.02" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VSP" class="0">
 <segment>
-<pinref part="TPUART1" gate="G$1" pin="VSP"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="VSP"/>
 <wire x1="20.32" y1="17.78" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="30.48" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
@@ -15642,7 +15652,7 @@ Source: www.kingbright.com</description>
 <net name="X1" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="1"/>
-<pinref part="TPUART1" gate="G$1" pin="X1"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="X1"/>
 <wire x1="35.56" y1="-43.18" x2="33.02" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-43.18" x2="33.02" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
@@ -15650,158 +15660,165 @@ Source: www.kingbright.com</description>
 <net name="X2" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="2"/>
-<pinref part="TPUART1" gate="G$1" pin="X2"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="X2"/>
 <wire x1="35.56" y1="-38.1" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXD" class="0">
 <segment>
-<pinref part="TPUART1" gate="G$1" pin="TXD"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="TXD"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="17.78" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="17.78" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCCINT" class="1">
 <segment>
-<wire x1="86.36" y1="48.26" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="43.18" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="71.12" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="43.18" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="VCC1" gate="G$1" pin="VCCINT"/>
-<junction x="86.36" y="43.18"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="22.86" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="43.18" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="43.18" x2="88.9" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="88.9" y="43.18"/>
-<junction x="93.98" y="43.18"/>
-<wire x1="93.98" y1="43.18" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="43.18" x2="165.1" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-17.78" x2="165.1" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="OK4" gate="A" pin="VE"/>
-<wire x1="83.82" y1="20.32" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="OK4" gate="A" pin="VCC"/>
-<wire x1="83.82" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
-<junction x="86.36" y="22.86"/>
-<pinref part="OK3" gate="A" pin="A"/>
-<wire x1="88.9" y1="-22.86" x2="83.82" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-17.78" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="UART" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="20.32" x2="127" y2="20.32" width="0.1524" layer="91"/>
-<junction x="121.92" y="-17.78"/>
-<wire x1="121.92" y1="-17.78" x2="121.92" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="129.54" y="43.18"/>
+<wire x1="129.54" y1="22.86" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="43.18" x2="147.32" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="43.18" x2="137.16" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="137.16" y="43.18"/>
+<junction x="147.32" y="43.18"/>
+<wire x1="147.32" y1="43.18" x2="210.82" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="43.18" x2="210.82" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-17.78" x2="210.82" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="OPTOCOUPLER-1" gate="A" pin="VE"/>
+<wire x1="99.06" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="OPTOCOUPLER-1" gate="A" pin="VCC"/>
+<wire x1="99.06" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
+<junction x="129.54" y="22.86"/>
+<pinref part="OPTOCOUPLER-2" gate="A" pin="A"/>
+<wire x1="137.16" y1="-22.86" x2="104.14" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-17.78" x2="172.72" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="RASPI-GPIO" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="20.32" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
+<junction x="172.72" y="-17.78"/>
 <pinref part="3.3V" gate="G$1" pin="P"/>
-<wire x1="121.92" y1="-38.1" x2="132.08" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GNDINT" class="1">
-<segment>
-<pinref part="GND4" gate="G$1" pin="GNDINT"/>
-<wire x1="86.36" y1="15.24" x2="86.36" y2="7.62" width="0.1524" layer="91"/>
-<junction x="86.36" y="7.62"/>
-<wire x1="86.36" y1="7.62" x2="111.76" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="7.62" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="-22.86" x2="149.86" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="OK4" gate="A" pin="GND"/>
-<wire x1="86.36" y1="15.24" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="UART" gate="G$1" pin="6"/>
-<wire x1="142.24" y1="15.24" x2="149.86" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="15.24" x2="149.86" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="111.76" y="-22.86"/>
-<wire x1="111.76" y1="-22.86" x2="111.76" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="GND" gate="G$1" pin="P"/>
-<wire x1="111.76" y1="-40.64" x2="114.3" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="-43.18" x2="114.3" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-17.78" x2="172.72" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="RX-LED" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="RASPI_RXD" class="0">
 <segment>
-<wire x1="93.98" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="17.78" x2="162.56" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="17.78" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="17.78" x2="119.38" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="30.48" x2="152.4" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="30.48" x2="152.4" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="OK4" gate="A" pin="VO"/>
-<wire x1="83.82" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
-<junction x="93.98" y="17.78"/>
-<pinref part="UART" gate="G$1" pin="10"/>
-<wire x1="152.4" y1="10.16" x2="142.24" y2="10.16" width="0.1524" layer="91"/>
-<junction x="119.38" y="17.78"/>
-<wire x1="119.38" y1="17.78" x2="119.38" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="17.78" x2="147.32" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="17.78" x2="162.56" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="30.48" x2="205.74" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="30.48" x2="205.74" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="OPTOCOUPLER-1" gate="A" pin="VO"/>
+<wire x1="99.06" y1="17.78" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
+<junction x="147.32" y="17.78"/>
+<pinref part="RASPI-GPIO" gate="G$1" pin="10"/>
+<wire x1="205.74" y1="10.16" x2="195.58" y2="10.16" width="0.1524" layer="91"/>
+<junction x="162.56" y="17.78"/>
+<wire x1="162.56" y1="17.78" x2="162.56" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="RXD" gate="G$1" pin="P"/>
-<wire x1="119.38" y1="-45.72" x2="132.08" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RXD" class="0">
 <segment>
-<pinref part="TPUART1" gate="G$1" pin="RXD"/>
-<wire x1="53.34" y1="-17.78" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="RXD"/>
+<wire x1="78.74" y1="-17.78" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-17.78" x2="40.64" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="-15.24" x2="53.34" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="OK3" gate="A" pin="VO"/>
-<wire x1="60.96" y1="-17.78" x2="53.34" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="53.34" y="-17.78"/>
+<wire x1="78.74" y1="7.62" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="OPTOCOUPLER-2" gate="A" pin="VO"/>
+<wire x1="81.28" y1="-17.78" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="78.74" y="-17.78"/>
 </segment>
 </net>
 <net name="TXD1" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="15.24" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="OK4" gate="A" pin="C"/>
-<wire x1="53.34" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="OPTOCOUPLER-1" gate="A" pin="C"/>
+<wire x1="68.58" y1="20.32" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="15.24" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RASPI_TXD" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="-15.24" x2="106.68" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="-25.4" x2="152.4" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="-25.4" x2="152.4" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="-2.54" x2="147.32" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="-2.54" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="UART" gate="G$1" pin="8"/>
-<wire x1="147.32" y1="12.7" x2="142.24" y2="12.7" width="0.1524" layer="91"/>
-<junction x="106.68" y="-25.4"/>
-<wire x1="106.68" y1="-25.4" x2="106.68" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="-15.24" x2="142.24" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="-15.24" x2="142.24" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="-25.4" x2="205.74" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-25.4" x2="205.74" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-2.54" x2="200.66" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-2.54" x2="200.66" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="RASPI-GPIO" gate="G$1" pin="8"/>
+<wire x1="200.66" y1="12.7" x2="195.58" y2="12.7" width="0.1524" layer="91"/>
+<junction x="142.24" y="-25.4"/>
+<wire x1="142.24" y1="-25.4" x2="142.24" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="TXD" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="OK3" gate="A" pin="C"/>
-<wire x1="96.52" y1="-15.24" x2="83.82" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="OPTOCOUPLER-2" gate="A" pin="C"/>
+<wire x1="109.22" y1="-15.24" x2="104.14" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="76.2" y1="33.02" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="KNX-POWER-LED" gate="G$1" pin="A"/>
+<wire x1="91.44" y1="33.02" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESN" class="0">
 <segment>
-<wire x1="48.26" y1="25.4" x2="48.26" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-40.64" x2="71.12" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-40.64" x2="71.12" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="25.4" x2="58.42" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="RESN" gate="G$1" pin="P"/>
-<wire x1="71.12" y1="-55.88" x2="53.34" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="TPUART1" gate="G$1" pin="RESN"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="RESN"/>
 <wire x1="38.1" y1="17.78" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SAVE" class="0">
 <segment>
-<pinref part="TPUART1" gate="G$1" pin="SAVE"/>
+<pinref part="EIB-TP-UART-IC" gate="G$1" pin="SAVE"/>
 <wire x1="30.48" y1="17.78" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="SAVE" gate="G$1" pin="P"/>
-<wire x1="55.88" y1="27.94" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="27.94" x2="48.26" y2="-71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="1">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="RX-LED" gate="G$1" pin="A"/>
+<wire x1="147.32" y1="35.56" x2="147.32" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="1">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="TX-LED" gate="G$1" pin="A"/>
+<wire x1="68.58" y1="7.62" x2="68.58" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GNDINT" class="1">
+<segment>
+<wire x1="127" y1="15.24" x2="152.4" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="15.24" x2="152.4" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="-22.86" x2="203.2" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="OPTOCOUPLER-1" gate="A" pin="GND"/>
+<pinref part="RASPI-GPIO" gate="G$1" pin="6"/>
+<wire x1="127" y1="15.24" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="15.24" x2="203.2" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="15.24" x2="203.2" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="152.4" y="-22.86"/>
+<pinref part="GND" gate="G$1" pin="P"/>
+<wire x1="152.4" y1="-22.86" x2="152.4" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="G$1" pin="GNDINT"/>
+<wire x1="127" y1="15.24" x2="127" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="127" y="15.24"/>
 </segment>
 </net>
 </nets>
