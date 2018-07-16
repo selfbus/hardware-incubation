@@ -15309,7 +15309,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BC848" prefix="T">
+<deviceset name="BC847C" prefix="T">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -16231,8 +16231,8 @@ DDEController.pdf</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
 <part name="D5" library="diode" deviceset="SUPPRESSOR-" device="SMBJ" value="SMAJ40"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R1206" value="5k6"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R1206" value="100k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R1206" value="22k"/>
@@ -16245,7 +16245,7 @@ DDEController.pdf</description>
 <part name="D4" library="diode" deviceset="DIODE-" device="MINIMELF" value="1N4148"/>
 <part name="Q3" library="transistor-pnp" deviceset="FZT753SMD" device="" value="BCP52"/>
 <part name="Q1" library="transistor-pnp" deviceset="BC856*" device="SMD" technology="ALT1" value="BC856"/>
-<part name="T1" library="transistor" deviceset="BC848" device=""/>
+<part name="T1" library="transistor" deviceset="BC847C" device=""/>
 <part name="D10" library="diode" deviceset="ZPD" device="" value="7,5V"/>
 <part name="D6" library="diode" deviceset="ZPD" device="" value="12V"/>
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="SANYO_SMD_C6" value="100µ"/>
@@ -16268,13 +16268,13 @@ DDEController.pdf</description>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R1206" value="91k"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="D7" library="diode" deviceset="DIODE-" device="MINIMELF" value="3V6"/>
-<part name="C20" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C20" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="IC3" library="Stefan_selfbus" deviceset="BD9G101G" device="BD9G101G-SOT23-6" value="BD9G101"/>
 <part name="L3" library="Stefan_selfbus" deviceset="IND_FASTRON_1616FPS" device="" value="6.8µH"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206K" value="4.7µF/50V"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C1206" value="10µ/10V"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C1206" value="22µ/10V"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R1206" value="NC"/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R1206" value="0R"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C1206" value="15nF"/>

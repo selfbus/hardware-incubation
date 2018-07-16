@@ -1048,11 +1048,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="7.258725" y="52.65625" size="1.016" layer="25"/>
 <attribute name="VALUE" x="4.01885" y="53.219975" size="1.27" layer="27"/>
 </element>
-<element name="C8" library="rcl" package="C1206" value="100n" x="32.554475" y="11.073125" smashed="yes" rot="R180">
+<element name="C8" library="rcl" package="C1206" value="10n" x="32.554475" y="11.073125" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.2245" y="11.46235" size="1.016" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="30.12625" y="11.230125" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R15" library="rcl" package="R1206" value="5k6" x="32.594475" y="8.747475" smashed="yes" rot="R180">
+<element name="R15" library="rcl" package="R1206" value="100k" x="32.594475" y="8.747475" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.2296" y="9.4527" size="1.016" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="30.1152" y="9.850175" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -1089,7 +1089,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.959375" y="47.350625" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="12.931875" y="51.2675" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="T1" library="transistor" package="SOT23" value="BC848" x="15.825" y="27.7425" smashed="yes" rot="R90">
+<element name="T1" library="transistor" package="SOT23" value="BC847C" x="15.825" y="27.7425" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.79625" y="26.8225" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-1.19" y="27.779375" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -1150,7 +1150,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="13.34825" y="11.956625" size="1.016" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="12.387" y="12.549" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C20" library="rcl" package="C1206" value="" x="17.1" y="10.65" smashed="yes" rot="MR90">
+<element name="C20" library="rcl" package="C1206" value="100n" x="17.1" y="10.65" smashed="yes" rot="MR90">
 <attribute name="NAME" x="18.3575" y="9.540625" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="14.56" y="9.38" size="1.27" layer="28" rot="MR90"/>
 </element>
@@ -1166,7 +1166,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="10.31625" y="13.79875" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="-7.768125" y="18.35" size="1.016" layer="27"/>
 </element>
-<element name="C15" library="rcl" package="C1206" value="10µ/10V" x="5" y="21.4" smashed="yes" rot="R180">
+<element name="C15" library="rcl" package="C1206" value="22µ/10V" x="5" y="21.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="2.9" y="21.279375" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-0.45" y="22.05" size="1.016" layer="27" rot="R180"/>
 </element>
