@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11,6 +11,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -16172,6 +16182,62 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DINA3_L">
+<frame x1="0" y1="0" x2="388.62" y2="264.16" columns="4" rows="4" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94" font="vector">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94" font="vector">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94" font="vector">Document Number:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DINA3_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A3, landscape with extra doc field</description>
+<gates>
+<gate name="G$1" symbol="DINA3_L" x="0" y="0"/>
+<gate name="G$2" symbol="DOCFIELD" x="287.02" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16396,6 +16462,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="P+11" library="supply1" deviceset="+3V3" device=""/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="100p"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
+<part name="FRAME1" library="frames" deviceset="DINA3_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16406,6 +16473,8 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <text x="-35.56" y="139.7" size="1.778" layer="91">C101=4,7k/R101*0,15µF</text>
 <text x="-35.56" y="137.16" size="1.778" layer="91">Rechnerischer Wert C101: ca. 300nF</text>
 <text x="68.58" y="88.9" size="1.778" layer="91">I2C PullUps</text>
+<text x="88.9" y="-86.36" size="6.4516" layer="97">TS-ARM</text>
+<text x="165.608" y="-105.41" size="3.81" layer="97">3.08</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="0" y="2.54"/>
@@ -16537,8 +16606,10 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <instance part="P+2" gate="G$1" x="-73.66" y="55.88"/>
 <instance part="P+6" gate="G$1" x="-58.42" y="55.88" rot="MR0"/>
 <instance part="GND25" gate="1" x="-73.66" y="22.86"/>
-<instance part="D2" gate="G$1" x="-177.8" y="-35.56">
+<instance part="D2" gate="G$1" x="-177.8" y="-35.56" smashed="yes">
 <attribute name="REICHELT" x="-177.8" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-175.514" y="-32.2834" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-175.514" y="-34.5694" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="-106.68" y="38.1" rot="R270">
 <attribute name="REICHELT" x="-106.68" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
@@ -16550,8 +16621,8 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <attribute name="REICHELT" x="68.58" y="-27.94" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="T2" gate="G$1" x="-165.1" y="-68.58" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-170.18" y="-73.66" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-170.18" y="-76.2" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-170.18" y="-68.58" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-170.18" y="-71.12" size="1.778" layer="96" rot="MR0"/>
 <attribute name="REICHELT" x="-165.1" y="-68.58" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="T1" gate="G$1" x="-101.6" y="-40.64" smashed="yes">
@@ -16582,7 +16653,8 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <instance part="GND24" gate="1" x="81.28" y="33.02"/>
 <instance part="GND1" gate="1" x="-182.88" y="-50.8"/>
 <instance part="D1" gate="G$1" x="-182.88" y="-40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="-179.578" y="-40.64" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="-180.848" y="-42.164" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-182.118" y="-44.577" size="1.778" layer="96"/>
 </instance>
 <instance part="P+1" gate="G$1" x="78.74" y="-15.24"/>
 <instance part="GND6" gate="1" x="78.74" y="-40.64"/>
@@ -16641,6 +16713,8 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <instance part="P+11" gate="G$1" x="-25.4" y="-48.26" rot="MR0"/>
 <instance part="C8" gate="G$1" x="-30.48" y="-63.5" rot="R270"/>
 <instance part="C14" gate="G$1" x="-20.32" y="-78.74" rot="R180"/>
+<instance part="FRAME1" gate="G$1" x="-210.82" y="-111.76"/>
+<instance part="FRAME1" gate="G$2" x="76.2" y="-111.76"/>
 </instances>
 <busses>
 <bus name="IO[1..18],RESET,SWCLK,SWDIO,ISP_EN,PROG,ID,ISP_TXD,ISP_RXD">
