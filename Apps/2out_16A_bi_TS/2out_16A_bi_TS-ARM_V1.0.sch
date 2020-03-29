@@ -14293,8 +14293,8 @@ Source: http://www.schrack.com/.. 5821.pdf</description>
 <part name="K1" library="meine_lib" deviceset="RT?F*" device="314" technology="24" value="HFE20-1/024-1HD-L2"/>
 <part name="K2" library="meine_lib" deviceset="RT?F*" device="314" technology="24" value="HFE20-1/024-1HD-L2"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X8" device=""/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="M1206" value="36K 1%"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="M1206" value="3K 1%"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="M1206" value="91K 1%"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="M1206" value="10K 1%"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C1206K" value="10nF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
