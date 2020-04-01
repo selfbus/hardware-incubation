@@ -3,4 +3,7 @@ Es handelt sich hierbei um den noch ***ungetesteten*** Entwurf eines Breakout Bo
 
 ![STKNX Breakout Board 3D](pictures/stknx_breakout_3D_small.png)
 
-Der STKNX trennt die Versorgungsspannung von den auf dem KNX-Bus übertragenen Daten, welche er als Bitstrom ausgibt. Er enthält keinen eigenen Controller, dafür aber einen von 1 - 12V einstellbaren Step-Down-Konverter sowie einen auf 3.3V bzw. 5V einstellbaren Linearregulator.
+Der STKNX trennt die Versorgungsspannung von den auf dem KNX-Bus übertragenen Daten, welche er als Bitstrom ausgibt. Er enthält keinen eigenen Controller, dafür aber einen von 1 - 12V einstellbaren Step-Down-Konverter (max. 150mA) sowie einen auf 3.3V bzw. 5V einstellbaren Linearregulator (max. 20mA).
+
+<a href="pictures/stknx_breakout_brd_top.png"><img src="pictures/stknx_breakout_brd_top_small.png" alt="STKNX Breakout Board Top" align="left" width="250" ></a>
+<a href="pictures/stknx_breakout_brd_bot.png"><img src="pictures/stknx_breakout_brd_bot_small.png" alt="STKNX Breakout Board Top" width="250" ></a>
