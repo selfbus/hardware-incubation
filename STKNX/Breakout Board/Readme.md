@@ -26,4 +26,4 @@ Der STKNX trennt die Versorgungsspannung von den auf dem KNX-Bus übertragenen D
 [Eagle-Dateien](eagle)
 
 <a href="pictures/stknx_breakout_brd_top_v14.png"><img src="pictures/stknx_breakout_brd_top_small_v14.png" alt="STKNX Breakout Board Top" align="left" width="250" ></a>
-<a href="pictures/stknx_breakout_brd_bot_v14.png"><img src="pictures/stknx_breakout_brd_bot_small.png_v14" alt="STKNX Breakout Board Top" width="250" ></a>
+<a href="pictures/stknx_breakout_brd_bot_v14.png"><img src="pictures/stknx_breakout_brd_bot_small_v14.png" alt="STKNX Breakout Board Top" width="250" ></a>
