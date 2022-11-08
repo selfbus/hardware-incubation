@@ -17,6 +17,6 @@ Qty,Value,Package,Parts,Anmerkung,Lieferant,Bestellartikel,Artikelpreis,VPE,Post
 3,SE1.5,"42mm PVC-Aderleitung 1,5mm≤ H07V-U","P3, P4, P5",,Reichelt,"H07VU 1,5-25 SW","6,35",595,"0,032016806722689"
 5,100n,C0805,"C3, C4, C5, C6, C9",,Reichelt,X7R-G0805 100N,"0,04",1,"0,2"
 6,,"64mm PVC-Aderleitung 1,5mm≤ H07V-U","J1, J2, J3, J4, J5, J6",beidseitig je 6mm abisolieren,Reichelt,"H07VU 1,5-25 SW","6,35",390,"0,097692307692308"
-6,,52mm Isolierschlauch Innen-D 3mm,"J1, J2, J3, J4, J5, J6","Alternativartikel: 541594, 549957",Conrad,540836,"0,6",19,"0,189473684210526"
+6,,52mm PTFE Isolierschlauch Innen-D 3mm,"J1, J2, J3, J4, J5, J6",Alternativartikel: 1570574,Conrad,1570897,"2,29",19,"0,120526315789"
 6,,KLEMME3POL5_08,"X1, X2, X3, X4, X5, X6",,Oldis Shop,Anschluﬂklemme 3polig,"0,48",1,"2,88"
 6,HFE10,Hong-Fa HFE10-2-12-HT-L2,"K1, K2, K3, K4, K5, K6",Relais,Aliexpress,HFE10-2-12-HT-L2,4,1,24
