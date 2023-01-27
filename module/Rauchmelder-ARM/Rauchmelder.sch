@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -26068,10 +26068,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="15nF">
 <attribute name="REICHELT" value="X7R-G0805 15N"/>
 </part>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k4">
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k6">
 <attribute name="REICHELT" value="SMD 1/4W 2,4K"/>
 </part>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680R">
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470R">
 <attribute name="REICHELT" value="SMD-0805 680"/>
 </part>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="270n">
@@ -26260,8 +26260,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="90.17" y="131.0386" size="1.778" layer="95"/>
 </instance>
 <instance part="C9" gate="G$1" x="106.68" y="132.08" smashed="yes">
-<attribute name="NAME" x="102.743" y="127.4826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="102.743" y="124.9426" size="1.778" layer="96"/>
+<attribute name="NAME" x="109.093" y="131.8006" size="1.778" layer="95"/>
+<attribute name="VALUE" x="109.093" y="129.2606" size="1.778" layer="96"/>
 </instance>
 <instance part="GND17" gate="1" x="106.68" y="121.92" smashed="yes">
 <attribute name="VALUE" x="104.14" y="119.38" size="1.778" layer="96"/>
@@ -26302,8 +26302,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="VALUE" x="68.326" y="94.869" size="1.778" layer="96"/>
 </instance>
 <instance part="D6" gate="G$1" x="119.38" y="129.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="115.062" y="126.365" size="1.778" layer="95"/>
-<attribute name="VALUE" x="115.062" y="123.571" size="1.778" layer="96"/>
+<attribute name="NAME" x="121.666" y="130.429" size="1.778" layer="95"/>
+<attribute name="VALUE" x="121.666" y="128.143" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="73.66" y="111.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.913" y="114.0206" size="1.778" layer="95"/>
@@ -26399,8 +26399,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="346.456" y="75.819" size="1.6764" layer="95" rot="R180"/>
 <attribute name="VALUE" x="346.456" y="80.899" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND16" gate="1" x="83.82" y="185.42" smashed="yes">
-<attribute name="VALUE" x="81.28" y="182.88" size="1.778" layer="96"/>
+<instance part="GND16" gate="1" x="83.82" y="180.34" smashed="yes">
+<attribute name="VALUE" x="81.28" y="177.8" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="160.02" y="213.36" smashed="yes" rot="MR0">
 <attribute name="REICHELT" x="160.02" y="213.36" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -26421,8 +26421,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </instance>
 <instance part="C15" gate="G$1" x="30.48" y="205.74" smashed="yes" rot="R180">
 <attribute name="REICHELT" x="30.48" y="205.74" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="28.956" y="205.359" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="28.956" y="210.439" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="34.036" y="207.645" size="1.778" layer="95"/>
+<attribute name="VALUE" x="34.036" y="205.105" size="1.778" layer="96"/>
 </instance>
 <instance part="C16" gate="G$1" x="134.62" y="213.36" smashed="yes" rot="MR0">
 <attribute name="REICHELT" x="134.62" y="213.36" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -26434,20 +26434,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="95.504" y="213.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="95.504" y="211.201" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="60.96" y="205.74" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="60.96" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="54.864" y="205.7146" size="1.778" layer="95"/>
-<attribute name="VALUE" x="54.864" y="203.454" size="1.778" layer="96"/>
+<instance part="R10" gate="G$1" x="60.96" y="210.82" smashed="yes" rot="R90">
+<attribute name="REICHELT" x="60.96" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="54.864" y="210.7946" size="1.778" layer="95"/>
+<attribute name="VALUE" x="54.864" y="208.534" size="1.778" layer="96"/>
 </instance>
-<instance part="R20" gate="G$1" x="76.2" y="198.12" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="76.2" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="73.914" y="195.0466" size="1.778" layer="95"/>
-<attribute name="VALUE" x="73.914" y="192.786" size="1.778" layer="96"/>
+<instance part="R20" gate="G$1" x="60.96" y="195.58" smashed="yes" rot="R90">
+<attribute name="REICHELT" x="60.96" y="195.58" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="52.832" y="195.5546" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.832" y="193.294" size="1.778" layer="96"/>
 </instance>
-<instance part="C21" gate="G$1" x="50.8" y="205.74" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="50.8" y="205.74" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="42.672" y="207.645" size="1.778" layer="95"/>
-<attribute name="VALUE" x="42.672" y="205.105" size="1.778" layer="96"/>
+<instance part="C21" gate="G$1" x="50.8" y="210.82" smashed="yes" rot="R180">
+<attribute name="REICHELT" x="50.8" y="210.82" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="42.672" y="212.725" size="1.778" layer="95"/>
+<attribute name="VALUE" x="42.672" y="210.185" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="109.22" y="213.36" smashed="yes" rot="R90">
 <attribute name="REICHELT" x="109.22" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
@@ -26663,20 +26663,18 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="83.82" y1="187.96" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="190.5" x2="83.82" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="198.12" x2="83.82" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="182.88" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="185.42" x2="83.82" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="190.5" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="198.12" x2="83.82" y2="198.12" width="0.1524" layer="91"/>
-<junction x="83.82" y="198.12"/>
-<junction x="83.82" y="190.5"/>
+<wire x1="30.48" y1="185.42" x2="60.96" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="185.42" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
+<junction x="83.82" y="185.42"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="203.2" x2="30.48" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="203.2" x2="30.48" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="109.22" y1="210.82" x2="109.22" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="200.66" x2="121.92" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="200.66" x2="121.92" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="208.28" x2="160.02" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="200.66" x2="147.32" y2="200.66" width="0.1524" layer="91"/>
@@ -26686,10 +26684,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="134.62" y1="200.66" x2="121.92" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="200.66" x2="109.22" y2="200.66" width="0.1524" layer="91"/>
 <junction x="121.92" y="200.66"/>
-<wire x1="121.92" y1="190.5" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="185.42" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="208.28" x2="147.32" y2="200.66" width="0.1524" layer="91"/>
 <junction x="147.32" y="200.66"/>
+<wire x1="60.96" y1="190.5" x2="60.96" y2="185.42" width="0.1524" layer="91"/>
+<junction x="60.96" y="185.42"/>
 </segment>
 <segment>
 <pinref part="T2" gate="G$1" pin="E"/>
@@ -27349,18 +27349,17 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="FB1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="ADJ"/>
-<wire x1="71.12" y1="213.36" x2="68.58" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="213.36" x2="66.04" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="203.2" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="208.28" x2="50.8" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="198.12" x2="60.96" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="203.2" x2="60.96" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="198.12" x2="68.58" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="198.12" x2="71.12" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="200.66" x2="60.96" y2="198.12" width="0.1524" layer="91"/>
-<junction x="60.96" y="198.12"/>
-<wire x1="68.58" y1="213.36" x2="68.58" y2="198.12" width="0.1524" layer="91"/>
-<junction x="68.58" y="198.12"/>
+<wire x1="60.96" y1="203.2" x2="66.04" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="205.74" x2="60.96" y2="203.2" width="0.1524" layer="91"/>
+<junction x="60.96" y="203.2"/>
+<wire x1="66.04" y1="213.36" x2="66.04" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="203.2" x2="60.96" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -27368,15 +27367,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="160.02" y1="231.14" x2="160.02" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="G$1" pin="+3V3"/>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="210.82" x2="50.8" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="215.9" x2="50.8" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="210.82" x2="60.96" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="213.36" x2="50.8" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="213.36" x2="50.8" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="215.9" x2="60.96" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="218.44" x2="50.8" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="218.44" x2="50.8" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="236.22" x2="134.62" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="236.22" x2="134.62" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="223.52" x2="147.32" y2="223.52" width="0.1524" layer="91"/>
-<junction x="50.8" y="213.36"/>
+<junction x="50.8" y="218.44"/>
 <junction x="134.62" y="223.52"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="223.52" x2="160.02" y2="223.52" width="0.1524" layer="91"/>
