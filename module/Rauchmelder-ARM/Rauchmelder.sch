@@ -23707,44 +23707,22 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
-<attribute name="REICHELT" value="X7R-G0805 100N"/>
-</part>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="P+2" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC1" library="Stefan_selfbus" deviceset="BD9G101G" device="BD9G101G-SOT23-6" value="BD9G101"/>
-<part name="L1" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="6.8µH">
-<attribute name="REICHELT" value="L-1616FPS 6,8µ"/>
-</part>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF/50V">
-<attribute name="REICHELT" value="X7R-G1206 4,7/50"/>
-</part>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF/10V">
-<attribute name="REICHELT" value="X5R-G0805 22/6"/>
-</part>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="15nF">
-<attribute name="REICHELT" value="X7R-G0805 15N"/>
-</part>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k6">
-<attribute name="REICHELT" value="SMD 1/4W 2,4K"/>
-</part>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R">
-<attribute name="REICHELT" value="SMD-0805 680"/>
-</part>
-<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270nF">
-<attribute name="REICHELT" value="Y5R-G0603 220N"/>
-</part>
-<part name="D1" library="microbuilder" deviceset="DIODE" device="SOD-123" value="MBRS1100">
-<attribute name="ALTERNATIVE#1" value="RB060M-60"/>
-<attribute name="ALTERNATIVE#2" value="MBRS1100"/>
-<attribute name="REICHELT" value="MBRS 1100 SMD"/>
-</part>
+<part name="L1" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="6.8µH"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF 50V"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF/10V"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="15nF"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k6"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270nF"/>
+<part name="D1" library="microbuilder" deviceset="DIODE" device="SOD-123" value="MBRS1100"/>
 <part name="FD1" library="Fiducial" deviceset="FID" device="_40MIL" value="FID_40MIL"/>
 <part name="FD2" library="Fiducial" deviceset="FID" device="_40MIL" value="FID_40MIL"/>
 <part name="FD3" library="Fiducial" deviceset="FID" device="_40MIL" value="FID_40MIL"/>
 <part name="FD4" library="Fiducial" deviceset="FID" device="_40MIL" value="FID_40MIL"/>
-<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF/10V">
-<attribute name="REICHELT" value="X5R-G0805 22/6"/>
-</part>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF/10V"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
@@ -23849,7 +23827,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <attribute name="DRAWING_NAME" x="332.74" y="21.59" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="JP1" gate="A" x="175.26" y="162.56" smashed="yes">
-<attribute name="NAME" x="168.91" y="173.355" size="1.778" layer="95"/>
+<attribute name="NAME" x="171.45" y="175.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="168.91" y="149.86" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="337.82" y="193.04" smashed="yes">
@@ -24059,7 +24037,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <attribute name="VALUE" x="81.28" y="177.8" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="160.02" y="213.36" smashed="yes" rot="MR0">
-<attribute name="REICHELT" x="160.02" y="213.36" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="161.544" y="218.059" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="161.544" y="215.519" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -24071,46 +24048,36 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <attribute name="VALUE" x="76.2" y="228.6" size="1.778" layer="96"/>
 </instance>
 <instance part="L1" gate="G$1" x="119.38" y="223.52" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="119.38" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="116.078" y="228.346" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.951" y="225.552" size="1.778" layer="96"/>
 </instance>
 <instance part="C15" gate="G$1" x="30.48" y="205.74" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="30.48" y="205.74" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="34.036" y="207.645" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.036" y="205.105" size="1.778" layer="96"/>
 </instance>
 <instance part="C16" gate="G$1" x="134.62" y="213.36" smashed="yes" rot="MR0">
-<attribute name="REICHELT" x="134.62" y="213.36" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="136.144" y="218.059" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="136.144" y="215.519" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C17" gate="G$1" x="99.06" y="218.44" smashed="yes" rot="R270">
-<attribute name="REICHELT" x="99.06" y="218.44" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="95.504" y="213.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="95.504" y="211.201" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="60.96" y="210.82" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="60.96" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="54.864" y="210.7946" size="1.778" layer="95"/>
 <attribute name="VALUE" x="54.864" y="208.534" size="1.778" layer="96"/>
 </instance>
 <instance part="R20" gate="G$1" x="60.96" y="195.58" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="60.96" y="195.58" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="52.832" y="195.5546" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.832" y="193.294" size="1.778" layer="96"/>
 </instance>
 <instance part="C21" gate="G$1" x="50.8" y="210.82" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="50.8" y="210.82" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="42.672" y="212.725" size="1.778" layer="95"/>
 <attribute name="VALUE" x="42.672" y="210.185" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="109.22" y="213.36" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="109.22" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="111.7346" y="214.2236" size="1.778" layer="95"/>
 <attribute name="VALUE" x="111.7346" y="211.4042" size="1.778" layer="96"/>
-<attribute name="ALTERNATIVE#1" x="109.22" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="ALTERNATIVE#2" x="109.22" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="FD1" gate="G$2" x="238.76" y="180.34" smashed="yes">
 <attribute name="NAME" x="238.76" y="181.61" size="1.016" layer="95" font="vector" ratio="12"/>
@@ -24125,7 +24092,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <attribute name="NAME" x="254" y="181.61" size="1.016" layer="95" font="vector" ratio="12"/>
 </instance>
 <instance part="C22" gate="G$1" x="147.32" y="213.36" smashed="yes" rot="MR0">
-<attribute name="REICHELT" x="147.32" y="213.36" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="148.844" y="218.059" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="148.844" y="215.519" size="1.778" layer="96" rot="MR180"/>
 </instance>

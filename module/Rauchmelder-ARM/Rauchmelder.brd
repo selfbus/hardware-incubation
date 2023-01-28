@@ -2445,7 +2445,6 @@ design rules under a new name.</description>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="2.783" y="22.65" smashed="yes">
 <attribute name="NAME" x="5.463" y="22.12" size="0.4" layer="25"/>
 <attribute name="POPULARITY" value="88" x="2.783" y="22.65" size="1.778" layer="27" display="off"/>
-<attribute name="REICHELT" value="X7R-G0805 100N" x="-21.347" y="63.29" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="2.783" y="22.65" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="5.463" y="22.81" size="0.4" layer="27"/>
 </element>
@@ -2456,57 +2455,47 @@ design rules under a new name.</description>
 <element name="L1" library="rcl_changed" package="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="6.8µH" x="2.65" y="14.5113" smashed="yes" rot="R90">
 <attribute name="NAME" x="-0.2437" y="11.79" size="0.4" layer="25"/>
 <attribute name="POPULARITY" value="0" x="2.65" y="14.5113" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REICHELT" value="L-1616FPS 6,8µ" x="1.38" y="-37.5587" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="L" x="2.65" y="14.5113" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-0.2437" y="11.09" size="0.4" layer="27"/>
 </element>
-<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF/50V" x="8.13" y="13.57535" smashed="yes" rot="R270">
+<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF 50V" x="8.13" y="13.57535" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.35465" y="14.2" size="0.4" layer="25"/>
 <attribute name="POPULARITY" value="88" x="8.13" y="13.57535" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="REICHELT" value="X7R-G1206 4,7/50" x="23.37" y="32.62535" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="8.13" y="13.57535" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="9.35465" y="13.54" size="0.4" layer="27"/>
 </element>
 <element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF/10V" x="2.783" y="20.5" smashed="yes">
 <attribute name="NAME" x="5.413" y="20.67" size="0.4" layer="25"/>
 <attribute name="POPULARITY" value="88" x="2.783" y="20.5" size="1.778" layer="27" display="off"/>
-<attribute name="REICHELT" value="X5R-G0805 22/6" x="-36.587" y="35.74" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="2.783" y="20.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="5.413" y="19.91" size="0.4" layer="27"/>
 </element>
 <element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="15nF" x="4.649" y="9.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.2" y="9.219" size="0.4" layer="25"/>
 <attribute name="POPULARITY" value="54" x="4.649" y="9.28" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="REICHELT" value="X7R-G0805 15N" x="19.889" y="34.68" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="4.649" y="9.28" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="2.2" y="8.359" size="0.4" layer="27"/>
 </element>
 <element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k6" x="10.45" y="3.1774125" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.89725" y="2.9146625" size="0.4" layer="25"/>
 <attribute name="POPULARITY" value="86" x="10.45" y="3.1774125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="REICHELT" value="SMD 1/4W 2,4K" x="12.99" y="50.1674125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="10.45" y="3.1774125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.19" y="3.7419125" size="0.4" layer="27" rot="R90"/>
 </element>
 <element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R" x="8.477" y="6.28" smashed="yes">
 <attribute name="NAME" x="11.55" y="6.257" size="0.4" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="86" x="8.477" y="6.28" size="1.778" layer="27" display="off"/>
-<attribute name="REICHELT" value="SMD-0805 680" x="-44.863" y="2.47" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="8.477" y="6.28" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="12.26" y="6.257" size="0.4" layer="27" rot="R90"/>
 </element>
 <element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270nF" x="8.396" y="3.1774125" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.96225" y="2.9456625" size="0.4" layer="25"/>
 <attribute name="POPULARITY" value="88" x="8.396" y="3.1774125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="REICHELT" value="Y5R-G0603 220N" x="4.586" y="22.2274125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="8.396" y="3.1774125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="7.51225" y="5.3963375" size="0.6" layer="27" display="off"/>
 </element>
 <element name="D1" library="microbuilder" package="SOD-123" value="MBRS1100" x="6.01" y="14.5113" smashed="yes" rot="R90">
-<attribute name="ALTERNATIVE#1" value="RB060M-60" x="6.01" y="14.5113" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ALTERNATIVE#2" value="MBRS1100" x="6.01" y="14.5113" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="4.044" y="11.1113" size="0.4" layer="25" rot="R90"/>
-<attribute name="REICHELT" value="MBRS 1100 SMD" x="28.87" y="-31.2087" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="5.4113" y="17.274" size="0.4" layer="27"/>
 </element>
 <element name="FD1" library="Fiducial" package="FID_040" value="FID_40MIL" x="1.5" y="63.5" smashed="yes">
@@ -2524,7 +2513,6 @@ design rules under a new name.</description>
 <element name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF/10V" x="2.783" y="18.35" smashed="yes">
 <attribute name="NAME" x="5.463" y="19.02" size="0.4" layer="25"/>
 <attribute name="POPULARITY" value="88" x="2.783" y="18.35" size="1.778" layer="27" display="off"/>
-<attribute name="REICHELT" value="X5R-G0805 22/6" x="2.783" y="18.35" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="2.783" y="18.35" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="5.463" y="18.26" size="0.4" layer="27"/>
 </element>
