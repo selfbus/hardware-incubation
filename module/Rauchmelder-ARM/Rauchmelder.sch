@@ -23775,7 +23775,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="L1" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="6.8uH"/>
 <part name="C100" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF 50V"/>
 <part name="C103" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF 10V"/>
-<part name="C102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="15nF"/>
+<part name="C102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="15nF"/>
 <part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k6"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
 <part name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270nF"/>
@@ -24158,17 +24158,17 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <instance part="GND13" gate="1" x="73.66" y="119.38" smashed="yes" rot="R180">
 <attribute name="VALUE" x="76.2" y="121.92" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED2" gate="G$1" x="360.68" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="365.252" y="100.076" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="365.252" y="102.235" size="1.778" layer="96" rot="R180"/>
+<instance part="LED2" gate="G$1" x="365.76" y="96.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="361.188" y="92.964" size="1.778" layer="95"/>
+<attribute name="VALUE" x="361.188" y="90.805" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="350.52" y="96.52" smashed="yes">
 <attribute name="NAME" x="346.71" y="98.0186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="346.71" y="93.218" size="1.778" layer="96"/>
 </instance>
-<instance part="LED3" gate="G$1" x="363.22" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="367.792" y="128.016" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="367.792" y="130.175" size="1.778" layer="96" rot="R180"/>
+<instance part="LED3" gate="G$1" x="365.76" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="361.188" y="120.904" size="1.778" layer="95"/>
+<attribute name="VALUE" x="361.188" y="118.745" size="1.778" layer="96"/>
 </instance>
 <instance part="R22" gate="G$1" x="353.06" y="124.46" smashed="yes">
 <attribute name="NAME" x="349.25" y="125.9586" size="1.778" layer="95"/>
@@ -25014,7 +25014,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <pinref part="C102" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="223.52" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="223.52" x2="114.3" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="218.44" x2="104.14" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="223.52" x2="104.14" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="218.44" x2="104.14" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="215.9" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
@@ -25028,7 +25028,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <pinref part="C102" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="BST"/>
-<wire x1="93.98" y1="218.44" x2="91.44" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="213.36" x2="91.44" y2="218.44" width="0.1524" layer="91"/>
 <label x="91.44" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -25102,9 +25102,9 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <wire x1="388.62" y1="127" x2="388.62" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="G$1" pin="+3V3"/>
-<wire x1="388.62" y1="83.82" x2="388.62" y2="96.52" width="0.1524" layer="91"/>
 <junction x="388.62" y="121.92"/>
 <pinref part="JTAG" gate="A" pin="1"/>
+<wire x1="388.62" y1="83.82" x2="388.62" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="96.52" x2="388.62" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="154.94" x2="381" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="381" y1="154.94" x2="381" y2="124.46" width="0.1524" layer="91"/>
@@ -25134,12 +25134,12 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <wire x1="347.98" y1="81.28" x2="347.98" y2="83.82" width="0.1524" layer="91"/>
 <junction x="347.98" y="83.82"/>
 <label x="386.08" y="154.94" size="1.778" layer="95"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="365.76" y1="96.52" x2="388.62" y2="96.52" width="0.1524" layer="91"/>
-<junction x="388.62" y="96.52"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="368.3" y1="124.46" x2="381" y2="124.46" width="0.1524" layer="91"/>
 <junction x="381" y="124.46"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="368.3" y1="96.52" x2="388.62" y2="96.52" width="0.1524" layer="91"/>
+<junction x="388.62" y="96.52"/>
 </segment>
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
@@ -25174,20 +25174,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <label x="142.494" y="92.202" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="358.14" y1="96.52" x2="355.6" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="360.68" y1="124.46" x2="358.14" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="ARMINFO2" class="0">
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
@@ -25214,6 +25200,20 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <pinref part="T2" gate="G$1" pin="B"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="132.08" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="358.14" y1="124.46" x2="360.68" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="355.6" y1="96.52" x2="360.68" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
