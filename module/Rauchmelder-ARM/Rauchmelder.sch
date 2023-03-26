@@ -23772,13 +23772,13 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="C104" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="P+2" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC1" library="Stefan_selfbus" deviceset="BD9G101G" device="BD9G101G-SOT23-6" value="BD9G101"/>
-<part name="L1" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="6.8uH"/>
+<part name="L1" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="4.7uH"/>
 <part name="C100" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF 50V"/>
 <part name="C103" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF 10V"/>
 <part name="C102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="15nF"/>
 <part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k6"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
-<part name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270nF"/>
+<part name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470nF"/>
 <part name="D100" library="microbuilder" deviceset="DIODE" device="SOD-123" value="MBRS1100"/>
 <part name="FD1" library="Fiducial" deviceset="FID" device="_40MIL" value="FID_40MIL"/>
 <part name="FD2" library="Fiducial" deviceset="FID" device="_40MIL" value="FID_40MIL"/>
@@ -23813,11 +23813,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <text x="193.04" y="160.02" size="1.778" layer="91">9 to P02</text>
 <text x="193.04" y="170.18" size="1.778" layer="91">1 to VCC</text>
 <text x="193.04" y="167.64" size="1.778" layer="91">3 to GND</text>
-<text x="63.5" y="246.38" size="1.778" layer="91">R101=((Vo*R102)/0,75)-R102</text>
-<text x="63.5" y="243.84" size="1.778" layer="91">R101+R102&lt;=Vo*1000</text>
-<text x="63.5" y="241.3" size="1.778" layer="91">Rechnerischer Wert R101: 2312R</text>
-<text x="106.68" y="246.38" size="1.778" layer="91">C101=4,7k/R101*0,15µF</text>
-<text x="106.68" y="243.84" size="1.778" layer="91">Rechnerischer Wert C101: ca. 300nF</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="124.46" y="48.26" smashed="yes">
@@ -24119,7 +24114,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <attribute name="NAME" x="136.144" y="218.059" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="136.144" y="215.519" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C102" gate="G$1" x="99.06" y="218.44" smashed="yes" rot="R270">
+<instance part="C102" gate="G$1" x="99.06" y="218.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="95.504" y="213.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="95.504" y="211.201" size="1.778" layer="96"/>
 </instance>
@@ -25014,21 +25009,20 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <pinref part="C102" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="223.52" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="223.52" x2="114.3" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="223.52" x2="104.14" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="218.44" x2="104.14" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="215.9" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
 <junction x="104.14" y="223.52"/>
 <junction x="109.22" y="223.52"/>
 <pinref part="D100" gate="G$1" pin="C"/>
-<label x="93.98" y="223.52" size="1.778" layer="95"/>
+<label x="96.52" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BST" class="0">
 <segment>
 <pinref part="C102" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="BST"/>
-<wire x1="99.06" y1="213.36" x2="91.44" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="218.44" x2="91.44" y2="218.44" width="0.1524" layer="91"/>
 <label x="91.44" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>

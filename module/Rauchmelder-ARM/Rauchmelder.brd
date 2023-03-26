@@ -2446,7 +2446,7 @@ Everything else you will find on https://aisler.net/help</description>
 <attribute name="NAME" x="6.628" y="9.678" size="0.6" layer="25" ratio="10" rot="R180" display="off"/>
 <attribute name="VALUE" x="9.372" y="9.598" size="0.5" layer="27" ratio="10"/>
 </element>
-<element name="L1" library="rcl_changed" package="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="6.8uH" x="2.65" y="14.5113" smashed="yes" rot="R90">
+<element name="L1" library="rcl_changed" package="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="4.7uH" x="2.65" y="14.5113" smashed="yes" rot="R90">
 <attribute name="NAME" x="0.6063" y="11.39" size="0.5" layer="25"/>
 <attribute name="POPULARITY" value="0" x="2.65" y="14.5113" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="L" x="2.65" y="14.5113" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2482,7 +2482,7 @@ Everything else you will find on https://aisler.net/help</description>
 <attribute name="SPICEPREFIX" value="R" x="8.477" y="6.28" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="10.707" y="5.89" size="0.5" layer="27"/>
 </element>
-<element name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270nF" x="8.396" y="3.1774125" smashed="yes" rot="R270">
+<element name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470nF" x="8.396" y="3.1774125" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.6525875" y="0.666" size="0.5" layer="25"/>
 <attribute name="POPULARITY" value="88" x="8.396" y="3.1774125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="8.396" y="3.1774125" size="1.778" layer="27" rot="R270" display="off"/>
