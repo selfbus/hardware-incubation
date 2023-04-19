@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -9031,7 +9031,7 @@ by exp-lbrs.ulp</description>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
 <part name="C2" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
-<part name="C3" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4,7µF"/>
+<part name="C3" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF"/>
 <part name="FB1" library="MyEMC-Components" deviceset="FB" device="" package3d_urn="urn:adsk.eagle:package:24756627/3" value="220R@100MHz">
 <attribute name="LCSC#2" value="C139188"/>
 <attribute name="MOUSER#" value="810-MPZ2012S221ATD25"/>
@@ -9055,7 +9055,7 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R2" library="MyRCL" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:18594703/1" value="100k"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4,7µF"/>
+<part name="C4" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C7" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
@@ -9072,7 +9072,7 @@ by exp-lbrs.ulp</description>
 <attribute name="PART#" value="SKHHDHA010"/>
 <attribute name="PART_MFR" value="ALPS"/>
 </part>
-<part name="C5" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4,7µF"/>
+<part name="C5" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="SelfBus DAP Debugger" library_urn="urn:adsk.eagle:library:29255033" deviceset="LED_3MM(T1)_YELLOW" device="" package3d_urn="urn:adsk.eagle:package:29257046/2" value="Run"/>
 <part name="LED0" library="SelfBus DAP Debugger" library_urn="urn:adsk.eagle:library:29255033" deviceset="LED_3MM(T1)_GREEN" device="" package3d_urn="urn:adsk.eagle:package:20969611/3" value="Connect"/>
@@ -9172,7 +9172,7 @@ by exp-lbrs.ulp</description>
 <part name="C17" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C18" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF">
+<part name="C18" library="MyRCL" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
